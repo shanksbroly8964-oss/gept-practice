@@ -3,3 +3,4 @@ _logs/
 node_modules/
 *.log
 .DS_Store
+.firebase/
