@@ -18,7 +18,17 @@
       "DONE_*.md",
       "QA_REPORT_*.md",
       "E2E_REPORT.md",
-      "FIREBASE_SETUP.md"
+      "FIREBASE_SETUP.md",
+      "VERIFY_REPORT.md",
+      "evidence/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(html)",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-cache" }
+        ]
+      }
     ]
   }
 }

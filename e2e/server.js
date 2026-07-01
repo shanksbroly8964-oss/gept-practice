@@ -16,7 +16,8 @@ const MIME = {
 module.exports = function createServer(root, port) {
   return new Promise((resolve) => {
     const server = http.createServer((req, res) => {
-      let filePath = path.join(root, req.url === '/' ? '/index.html' : req.url.split('?')[0]);
+      const cleanUrl = req.url.split('?')[0];
+      let filePath = path.join(root, cleanUrl === '/' ? '/index.html' : cleanUrl);
       const ext = path.extname(filePath).toLowerCase();
       const contentType = MIME[ext] || 'application/octet-stream';
 

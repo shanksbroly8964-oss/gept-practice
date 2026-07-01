@@ -9,7 +9,7 @@ window.GEPT.DataLoader = (function() {
       return Promise.resolve(cache[key]);
     }
     var url = BASE + section + '_' + grade + '.json';
-    return fetch(url)
+    return fetch(url + '?v=' + (window.APP_VERSION||''))
       .then(function(response) {
         if (!response.ok) throw new Error('HTTP ' + response.status);
         return response.json();
