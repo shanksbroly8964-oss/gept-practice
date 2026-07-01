@@ -322,9 +322,9 @@ window.GEPT.MockExam = (function() {
 
     var utter = new SpeechSynthesisUtterance(q.audio_script);
     utter.lang = 'en-US';
-    if (GRADE === 'G1') utter.rate = 0.7;
-    else if (GRADE === 'G2') utter.rate = 0.85;
-    else utter.rate = 1.0;
+    if (GRADE === 'G1') utter.rate = 0.4;
+    else if (GRADE === 'G2') utter.rate = 0.45;
+    else utter.rate = 0.5;
 
     utter.onend = function() {
       if (statusEl) statusEl.textContent = '播放完畢';

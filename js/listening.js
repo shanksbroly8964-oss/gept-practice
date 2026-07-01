@@ -237,11 +237,11 @@ window.GEPT.Listening = (function() {
       var utterance = new SpeechSynthesisUtterance(lines[currentLine].trim());
       utterance.lang = 'en-US';
       if (currentGrade === 'G1') {
-        utterance.rate = 0.7;
+        utterance.rate = 0.4;
       } else if (currentGrade === 'G2') {
-        utterance.rate = 0.85;
+        utterance.rate = 0.45;
       } else {
-        utterance.rate = 1.0;
+        utterance.rate = 0.5;
       }
 
       utterance.onend = function() {

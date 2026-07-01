@@ -1,0 +1,27 @@
+{
+  "name": "gept-elementary-app",
+  "version": "1.0.0",
+  "description": "GEPT Elementary Learning Tool — 專為國中學生設計的英檢初級輔助練習平台。",
+  "main": "index.js",
+  "scripts": {
+    "test": "node e2e/e2e-tests.js",
+    "test:quick": "node e2e/quick-tests.js",
+    "serve": "npx http-server -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanksbroly8964-oss/gept-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shanksbroly8964-oss/gept-practice/issues"
+  },
+  "homepage": "https://github.com/shanksbroly8964-oss/gept-practice#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "playwright": "^1.61.1"
+  }
+}

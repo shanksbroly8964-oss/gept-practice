@@ -4,13 +4,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["學校"],
+    "level_tag": [
+      "學校"
+    ],
     "source": "static",
     "image": "🏫👦📚✏️",
     "audio_script": "The boy is sitting at his desk and reading a book while his classmates are writing on the blackboard.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The boy is reading a book at his desk.", "B. The boy is playing basketball outside.", "C. The boy is eating lunch in the cafeteria."],
-    "answer": "A. The boy is reading a book at his desk.",
+    "options": [
+      "The boy is reading a book at his desk.",
+      "The boy is playing basketball outside.",
+      "The boy is eating lunch in the cafeteria."
+    ],
+    "answer": "The boy is reading a book at his desk.",
     "explanation": "敘述中提到男孩坐在書桌前看書，選項A最符合圖片情境。選項B在打籃球，選項C在吃午餐，都不符合。"
   },
   {
@@ -18,13 +24,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["家庭"],
+    "level_tag": [
+      "家庭"
+    ],
     "source": "static",
     "image": "🏠👩‍🍳🍳🥘",
     "audio_script": "The woman is cooking dinner in the kitchen. She is standing near the stove and stirring a pot of soup.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The woman is cooking in the kitchen.", "B. The woman is watching TV in the living room.", "C. The woman is sleeping in the bedroom."],
-    "answer": "A. The woman is cooking in the kitchen.",
+    "options": [
+      "The woman is cooking in the kitchen.",
+      "The woman is watching TV in the living room.",
+      "The woman is sleeping in the bedroom."
+    ],
+    "answer": "The woman is cooking in the kitchen.",
     "explanation": "敘述描述女士在廚房煮晚餐、攪拌湯鍋，對應選項A。選項B在看電視，選項C在睡覺，均不符合。"
   },
   {
@@ -32,13 +44,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["食物"],
+    "level_tag": [
+      "食物"
+    ],
     "source": "static",
     "image": "🍎🍌🥛🍞",
     "audio_script": "There is some fruit, a glass of milk, and two slices of bread on the kitchen table.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. There is pizza and cola on the table.", "B. There is fruit, milk, and bread on the table.", "C. There is rice and fish on the table."],
-    "answer": "B. There is fruit, milk, and bread on the table.",
+    "options": [
+      "There is pizza and cola on the table.",
+      "There is fruit, milk, and bread on the table.",
+      "There is rice and fish on the table."
+    ],
+    "answer": "There is fruit, milk, and bread on the table.",
     "explanation": "敘述說桌上有水果、牛奶和麵包，選項B完全符合。選項A是披薩和可樂，選項C是飯和魚，都不對。"
   },
   {
@@ -46,13 +64,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["天氣"],
+    "level_tag": [
+      "天氣"
+    ],
     "source": "static",
     "image": "🌧️☂️👧💧",
     "audio_script": "It is raining outside, and a girl is walking down the street holding a blue umbrella.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. It is sunny and the girl is wearing sunglasses.", "B. It is raining and the girl is holding an umbrella.", "C. It is snowing and the girl is making a snowman."],
-    "answer": "B. It is raining and the girl is holding an umbrella.",
+    "options": [
+      "It is sunny and the girl is wearing sunglasses.",
+      "It is raining and the girl is holding an umbrella.",
+      "It is snowing and the girl is making a snowman."
+    ],
+    "answer": "It is raining and the girl is holding an umbrella.",
     "explanation": "敘述說下雨天，女孩撐著藍色雨傘走在街上，選項B正確。選項A是晴天戴墨鏡，選項C是下雪堆雪人。"
   },
   {
@@ -60,13 +84,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["動物"],
+    "level_tag": [
+      "動物"
+    ],
     "source": "static",
     "image": "🐕🐈🌳🏞️",
     "audio_script": "A dog and a cat are sitting together under a big tree in the park on a warm afternoon.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. A dog and a cat are sitting together under a tree.", "B. Two birds are flying high in the sky.", "C. A fish is swimming in the river."],
-    "answer": "A. A dog and a cat are sitting together under a tree.",
+    "options": [
+      "A dog and a cat are sitting together under a tree.",
+      "Two birds are flying high in the sky.",
+      "A fish is swimming in the river."
+    ],
+    "answer": "A dog and a cat are sitting together under a tree.",
     "explanation": "敘述說一隻狗和一隻貓一起坐在公園的大樹下，選項A正確。選項B是兩隻鳥在飛，選項C是魚在游泳。"
   },
   {
@@ -74,13 +104,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["運動"],
+    "level_tag": [
+      "運動"
+    ],
     "source": "static",
     "image": "⚽🏃‍♂️🥅👟",
     "audio_script": "A group of boys are playing soccer on the field. One boy is running toward the goal with the ball.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The boys are swimming in the pool.", "B. The boys are playing soccer on the field.", "C. The boys are riding bicycles on the road."],
-    "answer": "B. The boys are playing soccer on the field.",
+    "options": [
+      "The boys are swimming in the pool.",
+      "The boys are playing soccer on the field.",
+      "The boys are riding bicycles on the road."
+    ],
+    "answer": "The boys are playing soccer on the field.",
     "explanation": "敘述說男孩們在球場上踢足球，有一人正帶球朝球門跑去，選項B正確。其他選項分別是游泳和騎腳踏車。"
   },
   {
@@ -88,13 +124,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["購物"],
+    "level_tag": [
+      "購物"
+    ],
     "source": "static",
     "image": "🛒🛍️👩🥬🍅",
     "audio_script": "A woman is pushing a shopping cart in the supermarket. She is looking at some fresh vegetables.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The woman is buying clothes at a department store.", "B. The woman is pushing a cart and looking at vegetables.", "C. The woman is eating at a fast-food restaurant."],
-    "answer": "B. The woman is pushing a cart and looking at vegetables.",
+    "options": [
+      "The woman is buying clothes at a department store.",
+      "The woman is pushing a cart and looking at vegetables.",
+      "The woman is eating at a fast-food restaurant."
+    ],
+    "answer": "The woman is pushing a cart and looking at vegetables.",
     "explanation": "敘述描述女士在超市推著購物車看蔬菜，選項B符合。選項A是在百貨公司買衣服，選項C是在速食店用餐。"
   },
   {
@@ -102,13 +144,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["交通"],
+    "level_tag": [
+      "交通"
+    ],
     "source": "static",
     "image": "🚌🛣️🧑‍💼🏢",
     "audio_script": "A man is waiting at the bus stop. He is going to work at an office building downtown.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The man is driving his car to the beach.", "B. The man is waiting for the bus at the bus stop.", "C. The man is riding a train across the mountains."],
-    "answer": "B. The man is waiting for the bus at the bus stop.",
+    "options": [
+      "The man is driving his car to the beach.",
+      "The man is waiting for the bus at the bus stop.",
+      "The man is riding a train across the mountains."
+    ],
+    "answer": "The man is waiting for the bus at the bus stop.",
     "explanation": "敘述說男子在公車站等公車，要去市中心上班，選項B正確。選項A是開車去海邊，選項C是搭火車穿越山區。"
   },
   {
@@ -116,13 +164,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["健康"],
+    "level_tag": [
+      "健康"
+    ],
     "source": "static",
     "image": "🏥👨‍⚕️🩺👦",
     "audio_script": "The doctor is checking a young boy's temperature. The boy is sitting on a chair and looks a little tired.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The boy is playing games on his phone.", "B. The doctor is checking the boy's temperature.", "C. The boy is eating medicine by himself."],
-    "answer": "B. The doctor is checking the boy's temperature.",
+    "options": [
+      "The boy is playing games on his phone.",
+      "The doctor is checking the boy's temperature.",
+      "The boy is eating medicine by himself."
+    ],
+    "answer": "The doctor is checking the boy's temperature.",
     "explanation": "敘述描述醫生正在幫男孩量體溫，男孩坐在椅子上看起來有點累，選項B符合。其他都不正確。"
   },
   {
@@ -130,13 +184,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["節日"],
+    "level_tag": [
+      "節日"
+    ],
     "source": "static",
     "image": "🎄🎁👨‍👩‍👧‍👦✨",
     "audio_script": "A family is opening Christmas presents around a brightly decorated tree in their living room.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The family is having a barbecue in the backyard.", "B. The family is opening Christmas presents by the tree.", "C. The family is watching a movie at the cinema."],
-    "answer": "B. The family is opening Christmas presents by the tree.",
+    "options": [
+      "The family is having a barbecue in the backyard.",
+      "The family is opening Christmas presents by the tree.",
+      "The family is watching a movie at the cinema."
+    ],
+    "answer": "The family is opening Christmas presents by the tree.",
     "explanation": "敘述說一家人圍繞著裝飾華麗的聖誕樹拆禮物，選項B符合節日情境。選項A是後院烤肉，選項C在電影院。"
   },
   {
@@ -144,13 +204,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["自然"],
+    "level_tag": [
+      "自然"
+    ],
     "source": "static",
     "image": "🌻🌿🦋🌞",
     "audio_script": "There are many sunflowers growing in a garden under the bright sun, and a butterfly is flying among the flowers.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. There are sunflowers and a butterfly in the garden.", "B. There are tall buildings and cars on the street.", "C. There are mountains and snow everywhere."],
-    "answer": "A. There are sunflowers and a butterfly in the garden.",
+    "options": [
+      "There are sunflowers and a butterfly in the garden.",
+      "There are tall buildings and cars on the street.",
+      "There are mountains and snow everywhere."
+    ],
+    "answer": "There are sunflowers and a butterfly in the garden.",
     "explanation": "敘述說花園裡有許多向日葵和蝴蝶，選項A正確。選項B描繪街道大樓，選項C描繪雪山。"
   },
   {
@@ -158,13 +224,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["工作"],
+    "level_tag": [
+      "工作"
+    ],
     "source": "static",
     "image": "👨‍🚒🚒🔥🏠",
     "audio_script": "A firefighter is using a water hose to put out a fire in front of a burning house.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The firefighter is cooking food in the kitchen.", "B. The firefighter is putting out a fire with a water hose.", "C. The firefighter is sleeping in the fire station."],
-    "answer": "B. The firefighter is putting out a fire with a water hose.",
+    "options": [
+      "The firefighter is cooking food in the kitchen.",
+      "The firefighter is putting out a fire with a water hose.",
+      "The firefighter is sleeping in the fire station."
+    ],
+    "answer": "The firefighter is putting out a fire with a water hose.",
     "explanation": "敘述說消防員正用水管撲滅燃燒房屋前的火，選項B正確。選項A是做菜，選項C是睡覺，都不對。"
   },
   {
@@ -172,13 +244,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["音樂"],
+    "level_tag": [
+      "音樂"
+    ],
     "source": "static",
     "image": "🎸🧑‍🎤🎵🎶",
     "audio_script": "A young man is playing the guitar and singing on a stage with bright lights shining on him.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The man is reading a newspaper in the library.", "B. The man is playing the guitar and singing on the stage.", "C. The man is cleaning the floor with a mop."],
-    "answer": "B. The man is playing the guitar and singing on the stage.",
+    "options": [
+      "The man is reading a newspaper in the library.",
+      "The man is playing the guitar and singing on the stage.",
+      "The man is cleaning the floor with a mop."
+    ],
+    "answer": "The man is playing the guitar and singing on the stage.",
     "explanation": "敘述描述年輕男子在舞台上邊彈吉他邊唱歌，聚光燈照在他身上，選項B正確。"
   },
   {
@@ -186,13 +264,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["餐廳"],
+    "level_tag": [
+      "餐廳"
+    ],
     "source": "static",
     "image": "🍽️👩‍🍳🧑‍🤝‍🧑🍝",
     "audio_script": "Two people are sitting at a table in a restaurant. They are ordering pasta and talking happily with each other.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. Two people are ordering food and talking in a restaurant.", "B. Two people are jogging together in the park.", "C. Two people are shopping for shoes at the mall."],
-    "answer": "A. Two people are ordering food and talking in a restaurant.",
+    "options": [
+      "Two people are ordering food and talking in a restaurant.",
+      "Two people are jogging together in the park.",
+      "Two people are shopping for shoes at the mall."
+    ],
+    "answer": "Two people are ordering food and talking in a restaurant.",
     "explanation": "敘述說兩人在餐廳點義大利麵並開心交談，選項A正確。其他選項分別是慢跑和購物。"
   },
   {
@@ -200,13 +284,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["海邊"],
+    "level_tag": [
+      "海邊"
+    ],
     "source": "static",
     "image": "🏖️🌊👦🏄",
     "audio_script": "A boy is surfing on the ocean waves while the sun is shining brightly over the beach.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The boy is reading a book under a tree.", "B. The boy is surfing on the ocean waves.", "C. The boy is climbing a mountain with his friends."],
-    "answer": "B. The boy is surfing on the ocean waves.",
+    "options": [
+      "The boy is reading a book under a tree.",
+      "The boy is surfing on the ocean waves.",
+      "The boy is climbing a mountain with his friends."
+    ],
+    "answer": "The boy is surfing on the ocean waves.",
     "explanation": "敘述說男孩在陽光燦爛的海灘上衝浪，選項B正確。選項A在看書，選項C在爬山。"
   },
   {
@@ -214,13 +304,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["圖書館"],
+    "level_tag": [
+      "圖書館"
+    ],
     "source": "static",
     "image": "📚🏛️👧🤫",
     "audio_script": "A girl is quietly reading a storybook in the corner of the library. Other students are also studying nearby.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The girl is shouting and running in the hallway.", "B. The girl is quietly reading in the library.", "C. The girl is eating snacks in the classroom."],
-    "answer": "B. The girl is quietly reading in the library.",
+    "options": [
+      "The girl is shouting and running in the hallway.",
+      "The girl is quietly reading in the library.",
+      "The girl is eating snacks in the classroom."
+    ],
+    "answer": "The girl is quietly reading in the library.",
     "explanation": "敘述說女孩在圖書館角落安靜看故事書，附近也有其他學生在學習，選項B正確。"
   },
   {
@@ -228,13 +324,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["機場"],
+    "level_tag": [
+      "機場"
+    ],
     "source": "static",
     "image": "✈️🧳👨👩🛫",
     "audio_script": "A family is standing at the airport check-in counter with their suitcases. They are going on a trip to another country.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The family is at the airport checking in for their flight.", "B. The family is camping in the forest with a tent.", "C. The family is swimming in the hotel swimming pool."],
-    "answer": "A. The family is at the airport checking in for their flight.",
+    "options": [
+      "The family is at the airport checking in for their flight.",
+      "The family is camping in the forest with a tent.",
+      "The family is swimming in the hotel swimming pool."
+    ],
+    "answer": "The family is at the airport checking in for their flight.",
     "explanation": "敘述說一家人在機場櫃檯辦理登機手續，準備出國旅行，選項A正確。"
   },
   {
@@ -242,13 +344,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["寵物"],
+    "level_tag": [
+      "寵物"
+    ],
     "source": "static",
     "image": "🐱🧶👩🐾",
     "audio_script": "The girl is sitting on the floor and playing with her cat using a ball of red yarn.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The girl is playing with her cat with a ball of yarn.", "B. The girl is walking her dog in the neighborhood.", "C. The girl is feeding fish in an aquarium."],
-    "answer": "A. The girl is playing with her cat with a ball of yarn.",
+    "options": [
+      "The girl is playing with her cat with a ball of yarn.",
+      "The girl is walking her dog in the neighborhood.",
+      "The girl is feeding fish in an aquarium."
+    ],
+    "answer": "The girl is playing with her cat with a ball of yarn.",
     "explanation": "敘述說女孩坐在地板上用紅色毛線球和貓咪玩耍，選項A正確。選項B是遛狗，選項C是餵魚。"
   },
   {
@@ -256,13 +364,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["公園"],
+    "level_tag": [
+      "公園"
+    ],
     "source": "static",
     "image": "🌳🧘‍♀️🌅🧑‍🦳",
     "audio_script": "An elderly woman is doing exercises in the park early in the morning while the sun is rising.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The woman is sleeping late in her bed.", "B. The woman is doing exercises in the park at sunrise.", "C. The woman is driving her car to the supermarket."],
-    "answer": "B. The woman is doing exercises in the park at sunrise.",
+    "options": [
+      "The woman is sleeping late in her bed.",
+      "The woman is doing exercises in the park at sunrise.",
+      "The woman is driving her car to the supermarket."
+    ],
+    "answer": "The woman is doing exercises in the park at sunrise.",
     "explanation": "敘述說老婦人清晨在公園做運動，日出時分，選項B正確。選項A在睡覺，選項C在開車。"
   },
   {
@@ -270,13 +384,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["生日"],
+    "level_tag": [
+      "生日"
+    ],
     "source": "static",
     "image": "🎂🎉👧🎈🕯️",
     "audio_script": "It is a little girl's birthday party. She is blowing out the candles on a big chocolate cake while her friends are singing for her.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The girl is blowing out candles on her birthday cake.", "B. The girl is doing her math homework.", "C. The girl is planting flowers in the garden."],
-    "answer": "A. The girl is blowing out candles on her birthday cake.",
+    "options": [
+      "The girl is blowing out candles on her birthday cake.",
+      "The girl is doing her math homework.",
+      "The girl is planting flowers in the garden."
+    ],
+    "answer": "The girl is blowing out candles on her birthday cake.",
     "explanation": "敘述描述小女孩在生日派對上吹蛋糕蠟燭，朋友們為她唱歌，選項A正確。"
   },
   {
@@ -284,13 +404,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["農場"],
+    "level_tag": [
+      "農場"
+    ],
     "source": "static",
     "image": "🐄🏡🌾👨‍🌾",
     "audio_script": "A farmer is feeding the cows on his farm early in the morning. There is a big red barn behind him.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The farmer is driving a tractor on the highway.", "B. The farmer is feeding the cows on his farm.", "C. The farmer is fishing by the river."],
-    "answer": "B. The farmer is feeding the cows on his farm.",
+    "options": [
+      "The farmer is driving a tractor on the highway.",
+      "The farmer is feeding the cows on his farm.",
+      "The farmer is fishing by the river."
+    ],
+    "answer": "The farmer is feeding the cows on his farm.",
     "explanation": "敘述說農夫清晨在農場餵牛，身後有一座紅色大穀倉，選項B正確。選項A在公路開拖拉機，選項C在河邊釣魚。"
   },
   {
@@ -298,13 +424,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["醫院"],
+    "level_tag": [
+      "醫院"
+    ],
     "source": "static",
     "image": "🤰👶🏥👩‍⚕️",
     "audio_script": "A nurse is gently holding a newborn baby in her arms at the hospital. The baby is sleeping peacefully.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The nurse is holding a newborn baby at the hospital.", "B. The nurse is writing a report at her desk.", "C. The nurse is eating lunch in the cafeteria."],
-    "answer": "A. The nurse is holding a newborn baby at the hospital.",
+    "options": [
+      "The nurse is holding a newborn baby at the hospital.",
+      "The nurse is writing a report at her desk.",
+      "The nurse is eating lunch in the cafeteria."
+    ],
+    "answer": "The nurse is holding a newborn baby at the hospital.",
     "explanation": "敘述說護士在醫院溫柔地抱著新生兒，寶寶安詳地睡著，選項A正確。"
   },
   {
@@ -312,13 +444,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["季節"],
+    "level_tag": [
+      "季節"
+    ],
     "source": "static",
     "image": "❄️⛄🧣🧤",
     "audio_script": "Two children are building a snowman in their front yard. They are wearing warm coats, scarves, and gloves because it is very cold outside.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The children are swimming at the beach.", "B. The children are building a snowman in the yard.", "C. The children are flying kites in the park."],
-    "answer": "B. The children are building a snowman in the yard.",
+    "options": [
+      "The children are swimming at the beach.",
+      "The children are building a snowman in the yard.",
+      "The children are flying kites in the park."
+    ],
+    "answer": "The children are building a snowman in the yard.",
     "explanation": "敘述說兩個小孩在前院堆雪人，穿著保暖外套、圍巾和手套，選項B正確。選項A在游泳，選項C在放風箏。"
   },
   {
@@ -326,13 +464,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["科技"],
+    "level_tag": [
+      "科技"
+    ],
     "source": "static",
     "image": "💻👨‍💻☕🏠",
     "audio_script": "A man is working on his laptop computer at home. He has a cup of coffee next to him on the small wooden desk.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The man is working on his laptop at home with a cup of coffee.", "B. The man is repairing his car in the garage.", "C. The man is painting a picture on a canvas."],
-    "answer": "A. The man is working on his laptop at home with a cup of coffee.",
+    "options": [
+      "The man is working on his laptop at home with a cup of coffee.",
+      "The man is repairing his car in the garage.",
+      "The man is painting a picture on a canvas."
+    ],
+    "answer": "The man is working on his laptop at home with a cup of coffee.",
     "explanation": "敘述說男子在家用筆電工作，旁邊木桌上放著一杯咖啡，選項A正確。選項B在修車，選項C在畫畫。"
   },
   {
@@ -340,13 +484,19 @@
     "grade": "G2",
     "section": "listening",
     "type": "picture",
-    "level_tag": ["夜市"],
+    "level_tag": [
+      "夜市"
+    ],
     "source": "static",
     "image": "🏮🍢🍜👨‍👩‍👧",
     "audio_script": "A family is walking through a busy night market. There are many food stalls with bright lights, and they are buying some hot soup and grilled snacks.",
     "question": "聽敘述，選出符合圖片的選項",
-    "options": ["A. The family is walking through a night market and buying food.", "B. The family is sitting in a quiet classroom.", "C. The family is riding a boat on a lake."],
-    "answer": "A. The family is walking through a night market and buying food.",
+    "options": [
+      "The family is walking through a night market and buying food.",
+      "The family is sitting in a quiet classroom.",
+      "The family is riding a boat on a lake."
+    ],
+    "answer": "The family is walking through a night market and buying food.",
     "explanation": "敘述說一家人在熱鬧的夜市裡逛，買熱湯和烤點心，燈光明亮，選項A正確。"
   }
 ]

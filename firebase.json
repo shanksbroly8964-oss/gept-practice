@@ -9,8 +9,15 @@
       "**/node_modules/**",
       "_prompts/**",
       "_logs/**",
+      "e2e/**",
+      "tests/**",
+      "package.json",
+      "package-lock.json",
+      "playwright.config.*",
+      "nul",
       "DONE_*.md",
       "QA_REPORT_*.md",
+      "E2E_REPORT.md",
       "FIREBASE_SETUP.md"
     ]
   }

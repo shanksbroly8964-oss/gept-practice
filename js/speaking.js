@@ -93,9 +93,15 @@ window.GEPT.Speaking = (function() {
           showSubtypeError(subtype);
           return;
         }
-        showQuestion();
+        try {
+          showQuestion();
+        } catch (e) {
+          console.error('Speaking render error (' + subtype + '):', e);
+          showRenderError(subtype, e);
+        }
       })
-      .catch(function() {
+      .catch(function(err) {
+        console.error('Speaking load error (' + subtype + '):', err);
         showSubtypeError(subtype);
       });
   }
@@ -109,6 +115,22 @@ window.GEPT.Speaking = (function() {
       '<div class="state-message">' +
         '<p>「' + info.name + '」題庫準備中</p>' +
         '<p class="error-hint">請稍後再試，或選擇其他題型</p>' +
+        '<button id="back-speaking-subtype-btn" class="btn" style="margin-top:1rem">返回口說選單</button>' +
+      '</div>';
+    document.getElementById('back-speaking-subtype-btn').addEventListener('click', function() {
+      showSubtypeSelection();
+    });
+  }
+
+  function showRenderError(subtype, err) {
+    GEPT.UIRenderer.hideAllMain();
+    var container = document.getElementById('speaking-container');
+    container.classList.remove('hidden');
+    var info = SUBTYPE_INFO[subtype] || { name: subtype };
+    container.innerHTML =
+      '<div class="state-message">' +
+        '<p>「' + info.name + '」發生錯誤</p>' +
+        '<p class="error-hint">' + escHtml((err && err.message) || '未知錯誤') + '</p>' +
         '<button id="back-speaking-subtype-btn" class="btn" style="margin-top:1rem">返回口說選單</button>' +
       '</div>';
     document.getElementById('back-speaking-subtype-btn').addEventListener('click', function() {
@@ -169,7 +191,7 @@ window.GEPT.Speaking = (function() {
     }
 
     html += buildNav();
-    container.innerHTML = html;
+    document.getElementById('speaking-container').innerHTML = html;
     bindSpeakingEvents(q, 'readaloud');
     bindNavEvents();
   }
@@ -218,7 +240,7 @@ window.GEPT.Speaking = (function() {
     html += '</div>';
 
     html += buildNav();
-    container.innerHTML = html;
+    document.getElementById('speaking-container').innerHTML = html;
     bindSpeakingEvents(q, 'qa');
     bindNavEvents();
 
@@ -315,11 +337,11 @@ window.GEPT.Speaking = (function() {
     var utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
     if (currentGrade === 'G1') {
-      utterance.rate = 0.7;
+      utterance.rate = 0.4;
     } else if (currentGrade === 'G2') {
-      utterance.rate = 0.85;
+      utterance.rate = 0.45;
     } else {
-      utterance.rate = 1.0;
+      utterance.rate = 0.5;
     }
 
     utterance.onend = function() {

@@ -65,9 +65,15 @@ window.GEPT.Writing = (function() {
           showSubtypeError(subtype);
           return;
         }
-        showQuestion();
+        try {
+          showQuestion();
+        } catch (e) {
+          console.error('Writing render error (' + subtype + '):', e);
+          showRenderError(subtype, e);
+        }
       })
-      .catch(function() {
+      .catch(function(err) {
+        console.error('Writing load error (' + subtype + '):', err);
         showSubtypeError(subtype);
       });
   }
@@ -81,6 +87,22 @@ window.GEPT.Writing = (function() {
       '<div class="state-message">' +
         '<p>「' + info.name + '」題庫準備中</p>' +
         '<p class="error-hint">請稍後再試，或選擇其他題型</p>' +
+        '<button id="back-writing-subtype-btn" class="btn" style="margin-top:1rem">返回寫作選單</button>' +
+      '</div>';
+    document.getElementById('back-writing-subtype-btn').addEventListener('click', function() {
+      showSubtypeSelection();
+    });
+  }
+
+  function showRenderError(subtype, err) {
+    GEPT.UIRenderer.hideAllMain();
+    var container = document.getElementById('writing-container');
+    container.classList.remove('hidden');
+    var info = SUBTYPE_INFO[subtype] || { name: subtype };
+    container.innerHTML =
+      '<div class="state-message">' +
+        '<p>「' + info.name + '」發生錯誤</p>' +
+        '<p class="error-hint">' + escHtml((err && err.message) || '未知錯誤') + '</p>' +
         '<button id="back-writing-subtype-btn" class="btn" style="margin-top:1rem">返回寫作選單</button>' +
       '</div>';
     document.getElementById('back-writing-subtype-btn').addEventListener('click', function() {
@@ -139,7 +161,7 @@ window.GEPT.Writing = (function() {
 
     html += buildNav();
 
-    container.innerHTML = html;
+    document.getElementById('writing-container').innerHTML = html;
     bindCommonEvents();
   }
 
@@ -184,7 +206,7 @@ window.GEPT.Writing = (function() {
 
     html += buildNav();
 
-    container.innerHTML = html;
+    document.getElementById('writing-container').innerHTML = html;
     bindCommonEvents();
 
     document.getElementById('writing-answer').addEventListener('input', function() {
