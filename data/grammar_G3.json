@@ -1,0 +1,857 @@
+[
+  {
+    "id": "G-G3-001",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The boy _______ won the first prize is my best friend.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 用來代替先行詞 the boy（人），且在關係子句中為主詞（won the first prize），故選 who。which 用於事物，whose 表示所有格，whom 用於受詞位置。"
+  },
+  {
+    "id": "G-G3-002",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "This is the book _______ I borrowed from the library last week.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "what"
+    ],
+    "answer": "which",
+    "explanation": "關係代名詞 which 用來代替先行詞 the book（事物），且在關係子句中為受詞（I borrowed the book），故選 which。who 用於人，whose 表示所有格，what 不是關係代名詞。"
+  },
+  {
+    "id": "G-G3-003",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The woman _______ son is a famous singer lives next door.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "關係代名詞 whose 表示所有格，用以連接 son 和先行詞 the woman，意為「那位女士的兒子」。who 和 whom 無法表示所有關係，which 用於事物。"
+  },
+  {
+    "id": "G-G3-004",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The teacher _______ we met at the park teaches science.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "answer": "whom",
+    "explanation": "關係代名詞 whom 用來代替先行詞 the teacher（人），且在關係子句中為受詞（we met the teacher），故選 whom。who 用於主詞位置，which 用於事物，whose 表示所有格。"
+  },
+  {
+    "id": "G-G3-005",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "I know a restaurant _______ serves delicious Italian food.",
+    "options": [
+      "which",
+      "who",
+      "what",
+      "whom"
+    ],
+    "answer": "which",
+    "explanation": "關係代名詞 which 用來代替先行詞 a restaurant（事物/地方），且在關係子句中為主詞（serves），故選 which。who/whom 用於人，what 不是關係代名詞。"
+  },
+  {
+    "id": "G-G3-006",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The girl with _______ I study every day is very smart.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "answer": "whom",
+    "explanation": "關係代名詞 whom 用在介系詞 with 之後，代替先行詞 the girl（人），在關係子句中為 with 的受詞，故選 whom。who 用於主詞，which 用於事物，whose 表示所有格。"
+  },
+  {
+    "id": "G-G3-007",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "Do you know the man _______ car was stolen yesterday?",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "關係代名詞 whose 表示所有格，用以連接 car 和先行詞 the man，意為「那位男士的車」。who 和 whom 無法表示所有關係，which 用於事物。"
+  },
+  {
+    "id": "G-G3-008",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The movie _______ we watched last night was really exciting.",
+    "options": [
+      "who",
+      "whose",
+      "whom",
+      "that"
+    ],
+    "answer": "that",
+    "explanation": "關係代名詞 that 可用來代替先行詞 the movie（事物），在關係子句中為受詞（we watched the movie）。that 可同時用於人和事物，在本句中 which 也可使用，但選項中 that 為正確答案。"
+  },
+  {
+    "id": "G-G3-009",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "This is the house _______ my grandfather built fifty years ago.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "answer": "which",
+    "explanation": "關係代名詞 which 用來代替先行詞 the house（事物），且在關係子句中為受詞（built the house），故選 which。who/whom 用於人，whose 表示所有格。"
+  },
+  {
+    "id": "G-G3-010",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "I have a friend _______ father works at the hospital.",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "關係代名詞 whose 表示所有格，連接 father 和先行詞 a friend，意為「一位朋友的父親」。who 和 whom 無法表示所有關係，which 用於事物。"
+  },
+  {
+    "id": "G-G3-011",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "關係代名詞"
+    ],
+    "source": "static",
+    "question": "The artist _______ paintings are shown here is from Spain.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "關係代名詞 whose 表示所有格，連接 paintings 和先行詞 the artist，意為「那位藝術家的畫作」。who 和 whom 無法表示所有關係，which 用於事物。"
+  },
+  {
+    "id": "G-G3-012",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The window _______ by a strong wind last night.",
+    "options": [
+      "broke",
+      "breaks",
+      "is breaking",
+      "was broken"
+    ],
+    "answer": "was broken",
+    "explanation": "被動語態結構為 be 動詞 + 過去分詞。主詞 the window 是被打破的對象，不是動作執行者，且時間為 last night（過去），故用 was broken。broke 為主動語態，breaks 是現在式，is breaking 是現在進行式。"
+  },
+  {
+    "id": "G-G3-013",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "English _______ in many countries around the world.",
+    "options": [
+      "is spoken",
+      "speaks",
+      "spoke",
+      "is speaking"
+    ],
+    "answer": "is spoken",
+    "explanation": "被動語態：be 動詞 + 過去分詞。English 是被說（spoken），不是自己在說。表示一般事實用現在式 is spoken。speaks 是主動語態第三人稱單數，spoke 是過去式，is speaking 是現在進行式。"
+  },
+  {
+    "id": "G-G3-014",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "This cake _______ by my mother this morning.",
+    "options": [
+      "made",
+      "was made",
+      "makes",
+      "is making"
+    ],
+    "answer": "was made",
+    "explanation": "被動語態：be 動詞 + 過去分詞。cake 是被製作（made）的對象，且時間為 this morning（過去），故用 was made。made 本身缺少 be 動詞，makes 和 is making 都是主動語態。"
+  },
+  {
+    "id": "G-G3-015",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The Eiffel Tower _______ by millions of tourists every year.",
+    "options": [
+      "visits",
+      "visited",
+      "is visited",
+      "is visiting"
+    ],
+    "answer": "is visited",
+    "explanation": "被動語態：be 動詞 + 過去分詞。The Eiffel Tower 是被參觀的對象，不是自己參觀。every year 表示習慣性動作，用現在式 is visited。visits 和 visited 是主動語態，is visiting 是進行式主被動皆不正確。"
+  },
+  {
+    "id": "G-G3-016",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The letters _______ to the customers yesterday afternoon.",
+    "options": [
+      "sent",
+      "are sending",
+      "send",
+      "were sent"
+    ],
+    "answer": "were sent",
+    "explanation": "被動語態：be 動詞 + 過去分詞。letters 是被寄送的對象，且主詞為複數，時間為 yesterday（過去），故用 were sent。sent 缺少 be 動詞，are sending 是主動進行式，send 是主動現在式。"
+  },
+  {
+    "id": "G-G3-017",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The homework _______ by the students before the class started.",
+    "options": [
+      "had been finished",
+      "finished",
+      "has finished",
+      "finishes"
+    ],
+    "answer": "had been finished",
+    "explanation": "被動語態過去完成式：had been + 過去分詞。作業在被課堂開始前（過去的過去）就已被完成，故用 had been finished。finished 是主動語態過去式，has finished 是主動現在完成式，finishes 是主動現在式。"
+  },
+  {
+    "id": "G-G3-018",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "A new bridge _______ across the river at the moment.",
+    "options": [
+      "is building",
+      "is being built",
+      "built",
+      "builds"
+    ],
+    "answer": "is being built",
+    "explanation": "被動語態現在進行式：is being + 過去分詞。橋正在被建造中，at the moment 表示現在進行，故用 is being built。is building 是主動進行式，built 是過去式，builds 是一般現在式。"
+  },
+  {
+    "id": "G-G3-019",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "His bicycle _______ by someone while he was in the store.",
+    "options": [
+      "stole",
+      "has stolen",
+      "was stolen",
+      "is stealing"
+    ],
+    "answer": "was stolen",
+    "explanation": "被動語態：be 動詞 + 過去分詞。腳踏車是被偷的對象，且時間為過去（was in the store），故用 was stolen。stole 是主動過去式，has stolen 是主動現在完成式，is stealing 是主動現在進行式。"
+  },
+  {
+    "id": "G-G3-020",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The meeting _______ to next Monday because the manager is sick.",
+    "options": [
+      "changed",
+      "is changing",
+      "changes",
+      "has been changed"
+    ],
+    "answer": "has been changed",
+    "explanation": "被動語態現在完成式：has been + 過去分詞。會議剛被更改，對現在有影響（因為經理生病），故用 has been changed。changed 是主動過去式，is changing 是主動進行式，changes 是一般現在式。"
+  },
+  {
+    "id": "G-G3-021",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "All the cookies _______ by the children before dinner.",
+    "options": [
+      "had been eaten",
+      "ate",
+      "are eaten",
+      "eat"
+    ],
+    "answer": "had been eaten",
+    "explanation": "被動語態過去完成式：had been + 過去分詞。餅乾在晚餐前就已經被吃光了（過去的過去），故用 had been eaten。ate 是主動過去式，are eaten 是一般被動現在式，eat 是主動現在式。"
+  },
+  {
+    "id": "G-G3-022",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "被動語態"
+    ],
+    "source": "static",
+    "question": "The rules _______ to all the members at the meeting tomorrow.",
+    "options": [
+      "explain",
+      "will be explained",
+      "are explaining",
+      "explained"
+    ],
+    "answer": "will be explained",
+    "explanation": "被動語態未來式：will be + 過去分詞。規則將在明天被說明，故用 will be explained。explain 是主動現在式，are explaining 是主動進行式，explained 是過去式缺少 be 動詞。"
+  },
+  {
+    "id": "G-G3-023",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "I _______ that movie three times already.",
+    "options": [
+      "saw",
+      "see",
+      "have seen",
+      "am seeing"
+    ],
+    "answer": "have seen",
+    "explanation": "現在完成式：have/has + 過去分詞。already（已經）和 three times（三次）是現在完成式的常見搭配，表示到目前為止的經驗，故用 have seen。saw 是過去式，see 是一般現在式，am seeing 是現在進行式。"
+  },
+  {
+    "id": "G-G3-024",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "She _______ her homework yet.",
+    "options": [
+      "did not finish",
+      "does not finish",
+      "is not finishing",
+      "has not finished"
+    ],
+    "answer": "has not finished",
+    "explanation": "現在完成式：have/has + 過去分詞。yet（還沒）常用於現在完成式的否定句，表示到目前為止尚未完成的動作，故用 has not finished。did not finish 是過去式，does not finish 是一般現在式，is not finishing 是現在進行式。"
+  },
+  {
+    "id": "G-G3-025",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "My parents _______ to Japan twice.",
+    "options": [
+      "have been",
+      "went",
+      "go",
+      "are going"
+    ],
+    "answer": "have been",
+    "explanation": "現在完成式：have/has + 過去分詞。twice（兩次）表示到目前為止的經驗，用 have been to 表示「去過某地」。went 是過去式，go 是一般現在式，are going 是現在進行式。"
+  },
+  {
+    "id": "G-G3-026",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "He _______ his car for ten years. It still runs very well.",
+    "options": [
+      "had",
+      "has had",
+      "has",
+      "is having"
+    ],
+    "answer": "has had",
+    "explanation": "現在完成式：have/has + 過去分詞。for ten years 表示從過去持續到現在的狀態，故用 has had（have的過去分詞是had）。had 是過去式，has 是一般現在式，is having 是現在進行式（have 表擁有時不用進行式）。"
+  },
+  {
+    "id": "G-G3-027",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "We _______ each other since we were children.",
+    "options": [
+      "knew",
+      "know",
+      "have known",
+      "are knowing"
+    ],
+    "answer": "have known",
+    "explanation": "現在完成式：have/has + 過去分詞。since（自從）引出過去時間點，表示從過去持續到現在的狀態，故用 have known。knew 是過去式，know 是一般現在式，know 通常不用進行式。"
+  },
+  {
+    "id": "G-G3-028",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "The train _______ just _______ at the station.",
+    "options": [
+      "did; arrive",
+      "is; arriving",
+      "was; arriving",
+      "has; arrived"
+    ],
+    "answer": "has; arrived",
+    "explanation": "現在完成式：have/has + 過去分詞。just（剛剛）常用於現在完成式，表示剛完成的動作，故用 has arrived。did arrive 是過去式強調用法，is arriving 是現在進行式，was arriving 是過去進行式。"
+  },
+  {
+    "id": "G-G3-029",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "How long _______ you _______ English?",
+    "options": [
+      "have; learned",
+      "did; learn",
+      "do; learn",
+      "are; learning"
+    ],
+    "answer": "have; learned",
+    "explanation": "現在完成式：have/has + 過去分詞。How long 詢問持續的時間，通常搭配現在完成式，表示從過去持續到現在的動作，故用 have learned。did learn 是過去式，do learn 是一般現在式，are learning 是現在進行式。"
+  },
+  {
+    "id": "G-G3-030",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "My sister _______ her key, so she cannot get into the house now.",
+    "options": [
+      "lost",
+      "has lost",
+      "loses",
+      "is losing"
+    ],
+    "answer": "has lost",
+    "explanation": "現在完成式：have/has + 過去分詞。表示過去發生的動作對現在有影響（現在無法進屋），故用 has lost。lost 是過去式無法強調對現在的影響，loses 是一般現在式，is losing 是現在進行式。"
+  },
+  {
+    "id": "G-G3-031",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "They _______ in this town since they got married.",
+    "options": [
+      "lived",
+      "live",
+      "have lived",
+      "are living"
+    ],
+    "answer": "have lived",
+    "explanation": "現在完成式：have/has + 過去分詞。since（自從）引出過去時間點（結婚時），表示從過去持續到現在的居住狀態，故用 have lived。lived 是過去式，live 是一般現在式，are living 是現在進行式。"
+  },
+  {
+    "id": "G-G3-032",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "I _______ never _______ such a beautiful sunset before.",
+    "options": [
+      "did; see",
+      "am; seeing",
+      "was; seeing",
+      "have; seen"
+    ],
+    "answer": "have; seen",
+    "explanation": "現在完成式：have/has + 過去分詞。never 和 before 常用於現在完成式，表示到目前為止從未有過的經驗，故用 have seen。did see 是過去式，am seeing 是現在進行式，was seeing 是過去進行式。"
+  },
+  {
+    "id": "G-G3-033",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在完成式"
+    ],
+    "source": "static",
+    "question": "David _______ to the library. He will be back in an hour.",
+    "options": [
+      "has gone",
+      "went",
+      "goes",
+      "is going"
+    ],
+    "answer": "has gone",
+    "explanation": "現在完成式：have/has + 過去分詞。has gone 表示「已經去了（人還在該處未回）」，後句說一個小時後回來，證明人還在圖書館，故用 has gone。went 是過去式，goes 是一般現在式，is going 是現在進行式。"
+  },
+  {
+    "id": "G-G3-034",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "If I had known you were sick, I _______ you yesterday.",
+    "options": [
+      "will visit",
+      "would have visited",
+      "visited",
+      "have visited"
+    ],
+    "answer": "would have visited",
+    "explanation": "與過去事實相反的假設語氣：If + had + 過去分詞, would have + 過去分詞。表示「如果我當時知道你生病（但當時不知道），我就會去看你（但沒有去）」。will visit 用於未來，visited 是單純過去式，have visited 是現在完成式。"
+  },
+  {
+    "id": "G-G3-035",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The letter _______ by the time the manager noticed the mistake.",
+    "options": [
+      "was mailing",
+      "mailed",
+      "had been mailed",
+      "is mailed"
+    ],
+    "answer": "had been mailed",
+    "explanation": "被動語態過去完成式：had been + 過去分詞。信在經理發現錯誤之前就已被寄出（過去的過去），故用 had been mailed。was mailing 是主動過去進行式，mailed 是主動過去式，is mailed 是被動現在式。"
+  },
+  {
+    "id": "G-G3-036",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The man _______ I thought was the doctor turned out to be a patient.",
+    "options": [
+      "which",
+      "whose",
+      "what",
+      "who"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 代替先行詞 the man（人），在關係子句中為主詞（I thought he was the doctor）。注意 I thought 是插入語，who 仍為主詞。which 用於事物，whose 表示所有格，what 不是關係代名詞。"
+  },
+  {
+    "id": "G-G3-037",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "Not only _______ good at math, but she also speaks three languages.",
+    "options": [
+      "is she",
+      "she is",
+      "she was",
+      "does she"
+    ],
+    "answer": "is she",
+    "explanation": "Not only 放在句首時，後面子句需倒裝（主詞與動詞倒裝）。Not only is she good at math 是倒裝句型。she is 沒有倒裝不正確，she was 時態錯誤，does she 搭配原形動詞但 good 是形容詞。"
+  },
+  {
+    "id": "G-G3-038",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "I wish I _______ a car so I could drive to work every day.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "am having"
+    ],
+    "answer": "had",
+    "explanation": "wish 後接過去式動詞，表示與現在事實相反的願望（事實上我沒有車）。I wish I had a car 是正確的假設語氣。have 是現在式，will have 是未來式，am having 是現在進行式。"
+  },
+  {
+    "id": "G-G3-039",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The house, _______ roof was damaged in the storm, has been repaired.",
+    "options": [
+      "which",
+      "that",
+      "whose",
+      "who"
+    ],
+    "answer": "whose",
+    "explanation": "關係代名詞 whose 表示所有格，連接 roof 和先行詞 the house。雖然先行詞為事物，但所有格關係代名詞仍用 whose。which 無法表示所有關係，that 用法與 which 類似，who 用於人。"
+  },
+  {
+    "id": "G-G3-040",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "By the time we arrived, the concert _______.",
+    "options": [
+      "already started",
+      "has already started",
+      "is already starting",
+      "had already started"
+    ],
+    "answer": "had already started",
+    "explanation": "過去完成式：had + 過去分詞，搭配 by the time + 過去式子句。音樂會在我們到達之前就已開始（過去的過去），故用 had already started。already started 缺少 had，has already started 是現在完成式，is already starting 是現在進行式。"
+  },
+  {
+    "id": "G-G3-041",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "It was the first time that I _______ to a live concert.",
+    "options": [
+      "had been",
+      "have been",
+      "am going",
+      "went"
+    ],
+    "answer": "had been",
+    "explanation": "It was the first time that + 過去完成式是固定句型，表示「到當時為止的第一次經驗」。主句為過去式 was，子句用 had been。have been 是現在完成式（主句為 it is 才用），am going 和 went 不符合此句型。"
+  },
+  {
+    "id": "G-G3-042",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The students _______ have finished the test may leave the classroom.",
+    "options": [
+      "which",
+      "who",
+      "what",
+      "whom"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 代替先行詞 the students（人），在關係子句中為主詞（have finished），故選 who。which 用於事物，what 不是關係代名詞，whom 用於受詞位置。"
+  },
+  {
+    "id": "G-G3-043",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The more you practice, the _______ you will become at speaking English.",
+    "options": [
+      "best",
+      "good",
+      "better",
+      "well"
+    ],
+    "answer": "better",
+    "explanation": "「the + 比較級, the + 比較級」句型表示「越……就越……」。The more...the better... 為固定句型，故用 better（good的比較級）。best 是最高級，good 是原級，well 是副詞原級。"
+  },
+  {
+    "id": "G-G3-044",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "The problem _______ now is more difficult than we expected.",
+    "options": [
+      "discussed",
+      "discussing",
+      "discusses",
+      "being discussed"
+    ],
+    "answer": "being discussed",
+    "explanation": "分詞構句的被動語態：being + 過去分詞。the problem 是正在被討論的對象，now 表示進行中，故用 being discussed（現在分詞被動式當形容詞片語修飾 problem）。discussed 是過去分詞表完成，discussing 是主動，discusses 是動詞。"
+  },
+  {
+    "id": "G-G3-045",
+    "grade": "G3",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "綜合句型"
+    ],
+    "source": "static",
+    "question": "Hardly _______ the room when the phone started ringing.",
+    "options": [
+      "had I entered",
+      "I had entered",
+      "I entered",
+      "did I enter"
+    ],
+    "answer": "had I entered",
+    "explanation": "Hardly...when... 句型表示「一……就……」，Hardly 放在句首時需倒裝，後接過去完成式 had + 主詞 + 過去分詞。had I entered 是正確的倒裝結構。I had entered 沒有倒裝，I entered 時態錯誤，did I enter 時態和結構皆錯。"
+  }
+]

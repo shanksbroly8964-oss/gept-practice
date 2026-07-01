@@ -1,0 +1,857 @@
+[
+  {
+    "id": "G-G2-001",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "She _______ an interesting movie last weekend.",
+    "options": [
+      "watched",
+      "watch",
+      "watches",
+      "watching"
+    ],
+    "answer": "watched",
+    "explanation": "句子中有 last weekend（上週末），表示過去時間，動詞要用過去式。watch 的過去式是 watched，其他選項都是現在式或進行式，不適合用在過去的句子中。"
+  },
+  {
+    "id": "G-G2-002",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "My brother _______ his leg while playing basketball yesterday.",
+    "options": [
+      "hurts",
+      "hurt",
+      "hurting",
+      "hurted"
+    ],
+    "answer": "hurt",
+    "explanation": "句子中有 yesterday（昨天），表示過去時間。hurt 是不規則動詞，過去式仍然是 hurt，不需要加 -ed。hurted 是錯誤的拼法。"
+  },
+  {
+    "id": "G-G2-003",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "They _______ to Taipei last summer vacation.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "going"
+    ],
+    "answer": "went",
+    "explanation": "句子中有 last summer vacation（去年暑假），表示過去時間，動詞要用過去式。go 的過去式是不規則變化 went，goes 是第三人稱現在式，going 是進行式，都不正確。"
+  },
+  {
+    "id": "G-G2-004",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "I _______ my homework after dinner last night.",
+    "options": [
+      "do",
+      "does",
+      "done",
+      "did"
+    ],
+    "answer": "did",
+    "explanation": "句子中有 last night（昨晚），表示過去時間。do 的過去式是不規則變化 did。does 是第三人稱現在式，done 是過去分詞需要搭配 have/has，do 是原形動詞，都不適用於這個過去句子。"
+  },
+  {
+    "id": "G-G2-005",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "The children _______ happily in the park two hours ago.",
+    "options": [
+      "played",
+      "play",
+      "plays",
+      "playing"
+    ],
+    "answer": "played",
+    "explanation": "句子中有 two hours ago（兩小時前），表示過去時間，動詞要用過去式。play 的過去式是規則變化 played，直接加 -ed。其他選項 play（原形）、plays（第三人稱現在式）、playing（進行式）都不適用。"
+  },
+  {
+    "id": "G-G2-006",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "Dad _______ a new car for our family last month.",
+    "options": [
+      "buy",
+      "bought",
+      "buys",
+      "buyed"
+    ],
+    "answer": "bought",
+    "explanation": "句子中有 last month（上個月），表示過去時間。buy 是不規則動詞，過去式是 bought。buyed 是錯誤的拼法，規則動詞才加 -ed。其他選項 buy（原形）和 buys（第三人稱現在式）不適用於過去時間。"
+  },
+  {
+    "id": "G-G2-007",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "We _______ a great time at the party last Friday.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "answer": "had",
+    "explanation": "句子中有 last Friday（上週五），表示過去時間。have 的過去式是不規則變化 had。has 是第三人稱現在式，having 是進行式，have 是原形，都不適用於這個過去時間的句子。"
+  },
+  {
+    "id": "G-G2-008",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "The teacher _______ us a very interesting story this morning.",
+    "options": [
+      "tell",
+      "tells",
+      "telling",
+      "told"
+    ],
+    "answer": "told",
+    "explanation": "句子中有 this morning（今天早上），表示已經過去的時間，動詞要用過去式。tell 是不規則動詞，過去式是 told。其他選項 tell（原形）、tells（第三人稱現在式）、telling（進行式）都不正確。"
+  },
+  {
+    "id": "G-G2-009",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "過去式"
+    ],
+    "source": "static",
+    "question": "He _______ his keys at home and couldn't get into the house.",
+    "options": [
+      "forgot",
+      "forget",
+      "forgets",
+      "forgotten"
+    ],
+    "answer": "forgot",
+    "explanation": "句子中 couldn't 是過去式，and 連接的動詞也必須是過去式，所以要用 forgot。forget 的過去式是不規則變化 forgot。forgotten 是過去分詞，需要搭配 have/has/had 使用。"
+  },
+  {
+    "id": "G-G2-010",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "They _______ visit the museum next Monday.",
+    "options": [
+      "going to",
+      "will",
+      "went",
+      "go"
+    ],
+    "answer": "will",
+    "explanation": "句子中有 next Monday（下週一），表示未來時間，要用未來式。will + 原形動詞表示未來，所以選 will。going to 前面缺少 be 動詞（are going to），went 是過去式，go 是原形無法單獨表示未來。"
+  },
+  {
+    "id": "G-G2-011",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "I _______ going to study harder for the next exam.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answer": "am",
+    "explanation": "be going to 表示未來計劃。主詞是 I，be 動詞要用 am。is 搭配 he/she/it，are 搭配 you/we/they，be 是原形不能直接使用。所以正確答案是 am。"
+  },
+  {
+    "id": "G-G2-012",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "She _______ be fourteen years old next month.",
+    "options": [
+      "is",
+      "was",
+      "does",
+      "will"
+    ],
+    "answer": "will",
+    "explanation": "句子中有 next month（下個月），表示未來時間。will + 原形動詞表示未來。is 是現在式，was 是過去式，does 是助動詞，都不適合用來表示未來。所以正確答案是 will。"
+  },
+  {
+    "id": "G-G2-013",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "There _______ a big concert at our school tomorrow.",
+    "options": [
+      "will be",
+      "will is",
+      "is will",
+      "be will"
+    ],
+    "answer": "will be",
+    "explanation": "句子中有 tomorrow（明天），表示未來時間。There will be 是「將會有」的未來式句型。will 後面必須接原形動詞，所以 will be 是正確的。其他選項的語序都不正確。"
+  },
+  {
+    "id": "G-G2-014",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "We _______ going to have a picnic if it is sunny this Sunday.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "be going to 表示未來計劃。主詞是 We，be 動詞要用 are。is 搭配第三人稱單數，am 搭配 I，be 是原形不能直接使用。所以正確答案是 are。"
+  },
+  {
+    "id": "G-G2-015",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "I think it _______ rain later, so please take an umbrella.",
+    "options": [
+      "is",
+      "was",
+      "will",
+      "does"
+    ],
+    "answer": "will",
+    "explanation": "句子中有 later（稍後），加上 I think 表達推測，用 will + 原形動詞表示未來可能性。is 和 was 是 be 動詞不能接原形 rain，does 是現在式助動詞。所以正確答案是 will。"
+  },
+  {
+    "id": "G-G2-016",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "My parents _______ fly to Japan next week.",
+    "options": [
+      "is going to",
+      "going to",
+      "went to",
+      "are going to"
+    ],
+    "answer": "are going to",
+    "explanation": "句子中有 next week（下週），表示未來計劃。主詞 My parents 是複數，用 are going to + 原形動詞。is going to 搭配單數主詞，going to 少了 be 動詞，went to 是過去式。所以正確答案是 are going to。"
+  },
+  {
+    "id": "G-G2-017",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "_______ you be free tomorrow evening?",
+    "options": [
+      "Will",
+      "Are",
+      "Do",
+      "Did"
+    ],
+    "answer": "Will",
+    "explanation": "句子中有 tomorrow evening（明天晚上），這是未來時間的疑問句。Will + 主詞 + 原形動詞 是未來式的疑問句型。Are、Do、Did 都無法搭配 be 形成未來式疑問句。所以正確答案是 Will。"
+  },
+  {
+    "id": "G-G2-018",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "未來式"
+    ],
+    "source": "static",
+    "question": "Don't worry. I _______ be late for the meeting.",
+    "options": [
+      "don't",
+      "won't",
+      "didn't",
+      "am not"
+    ],
+    "answer": "won't",
+    "explanation": "這是一個表達未來承諾的句子。won't = will not，表示「不會」，後面接原形動詞 be。don't 和 didn't 分別是現在和過去的否定，am not 後面不能接原形 be。所以正確答案是 won't。"
+  },
+  {
+    "id": "G-G2-019",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "This book is _______ than that one.",
+    "options": [
+      "most interesting",
+      "interesting",
+      "more interesting",
+      "interestingly"
+    ],
+    "answer": "more interesting",
+    "explanation": "句子中有 than（比），表示需要用到比較級。interesting 是多音節形容詞（三個音節以上），比較級要在前面加 more，而不是加 -er。most interesting 是最高級，interesting 是原級，interestingly 是副詞。所以正確答案是 more interesting。"
+  },
+  {
+    "id": "G-G2-020",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "My sister is three years _______ than I am.",
+    "options": [
+      "old",
+      "oldest",
+      "more old",
+      "older"
+    ],
+    "answer": "older",
+    "explanation": "句子中有 than（比），需要用比較級。old 是單音節形容詞，比較級直接在後面加 -er 變成 older。oldest 是最高級，old 是原級，more old 是錯誤用法（單音節不加 more）。所以正確答案是 older。"
+  },
+  {
+    "id": "G-G2-021",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "Jason runs _______ than any other student in his class.",
+    "options": [
+      "faster",
+      "fast",
+      "fastest",
+      "more fast"
+    ],
+    "answer": "faster",
+    "explanation": "句子中有 than（比），需要用比較級。fast 是單音節副詞，比較級在後面加 -er 變成 faster。fastest 是最高級，fast 是原級，more fast 是錯誤用法。所以正確答案是 faster。"
+  },
+  {
+    "id": "G-G2-022",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "The weather today is _______ than it was yesterday.",
+    "options": [
+      "hot",
+      "hotter",
+      "hottest",
+      "more hot"
+    ],
+    "answer": "hotter",
+    "explanation": "句子中有 than（比），需要用比較級。hot 是單音節、短母音加子音結尾的形容詞，比較級要重複字尾子音再加 -er，變成 hotter。hot 是原級，hottest 是最高級，more hot 錯誤。所以正確答案是 hotter。"
+  },
+  {
+    "id": "G-G2-023",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "Playing outside is _______ than watching TV all day.",
+    "options": [
+      "healthy",
+      "healthiest",
+      "healthier",
+      "more healthy"
+    ],
+    "answer": "healthier",
+    "explanation": "句子中有 than（比），需要用比較級。healthy 是雙音節形容詞，以子音加 y 結尾，比較級要將 y 改為 i 再加 -er，變成 healthier。healthy 是原級，healthiest 是最高級。雖然 more healthy 也算可以，但 healthier 是更常見的用法。"
+  },
+  {
+    "id": "G-G2-024",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "This math problem is much _______ than the last one.",
+    "options": [
+      "hard",
+      "hardest",
+      "more harder",
+      "harder"
+    ],
+    "answer": "harder",
+    "explanation": "句子中有 than（比），需要用比較級。hard 是單音節形容詞，比較級加 -er 變成 harder。hard 是原級，hardest 是最高級，more harder 是雙重比較級，屬於文法錯誤。所以正確答案是 harder。"
+  },
+  {
+    "id": "G-G2-025",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "She sings _______ than anyone else in the music club.",
+    "options": [
+      "more beautifully",
+      "more beautiful",
+      "beautifully",
+      "most beautifully"
+    ],
+    "answer": "more beautifully",
+    "explanation": "句子中有 than（比），需要用比較級。修飾動詞 sings（唱歌）要用副詞，beautiful 的副詞是 beautifully。多音節副詞的比較級要在前面加 more，變成 more beautifully。more beautiful 是形容詞不能修飾動詞，beautifully 是原級，most beautifully 是最高級。"
+  },
+  {
+    "id": "G-G2-026",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "Of the two bags, the red one is the _______.",
+    "options": [
+      "cheapest",
+      "cheaper",
+      "cheap",
+      "more cheap"
+    ],
+    "answer": "cheaper",
+    "explanation": "句子中 Of the two bags（兩個包包之中），比較兩者要用比較級。cheap 是單音節形容詞，比較級加 -er 變成 cheaper。cheapest 是最高級用於三者以上，cheap 是原級，more cheap 錯誤。所以正確答案是 cheaper。"
+  },
+  {
+    "id": "G-G2-027",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "比較級"
+    ],
+    "source": "static",
+    "question": "The air in the mountains is _______ than in the city.",
+    "options": [
+      "clean",
+      "cleanest",
+      "cleaner",
+      "more cleaner"
+    ],
+    "answer": "cleaner",
+    "explanation": "句子中有 than（比），需要用比較級。clean 是單音節形容詞，比較級加 -er 變成 cleaner。clean 是原級，cleanest 是最高級，more cleaner 是雙重比較級，文法錯誤。所以正確答案是 cleaner。"
+  },
+  {
+    "id": "G-G2-028",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "You _______ finish your homework before playing video games.",
+    "options": [
+      "can",
+      "will",
+      "do",
+      "must"
+    ],
+    "answer": "must",
+    "explanation": "句子表達「必須先寫完作業才能玩遊戲」，這是一個義務或必要性。must 表示「必須」，語氣最強烈。can 表示能力或允許，will 表示未來，do 是助動詞用於疑問句或否定句，都不適合表達義務。所以正確答案是 must。"
+  },
+  {
+    "id": "G-G2-029",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "_______ you play the piano when you were young?",
+    "options": [
+      "Could",
+      "Can",
+      "Will",
+      "Must"
+    ],
+    "answer": "Could",
+    "explanation": "句子中有 when you were young（當你小的時候），是過去時間。問過去的能力要用 could（can 的過去式）。Can 用於現在能力，Will 表示未來，Must 表示義務，都不適合。所以正確答案是 Could。"
+  },
+  {
+    "id": "G-G2-030",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "You _______ eat too much candy. It's bad for your teeth.",
+    "options": [
+      "couldn't",
+      "shouldn't",
+      "mustn't",
+      "wouldn't"
+    ],
+    "answer": "shouldn't",
+    "explanation": "句子表達「不應該吃太多糖果」，這是一個建議或勸告。shouldn't = should not 表示「不應該」。couldn't 表示不能（能力），mustn't 表示禁止（語氣太強），wouldn't 表示不願意。所以正確答案是 shouldn't。"
+  },
+  {
+    "id": "G-G2-031",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "_______ I borrow your pen? I forgot to bring mine.",
+    "options": [
+      "Must",
+      "Will",
+      "May",
+      "Do"
+    ],
+    "answer": "May",
+    "explanation": "句子請求借用對方的筆，需要使用禮貌的請求語氣。May I... 表示「我可以...嗎？」，是最正式、最禮貌的請求說法。Must 表示義務，Will 表示意願，Do 用於一般疑問句。所以正確答案是 May。"
+  },
+  {
+    "id": "G-G2-032",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "She _______ speak three languages: Chinese, English, and Japanese.",
+    "options": [
+      "must",
+      "should",
+      "will",
+      "can"
+    ],
+    "answer": "can",
+    "explanation": "句子表達「她會說三種語言」，描述的是能力。can 表示「能夠、會」，用於表達能力。must 表示義務，should 表示建議，will 表示未來或意願，都不適合表達能力。所以正確答案是 can。"
+  },
+  {
+    "id": "G-G2-033",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "It's getting late. We _______ go home now.",
+    "options": [
+      "should",
+      "can",
+      "must",
+      "do"
+    ],
+    "answer": "should",
+    "explanation": "句子表達「天晚了，我們該回家了」，這是一個建議。should 表示「應該」，用於給予建議。can 表示能力，must 語氣太強（必須），do 是普通動詞不作助動詞使用。所以正確答案是 should。"
+  },
+  {
+    "id": "G-G2-034",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "You _______ park your car here. It's a no-parking zone.",
+    "options": [
+      "should not",
+      "must not",
+      "cannot",
+      "will not"
+    ],
+    "answer": "must not",
+    "explanation": "句子提到 no-parking zone（禁止停車區），表示「禁止、不准」。must not（mustn't）表示強烈的禁止。should not 是建議性的不應該，cannot 表示做不到，will not 表示不會。所以正確答案是 must not。"
+  },
+  {
+    "id": "G-G2-035",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "_______ you like something to drink after the long walk?",
+    "options": [
+      "Should",
+      "Must",
+      "Would",
+      "Can"
+    ],
+    "answer": "Would",
+    "explanation": "Would you like... 是禮貌的提問句型，表示「你想要...嗎？」，常用於提供食物或飲料。Should you like 不是正確用法，Must you like 語意不通，Can you like 也不是正確搭配。所以正確答案是 Would。"
+  },
+  {
+    "id": "G-G2-036",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "助動詞"
+    ],
+    "source": "static",
+    "question": "I _______ help you carry those heavy bags.",
+    "options": [
+      "must",
+      "should",
+      "do",
+      "will"
+    ],
+    "answer": "will",
+    "explanation": "句子表達「我來幫你提那些重袋子」，這是一個自願提供幫助的句子。will 表示自願、主動幫忙的意願。must 表示義務（必須幫，語氣太強），should 表示建議，can 表示能力。所以正確答案是 will。"
+  },
+  {
+    "id": "G-G2-037",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "I like reading books, _______ I don't have much time to read.",
+    "options": [
+      "but",
+      "and",
+      "so",
+      "or"
+    ],
+    "answer": "but",
+    "explanation": "前句「我喜歡看書」和後句「我沒有很多時間看書」之間有轉折關係，前後意思相反。but 表示「但是」，用於連接兩個對比或轉折的句子。and（和）、so（所以）、or（或者）都無法表達轉折語氣。所以正確答案是 but。"
+  },
+  {
+    "id": "G-G2-038",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "She was very tired, _______ she went to bed early.",
+    "options": [
+      "but",
+      "so",
+      "or",
+      "and"
+    ],
+    "answer": "so",
+    "explanation": "前句「她很累」是因，後句「她早早上床」是果，兩者之間有因果關係。so 表示「所以」，連接原因和結果。but 表示轉折，or 表示選擇，and 表示並列，都不適合表達因果關係。所以正確答案是 so。"
+  },
+  {
+    "id": "G-G2-039",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "Would you like tea _______ coffee for breakfast?",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
+    "answer": "or",
+    "explanation": "這是一個提供選擇的問句，問對方要茶還是咖啡。or 表示「或者」，用於兩者之間的選擇。and 表示兩者都，but 表示轉折，so 表示因果，都沒有選擇的意思。所以正確答案是 or。"
+  },
+  {
+    "id": "G-G2-040",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "I washed my face _______ brushed my teeth before going to bed.",
+    "options": [
+      "but",
+      "or",
+      "so",
+      "and"
+    ],
+    "answer": "and",
+    "explanation": "洗臉和刷牙是兩個連續發生的動作，關係是並列、前後連接。and 表示「和、然後」，用於連接兩個相關或連續的事件。but 表示轉折，or 表示選擇，so 表示因果，都不適合。所以正確答案是 and。"
+  },
+  {
+    "id": "G-G2-041",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "He didn't study for the test, _______ he still passed it.",
+    "options": [
+      "but",
+      "so",
+      "and",
+      "or"
+    ],
+    "answer": "but",
+    "explanation": "前句「他沒有準備考試」和後句「他還是通過了」之間有轉折關係，結果出乎意料。but 表示「但是」，用來表達出乎意料的轉折。so 表示因果（邏輯相反），and 表示並列，or 表示選擇。所以正確答案是 but。"
+  },
+  {
+    "id": "G-G2-042",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "Hurry up, _______ you will miss the school bus.",
+    "options": [
+      "so",
+      "or",
+      "but",
+      "and"
+    ],
+    "answer": "or",
+    "explanation": "這個句子是「快點，否則你會錯過校車」，前句是命令，後句是警告後果。or 在這裡表示「否則、要不然」。句型為：祈使句 + or + 陳述句。so（所以）、but（但是）、and（和）都沒有「否則」的意思。所以正確答案是 or。"
+  },
+  {
+    "id": "G-G2-043",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "I was hungry, _______ I ate two bowls of rice for dinner.",
+    "options": [
+      "but",
+      "or",
+      "so",
+      "and"
+    ],
+    "answer": "so",
+    "explanation": "前句「我很餓」是因，後句「我吃了兩碗飯」是果，兩者之間有因果關係。so 表示「所以」，連接原因和結果。but 表示轉折，or 表示選擇，and 僅表示並列沒有因果關係。所以正確答案是 so。"
+  },
+  {
+    "id": "G-G2-044",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "My father likes coffee, _______ my mother prefers tea.",
+    "options": [
+      "and",
+      "so",
+      "or",
+      "but"
+    ],
+    "answer": "but",
+    "explanation": "前句「爸爸喜歡咖啡」和後句「媽媽喜歡茶」之間有對比關係，一個喜歡咖啡、另一個喜歡茶。but 表示「但是、而」，用於對比兩個不同的事物。and 表示並列（意思上也可以，但不是最佳對比用法），so 表示因果，or 表示選擇。所以最佳答案是 but。"
+  },
+  {
+    "id": "G-G2-045",
+    "grade": "G2",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "連接詞"
+    ],
+    "source": "static",
+    "question": "You can stay at home _______ you can come with us to the park.",
+    "options": [
+      "or",
+      "and",
+      "but",
+      "so"
+    ],
+    "answer": "or",
+    "explanation": "句子提供兩個選擇：「待在家」或「跟我們去公園」，兩者二擇一。or 表示「或者」，用於提供兩個選項給對方選擇。and 表示兩者都做，but 表示轉折，so 表示因果，都不適用於表達選擇。所以正確答案是 or。"
+  }
+]

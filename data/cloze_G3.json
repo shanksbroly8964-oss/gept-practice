@@ -1,0 +1,417 @@
+[
+  {
+    "id": "C-G3-001",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "passive voice",
+      "present tense"
+    ],
+    "source": "static",
+    "passage": "Plastic pollution has become one of the biggest environmental problems in the world. Every year, millions of tons of plastic waste ___1___ into the oceans. Scientists have found that sea animals often mistake plastic for food, ___2___ can cause them to become sick or even die. Many countries have started to ban single-use plastics, and people ___3___ encouraged to use reusable bags and bottles instead.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "throw",
+      "are thrown",
+      "threw",
+      "is throwing"
+    ],
+    "answer": "are thrown",
+    "explanation": "此處為被動語態，塑膠垃圾是「被丟入」海洋，主詞 waste 為不可數名詞（視為單數），但搭配 millions of tons 為複數概念，用 are thrown。(B) are thrown 正確；(A) throw 為主動語態，無be動詞，塑膠垃圾不會自己丟自己；(C) threw 為過去式主動，時態與語態皆錯誤；(D) is throwing 為現在進行式主動，語態錯誤。"
+  },
+  {
+    "id": "C-G3-002",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun",
+      "non-restrictive clause"
+    ],
+    "source": "static",
+    "passage": "Plastic pollution has become one of the biggest environmental problems in the world. Every year, millions of tons of plastic waste ___1___ into the oceans. Scientists have found that sea animals often mistake plastic for food, ___2___ can cause them to become sick or even die. Many countries have started to ban single-use plastics, and people ___3___ encouraged to use reusable bags and bottles instead.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "which",
+      "who",
+      "what",
+      "where"
+    ],
+    "answer": "which",
+    "explanation": "關係代名詞 which 代替前面整件事（sea animals mistake plastic for food），前有逗號引導非限定補充子句。(A) which 正確，可代替前面的整個子句；(B) who 只用於代替人，此處代替事件故不適用；(C) what 不能做為關係代名詞，what 等於 the thing that；(D) where 代替地方，此處代替事件故不適用。"
+  },
+  {
+    "id": "C-G3-003",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "passive voice",
+      "subject-verb agreement"
+    ],
+    "source": "static",
+    "passage": "Plastic pollution has become one of the biggest environmental problems in the world. Every year, millions of tons of plastic waste ___1___ into the oceans. Scientists have found that sea animals often mistake plastic for food, ___2___ can cause them to become sick or even die. Many countries have started to ban single-use plastics, and people ___3___ encouraged to use reusable bags and bottles instead.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "have"
+    ],
+    "answer": "are",
+    "explanation": "people 為複數名詞，被動語態需搭配複數 be 動詞 are，表示「人們被鼓勵」。(C) are 正確；(A) is 為單數 be 動詞，people 為複數故不適用；(B) was 為單數過去式，人稱與時態皆錯誤；(D) have 為主動語態動詞，此處需被動語態 be encouraged。"
+  },
+  {
+    "id": "C-G3-004",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun"
+    ],
+    "source": "static",
+    "passage": "At the age of just 15, Jessica Chen invented a device ___1___ can clean polluted water using sunlight. Her invention, ___2___ she named \"AquaPure,\" won first prize at the International Science and Engineering Fair. Jessica said that she ___3___ always been interested in environmental science since she was a child. Her parents, ___4___ are both teachers, supported her dream from the very beginning.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "who",
+      "that",
+      "what",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "關係代名詞 that 代替先行詞 a device（物品），引導形容詞子句修飾 device。(B) that 正確，可用於人也可用於物；(A) who 只用於人，先行詞為物故不適用；(C) what 不能做為關係代名詞；(D) whom 為受格，此處需主格關係代名詞作子句的主詞。"
+  },
+  {
+    "id": "C-G3-005",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun",
+      "non-restrictive clause"
+    ],
+    "source": "static",
+    "passage": "At the age of just 15, Jessica Chen invented a device ___1___ can clean polluted water using sunlight. Her invention, ___2___ she named \"AquaPure,\" won first prize at the International Science and Engineering Fair. Jessica said that she ___3___ always been interested in environmental science since she was a child. Her parents, ___4___ are both teachers, supported her dream from the very beginning.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "which",
+      "who",
+      "when",
+      "where"
+    ],
+    "answer": "which",
+    "explanation": "非限定關係代名詞 which 代替 Her invention，前後有逗號，補充說明這項發明的名稱。(A) which 正確；(B) who 只用於人，先行詞為發明物故不適用；(C) when 代替時間，此處先行詞為物體不是時間；(D) where 代替地方，此處先行詞為物體不是地方。"
+  },
+  {
+    "id": "C-G3-006",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "past perfect",
+      "tense"
+    ],
+    "source": "static",
+    "passage": "At the age of just 15, Jessica Chen invented a device ___1___ can clean polluted water using sunlight. Her invention, ___2___ she named \"AquaPure,\" won first prize at the International Science and Engineering Fair. Jessica said that she ___3___ always been interested in environmental science since she was a child. Her parents, ___4___ are both teachers, supported her dream from the very beginning.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "has",
+      "have",
+      "had",
+      "having"
+    ],
+    "answer": "had",
+    "explanation": "此處為過去完成式 had + V3，表示在過去某時間點（她說的時候）之前就一直持續的狀態，since 時間搭配過去完成式表示從過去更早之前開始的狀態。(C) had 正確；(A) has 為現在完成式，但主句動詞 said 為過去式，時態需往後退一步成過去完成式；(B) have 為複數形式現在完成式，人稱與時態皆錯誤；(D) having 非助動詞，不能構成完成式。"
+  },
+  {
+    "id": "C-G3-007",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun"
+    ],
+    "source": "static",
+    "passage": "At the age of just 15, Jessica Chen invented a device ___1___ can clean polluted water using sunlight. Her invention, ___2___ she named \"AquaPure,\" won first prize at the International Science and Engineering Fair. Jessica said that she ___3___ always been interested in environmental science since she was a child. Her parents, ___4___ are both teachers, supported her dream from the very beginning.",
+    "question": "第 4 個空格應填入？",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 代替先行詞 parents（人），引導非限定關係子句補充說明父母的職業。(A) who 正確，作子句主詞；(B) which 用於物，先行詞為人故不適用；(C) whom 為受格，此處需主格作 are 的主詞；(D) whose 為所有格，表示「誰的」，此處不需所有格。"
+  },
+  {
+    "id": "C-G3-008",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "present perfect",
+      "subject-verb agreement"
+    ],
+    "source": "static",
+    "passage": "According to a recent survey, the reading habits of teenagers ___1___ changed a lot in the past five years. The chart shows that 65% of students now read e-books, ___2___ only 35% prefer traditional paper books. The survey also found that students who read for at least 30 minutes a day ___3___ to get higher scores on their exams.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "has",
+      "have",
+      "had",
+      "was"
+    ],
+    "answer": "have",
+    "explanation": "主詞為複數 habits，現在完成式需用 have + V3，搭配時間 in the past five years。(B) have 正確；(A) has 為單數形式，主詞 habits 為複數故不適用；(C) had 為過去完成式，此處為與現在相關的現在完成式；(D) was 為 be 動詞過去式，無法構成完成式。"
+  },
+  {
+    "id": "C-G3-009",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "conjunction",
+      "contrast"
+    ],
+    "source": "static",
+    "passage": "According to a recent survey, the reading habits of teenagers ___1___ changed a lot in the past five years. The chart shows that 65% of students now read e-books, ___2___ only 35% prefer traditional paper books. The survey also found that students who read for at least 30 minutes a day ___3___ to get higher scores on their exams.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "but",
+      "because",
+      "while",
+      "although"
+    ],
+    "answer": "while",
+    "explanation": "while 在此表示對比（而／然而），用來對照兩組數據（65% vs 35%）的差異。(C) while 正確，可引導對比子句；(A) but 雖也可表對比，但語氣較強且常需前後有較大反差，此處 while 用於數據並列的對照更自然；(B) because 表示原因，此處為對比而非因果；(D) although 表示讓步「雖然」，此處不是讓步關係。"
+  },
+  {
+    "id": "C-G3-010",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "subject-verb agreement"
+    ],
+    "source": "static",
+    "passage": "According to a recent survey, the reading habits of teenagers ___1___ changed a lot in the past five years. The chart shows that 65% of students now read e-books, ___2___ only 35% prefer traditional paper books. The survey also found that students who read for at least 30 minutes a day ___3___ to get higher scores on their exams.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "tends",
+      "tend",
+      "tended",
+      "tending"
+    ],
+    "answer": "tend",
+    "explanation": "主詞 students 為複數，動詞用原形 tend，表示「傾向於」。(B) tend 正確；(A) tends 為第三人稱單數形，主詞為複數故不適用；(C) tended 為過去式，此處為一般事實用現在式；(D) tending 為進行式，不適用於一般事實的描述。"
+  },
+  {
+    "id": "C-G3-011",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "passive voice",
+      "future tense"
+    ],
+    "source": "static",
+    "passage": "The school will hold its annual Science Fair on June 15th in the main hall. All projects ___1___ by a team of three teachers before the final exhibition. Students ___2___ wish to take part must sign up before May 20th. The best three projects will ___3___ awards and certificates. For more information, please visit the school website or contact Ms. Wang, ___4___ is in charge of this event.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "check",
+      "will check",
+      "will be checked",
+      "are checking"
+    ],
+    "answer": "will be checked",
+    "explanation": "此處為未來被動語態，所有作品「將被檢查」，故用 will be + V3。(C) will be checked 正確；(A) check 為原形主動，語態錯誤；(B) will check 為未來主動式，作品不會自己檢查自己；(D) are checking 為現在進行式主動，時態與語態皆錯誤。"
+  },
+  {
+    "id": "C-G3-012",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun"
+    ],
+    "source": "static",
+    "passage": "The school will hold its annual Science Fair on June 15th in the main hall. All projects ___1___ by a team of three teachers before the final exhibition. Students ___2___ wish to take part must sign up before May 20th. The best three projects will ___3___ awards and certificates. For more information, please visit the school website or contact Ms. Wang, ___4___ is in charge of this event.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "who",
+      "which",
+      "what",
+      "those"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 代替先行詞 students（人），修飾「想要參加的學生」。(A) who 正確；(B) which 用於物，先行詞為人故不適用；(C) what 不能做為關係代名詞；(D) those 為指示代名詞，語法上 those wish 不成立，須用 who 引導子句。"
+  },
+  {
+    "id": "C-G3-013",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "verb",
+      "future tense"
+    ],
+    "source": "static",
+    "passage": "The school will hold its annual Science Fair on June 15th in the main hall. All projects ___1___ by a team of three teachers before the final exhibition. Students ___2___ wish to take part must sign up before May 20th. The best three projects will ___3___ awards and certificates. For more information, please visit the school website or contact Ms. Wang, ___4___ is in charge of this event.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "receive",
+      "receives",
+      "received",
+      "receiving"
+    ],
+    "answer": "receive",
+    "explanation": "will 後接原形動詞，will receive 表示「將會獲得」。(A) receive 正確；(B) receives 為第三人稱單數形，will 後須用原形；(C) received 為過去式，will 後不可接過去式；(D) receiving 為進行式，will 後不可單獨用 V-ing。"
+  },
+  {
+    "id": "C-G3-014",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun",
+      "non-restrictive clause"
+    ],
+    "source": "static",
+    "passage": "The school will hold its annual Science Fair on June 15th in the main hall. All projects ___1___ by a team of three teachers before the final exhibition. Students ___2___ wish to take part must sign up before May 20th. The best three projects will ___3___ awards and certificates. For more information, please visit the school website or contact Ms. Wang, ___4___ is in charge of this event.",
+    "question": "第 4 個空格應填入？",
+    "options": [
+      "who",
+      "which",
+      "she",
+      "whom"
+    ],
+    "answer": "who",
+    "explanation": "非限定關係代名詞 who 代替 Ms. Wang（人），前有逗號，補充說明她的職責。(A) who 正確，作子句主詞；(B) which 用於物，先行詞為人故不適用；(C) she 不能做為關係代名詞，會造成兩個獨立子句缺連接詞的 run-on 錯誤；(D) whom 為受格，此處需主格作 is 的主詞。"
+  },
+  {
+    "id": "C-G3-015",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "passive voice",
+      "present tense"
+    ],
+    "source": "static",
+    "passage": "Every year during the Lantern Festival, thousands of sky lanterns ___1___ into the night sky in Pingxi, Taiwan. This tradition, ___2___ started more than a hundred years ago, was originally used to send signals and pray for peace. Today, tourists from all over the world come to write their wishes on the lanterns before they ___3___ released.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "release",
+      "are released",
+      "released",
+      "releasing"
+    ],
+    "answer": "are released",
+    "explanation": "天燈是「被釋放」到天空，主詞 lanterns 為複數，被動語態用 are + V3。(B) are released 正確；(A) release 為原形主動，天燈不會自己釋放自己；(C) released 為過去式（主動或被動形式的過去式），缺少 be 動詞；(D) releasing 為進行式主動，語態錯誤且缺少 be 動詞。"
+  },
+  {
+    "id": "C-G3-016",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun",
+      "non-restrictive clause"
+    ],
+    "source": "static",
+    "passage": "Every year during the Lantern Festival, thousands of sky lanterns ___1___ into the night sky in Pingxi, Taiwan. This tradition, ___2___ started more than a hundred years ago, was originally used to send signals and pray for peace. Today, tourists from all over the world come to write their wishes on the lanterns before they ___3___ released.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "which",
+      "when",
+      "where",
+      "who"
+    ],
+    "answer": "which",
+    "explanation": "關係代名詞 which 代替先行詞 This tradition（事物），以非限定用法補充說明這項傳統的起源時間。(A) which 正確；(B) when 代替時間，但關係子句中已沒有時間相關空格需要填補，when 不適合；(C) where 代替地方，語意不合；(D) who 只用於人，先行詞為傳統故不適用。"
+  },
+  {
+    "id": "C-G3-017",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "passive voice",
+      "subject-verb agreement"
+    ],
+    "source": "static",
+    "passage": "Every year during the Lantern Festival, thousands of sky lanterns ___1___ into the night sky in Pingxi, Taiwan. This tradition, ___2___ started more than a hundred years ago, was originally used to send signals and pray for peace. Today, tourists from all over the world come to write their wishes on the lanterns before they ___3___ released.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "were"
+    ],
+    "answer": "are",
+    "explanation": "they 指複數的 lanterns，被動語態需搭配 are，句型 before they are released 表示「在它們被釋放之前」。(C) are 正確；(A) is 為單數，主詞為複數故不適用；(B) was 為單數過去式，人稱與時態皆錯誤；(D) were 為複數過去式，此處為現在式（come 為現在式，時間一致）。"
+  },
+  {
+    "id": "C-G3-018",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "relative pronoun"
+    ],
+    "source": "static",
+    "passage": "Jane Goodall is a British scientist ___1___ is famous for her study of chimpanzees in Africa. She began her research in 1960 and ___2___ spent more than 60 years working to protect wild animals. Her work has inspired many young people to care about nature, and her books ___3___ translated into more than 30 languages.",
+    "question": "第 1 個空格應填入？",
+    "options": [
+      "who",
+      "which",
+      "what",
+      "she"
+    ],
+    "answer": "who",
+    "explanation": "關係代名詞 who 代替先行詞 scientist（人），引導形容詞子句說明她的成就。(A) who 正確；(B) which 用於物，先行詞為人故不適用；(C) what 不能做為關係代名詞；(D) she 不能做為關係代名詞，會造成兩個獨立子句缺連接詞的 run-on 錯誤。"
+  },
+  {
+    "id": "C-G3-019",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "present perfect",
+      "tense"
+    ],
+    "source": "static",
+    "passage": "Jane Goodall is a British scientist ___1___ is famous for her study of chimpanzees in Africa. She began her research in 1960 and ___2___ spent more than 60 years working to protect wild animals. Her work has inspired many young people to care about nature, and her books ___3___ translated into more than 30 languages.",
+    "question": "第 2 個空格應填入？",
+    "options": [
+      "has",
+      "have",
+      "had",
+      "was"
+    ],
+    "answer": "has",
+    "explanation": "此處為現在完成式，主詞 she 為第三人稱單數，用 has + V3 表示從過去到現在已累積超過 60 年的努力。(A) has 正確；(B) have 為複數形式，主詞 she 為單數故不適用；(C) had 為過去完成式，此處她的工作至今仍持續，故用現在完成式；(D) was 為 be 動詞，無法構成完成式。"
+  },
+  {
+    "id": "C-G3-020",
+    "grade": "G3",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "present perfect",
+      "passive voice"
+    ],
+    "source": "static",
+    "passage": "Jane Goodall is a British scientist ___1___ is famous for her study of chimpanzees in Africa. She began her research in 1960 and ___2___ spent more than 60 years working to protect wild animals. Her work has inspired many young people to care about nature, and her books ___3___ translated into more than 30 languages.",
+    "question": "第 3 個空格應填入？",
+    "options": [
+      "have been",
+      "has been",
+      "were",
+      "are being"
+    ],
+    "answer": "have been",
+    "explanation": "主詞 books 為複數，現在完成式被動語態用 have been + V3，表示「書籍已被翻譯成三十多種語言」。(A) have been 正確；(B) has been 為單數形式，主詞 books 為複數故不適用；(C) were 為過去式被動，無法表達「至今已被翻譯」的完成意涵；(D) are being 為現在進行式被動，表示正在進行中，此處強調已完成的事實。"
+  }
+]

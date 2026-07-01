@@ -1,0 +1,508 @@
+[
+  {
+    "id": "C-G2-001",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "past-tense",
+      "school-event",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Dear Students,\nOur annual Sports Day ___1___ held last Friday, March 15. The weather ___2___ sunny and warm, so all events took place on the school field. Students from each class ___3___ in different events, including the 100-meter race and tug-of-war. The most exciting event ___4___ the relay race between Class 2A and Class 2B. Thank you for making this day so special! We hope you all had a great time.",
+    "question": "(1) 填入正確的 be 動詞過去式",
+    "options": [
+      "was",
+      "is",
+      "are",
+      "were"
+    ],
+    "answer": "was",
+    "explanation": "本句主詞為單數名詞 Sports Day，且時間為 last Friday（上週五），屬於過去式，故應填入單數過去式 be 動詞 was。(A) was 正確；(B) is 為現在式，時態不符；(C) are 為現在式複數，人稱與時態皆錯誤；(D) were 為過去式複數，主詞為單數故不適用。"
+  },
+  {
+    "id": "C-G2-002",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "past-tense",
+      "school-event",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Dear Students,\nOur annual Sports Day ___1___ held last Friday, March 15. The weather ___2___ sunny and warm, so all events took place on the school field. Students from each class ___3___ in different events, including the 100-meter race and tug-of-war. The most exciting event ___4___ the relay race between Class 2A and Class 2B. Thank you for making this day so special! We hope you all had a great time.",
+    "question": "(2) 填入正確的 be 動詞過去式",
+    "options": [
+      "were",
+      "is",
+      "are",
+      "was"
+    ],
+    "answer": "was",
+    "explanation": "本句主詞為不可數名詞 weather，屬於第三人稱單數，且描述過去發生的事情，故應填入單數過去式 be 動詞 was。(D) was 正確；(A) were 為複數過去式，主詞為單數故不適用；(B) is 為現在式，時態不符；(C) are 為現在式複數，人稱與時態皆錯誤。"
+  },
+  {
+    "id": "C-G2-003",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "past-tense",
+      "school-event",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Dear Students,\nOur annual Sports Day ___1___ held last Friday, March 15. The weather ___2___ sunny and warm, so all events took place on the school field. Students from each class ___3___ in different events, including the 100-meter race and tug-of-war. The most exciting event ___4___ the relay race between Class 2A and Class 2B. Thank you for making this day so special! We hope you all had a great time.",
+    "question": "(3) 填入正確的動詞過去式",
+    "options": [
+      "competed",
+      "compete",
+      "competing",
+      "competes"
+    ],
+    "answer": "competed",
+    "explanation": "本段描述運動會當天發生的事情，時間為過去，故動詞需用過去式 competed，表示「參加比賽」。(A) competed 正確；(B) compete 為原形，時態不符；(C) competing 為進行式，此處不用進行式；(D) competes 為第三人稱單數現在式，時態不符。"
+  },
+  {
+    "id": "C-G2-004",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "past-tense",
+      "school-event",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Dear Students,\nOur annual Sports Day ___1___ held last Friday, March 15. The weather ___2___ sunny and warm, so all events took place on the school field. Students from each class ___3___ in different events, including the 100-meter race and tug-of-war. The most exciting event ___4___ the relay race between Class 2A and Class 2B. Thank you for making this day so special! We hope you all had a great time.",
+    "question": "(4) 填入正確的 be 動詞過去式",
+    "options": [
+      "is",
+      "were",
+      "are",
+      "was"
+    ],
+    "answer": "was",
+    "explanation": "本句主詞為單數名詞 event，且描述過去運動會當天的情形，故應填入單數過去式 be 動詞 was。(D) was 正確；(A) is 為現在式，時態不符；(B) were 為複數過去式，主詞為單數故不適用；(C) are 為現在式複數，人稱與時態皆錯誤。"
+  },
+  {
+    "id": "C-G2-005",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "email",
+      "travel"
+    ],
+    "source": "static",
+    "passage": "Hi Jenny,\nI have great news! My family and I ___1___ go to Kenting next weekend. We ___2___ take the bus on Saturday morning and arrive there before noon. On Sunday, we ___3___ visit the night market and try some delicious snacks. My mom promised we ___4___ also swim at the beach if the weather is nice. I will bring you a souvenir. Can't wait!\nLove, Wendy",
+    "question": "(1) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "was",
+      "going",
+      "went"
+    ],
+    "answer": "will",
+    "explanation": "本句描述下週末將發生的事，為未來式，will + 原形動詞表示「將會」。(A) will 正確；(B) was 為過去式 be 動詞，時態不符；(C) going 單獨使用無法構成未來式（須為 be going to）；(D) went 為過去式，時態不符。"
+  },
+  {
+    "id": "C-G2-006",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "email",
+      "travel"
+    ],
+    "source": "static",
+    "passage": "Hi Jenny,\nI have great news! My family and I ___1___ go to Kenting next weekend. We ___2___ take the bus on Saturday morning and arrive there before noon. On Sunday, we ___3___ visit the night market and try some delicious snacks. My mom promised we ___4___ also swim at the beach if the weather is nice. I will bring you a souvenir. Can't wait!\nLove, Wendy",
+    "question": "(2) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "were",
+      "going",
+      "goes"
+    ],
+    "answer": "will",
+    "explanation": "本句同樣描述未來計劃，需用 will + 原形動詞 take，表示「將會搭乘巴士」。(A) will 正確；(B) were 為過去式複數 be 動詞，時態與人稱不符；(C) going 單獨使用無法構成未來式；(D) goes 為第三人稱單數現在式，人稱與時態不符。"
+  },
+  {
+    "id": "C-G2-007",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "email",
+      "travel"
+    ],
+    "source": "static",
+    "passage": "Hi Jenny,\nI have great news! My family and I ___1___ go to Kenting next weekend. We ___2___ take the bus on Saturday morning and arrive there before noon. On Sunday, we ___3___ visit the night market and try some delicious snacks. My mom promised we ___4___ also swim at the beach if the weather is nice. I will bring you a souvenir. Can't wait!\nLove, Wendy",
+    "question": "(3) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "were",
+      "went",
+      "going"
+    ],
+    "answer": "will",
+    "explanation": "本句描述週日預定要做的事，will + 原形動詞 visit 表示「將去參觀」。(A) will 正確；(B) were 為過去式複數 be 動詞，時態與人稱不符；(C) went 為過去式，時態不符；(D) going 單獨使用無法構成未來式。"
+  },
+  {
+    "id": "C-G2-008",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "email",
+      "travel"
+    ],
+    "source": "static",
+    "passage": "Hi Jenny,\nI have great news! My family and I ___1___ go to Kenting next weekend. We ___2___ take the bus on Saturday morning and arrive there before noon. On Sunday, we ___3___ visit the night market and try some delicious snacks. My mom promised we ___4___ also swim at the beach if the weather is nice. I will bring you a souvenir. Can't wait!\nLove, Wendy",
+    "question": "(4) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "must",
+      "could",
+      "would"
+    ],
+    "answer": "will",
+    "explanation": "媽媽承諾的事情為未來會發生，will also swim 表示「也會去游泳」。(A) will 正確；(B) must 表示「必須」，語意不合；(C) could 表示「可以」，語氣過弱，不適合表示承諾；(D) would 為過去式或假設語氣，此處為未來事實故不適用。"
+  },
+  {
+    "id": "C-G2-009",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "comparative",
+      "dialogue",
+      "school"
+    ],
+    "source": "static",
+    "passage": "Ann: Hey Ben, which subject do you like ___1___, math or English?\nBen: I think English is ___2___ interesting than math. The stories in our textbook are really fun and easy to understand.\nAnn: I agree with you. But I still believe math is ___3___ useful for solving everyday problems, like shopping and cooking.\nBen: True. Both subjects are important in different ways. We should study both hard.",
+    "question": "(1) 填入正確的比較級修飾詞",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": "more",
+    "explanation": "like more 為比較兩者時的常用說法，詢問「你比較喜歡哪一個科目？」。(A) more 正確，為 much 的比較級，用於修飾動詞 like；(B) most 為最高級，此處為二選一比較而非最高級；(C) much 為原級，此處需比較級；(D) many 修飾可數名詞，此處修飾動詞不適用。"
+  },
+  {
+    "id": "C-G2-010",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "comparative",
+      "dialogue",
+      "school"
+    ],
+    "source": "static",
+    "passage": "Ann: Hey Ben, which subject do you like ___1___, math or English?\nBen: I think English is ___2___ interesting than math. The stories in our textbook are really fun and easy to understand.\nAnn: I agree with you. But I still believe math is ___3___ useful for solving everyday problems, like shopping and cooking.\nBen: True. Both subjects are important in different ways. We should study both hard.",
+    "question": "(2) 填入正確的比較級修飾詞",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": "more",
+    "explanation": "more interesting than 為多音節形容詞的比較級結構，more + 多音節形容詞 + than。(A) more 正確；(B) most 為最高級，後有 than 則必須用比較級；(C) much 可修飾比較級，但不能單獨構成比較結構；(D) many 修飾可數名詞，不修飾形容詞。"
+  },
+  {
+    "id": "C-G2-011",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "comparative",
+      "dialogue",
+      "school"
+    ],
+    "source": "static",
+    "passage": "Ann: Hey Ben, which subject do you like ___1___, math or English?\nBen: I think English is ___2___ interesting than math. The stories in our textbook are really fun and easy to understand.\nAnn: I agree with you. But I still believe math is ___3___ useful for solving everyday problems, like shopping and cooking.\nBen: True. Both subjects are important in different ways. We should study both hard.",
+    "question": "(3) 填入正確的比較級修飾詞",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": "more",
+    "explanation": "more useful for 為比較級用法，強調數學比英文在解決日常問題上更有用。(A) more 正確；(B) most 為最高級，此處為隱含比較（math vs English）而非最高級；(C) much 為原級，此處需比較級；(D) many 修飾可數名詞，不修飾形容詞。"
+  },
+  {
+    "id": "C-G2-012",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "letter",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Dear Grandma,\nHow are you? I want to tell you ___1___ my summer vacation. Last month, Dad took us ___2___ Tainan. We ___3___ there for four days and visited many old temples. The weather was hot, but we ___4___ delicious mango ice cream every afternoon. Tainan is a wonderful city with so much history. I hope we can visit again next year.\nLove, Kevin",
+    "question": "(1) 填入正確的介系詞",
+    "options": [
+      "about",
+      "with",
+      "from",
+      "for"
+    ],
+    "answer": "about",
+    "explanation": "tell someone about something 為固定搭配，表示「告訴某人關於某事」。(A) about 正確；(B) with 表示「和……一起」，語意不合；(C) from 表示「來自」，語意不合；(D) for 表示「為了」，tell for 非正確搭配。"
+  },
+  {
+    "id": "C-G2-013",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "letter",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Dear Grandma,\nHow are you? I want to tell you ___1___ my summer vacation. Last month, Dad took us ___2___ Tainan. We ___3___ there for four days and visited many old temples. The weather was hot, but we ___4___ delicious mango ice cream every afternoon. Tainan is a wonderful city with so much history. I hope we can visit again next year.\nLove, Kevin",
+    "question": "(2) 填入正確的介系詞",
+    "options": [
+      "to",
+      "in",
+      "at",
+      "on"
+    ],
+    "answer": "to",
+    "explanation": "take someone to + 地方表示「帶某人去某地」。(A) to 正確；(B) in 表示「在……裡面」，take us in Tainan 語意不合；(C) at 用於具體點位，不適合與城市搭配；(D) on 表示「在……上面」，語意不合。"
+  },
+  {
+    "id": "C-G2-014",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "letter",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Dear Grandma,\nHow are you? I want to tell you ___1___ my summer vacation. Last month, Dad took us ___2___ Tainan. We ___3___ there for four days and visited many old temples. The weather was hot, but we ___4___ delicious mango ice cream every afternoon. Tainan is a wonderful city with so much history. I hope we can visit again next year.\nLove, Kevin",
+    "question": "(3) 填入正確的動詞過去式",
+    "options": [
+      "stayed",
+      "stay",
+      "staying",
+      "stays"
+    ],
+    "answer": "stayed",
+    "explanation": "本句描述上個月的事，時間為過去，動詞需用過去式 stayed，表示「停留、待在那裡」。(A) stayed 正確；(B) stay 為原形，時態不符；(C) staying 為進行式，此處不用進行式；(D) stays 為第三人稱單數現在式，人稱與時態不符。"
+  },
+  {
+    "id": "C-G2-015",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "letter",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Dear Grandma,\nHow are you? I want to tell you ___1___ my summer vacation. Last month, Dad took us ___2___ Tainan. We ___3___ there for four days and visited many old temples. The weather was hot, but we ___4___ delicious mango ice cream every afternoon. Tainan is a wonderful city with so much history. I hope we can visit again next year.\nLove, Kevin",
+    "question": "(4) 填入正確的動詞過去式",
+    "options": [
+      "ate",
+      "eat",
+      "eating",
+      "eats"
+    ],
+    "answer": "ate",
+    "explanation": "本句描述過去每天做的事，需用 eat 的不規則過去式 ate，表示「吃芒果冰淇淋」。(A) ate 正確；(B) eat 為原形，時態不符；(C) eating 為進行式，此處不用進行式；(D) eats 為第三人稱單數現在式，人稱與時態不符。"
+  },
+  {
+    "id": "C-G2-016",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "travel",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last winter vacation, I traveled ___1___ Japan with my cousin Jack. It was our first trip abroad without our parents! We arrived ___2___ Osaka on December 20 and stayed ___3___ a cozy inn near the train station. Every morning, we walked ___4___ the streets to find small restaurants and cute shops. The ramen and takoyaki were so amazing that we ate them almost every day. I hope to go back again someday soon.",
+    "question": "(1) 填入正確的介系詞",
+    "options": [
+      "to",
+      "in",
+      "at",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "travel to + 國家/地方為固定搭配，表示「前往某地旅行」。(A) to 正確；(B) in 表示「在……裡面」，travel in Japan 表示已在日本境內旅行，與首句出發前往的語境不符；(C) at 用於具體點位，國家不適用；(D) for 表示目的，travel for Japan 語意不合。"
+  },
+  {
+    "id": "C-G2-017",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "travel",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last winter vacation, I traveled ___1___ Japan with my cousin Jack. It was our first trip abroad without our parents! We arrived ___2___ Osaka on December 20 and stayed ___3___ a cozy inn near the train station. Every morning, we walked ___4___ the streets to find small restaurants and cute shops. The ramen and takoyaki were so amazing that we ate them almost every day. I hope to go back again someday soon.",
+    "question": "(2) 填入正確的介系詞",
+    "options": [
+      "in",
+      "at",
+      "to",
+      "on"
+    ],
+    "answer": "in",
+    "explanation": "arrive in + 大城市/國家為固定搭配（in 用於較大範圍）。(A) in 正確；(B) at 用於較小地點如車站、學校，大阪為城市故不適用；(C) to 不可與 arrive 搭配（不說 arrive to）；(D) on 用於表面或特定日期，語意不合。"
+  },
+  {
+    "id": "C-G2-018",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "travel",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last winter vacation, I traveled ___1___ Japan with my cousin Jack. It was our first trip abroad without our parents! We arrived ___2___ Osaka on December 20 and stayed ___3___ a cozy inn near the train station. Every morning, we walked ___4___ the streets to find small restaurants and cute shops. The ramen and takoyaki were so amazing that we ate them almost every day. I hope to go back again someday soon.",
+    "question": "(3) 填入正確的介系詞",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "stay at + 具體地點（旅館、車站等）為固定搭配，表示「住在某處」。(A) at 正確；(B) in 用於較大範圍如城市、國家，inn 為具體建築物故用 at；(C) on 表示「在……上面」，語意不合；(D) to 不可與 stay 搭配表示地點。"
+  },
+  {
+    "id": "C-G2-019",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "preposition",
+      "travel",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last winter vacation, I traveled ___1___ Japan with my cousin Jack. It was our first trip abroad without our parents! We arrived ___2___ Osaka on December 20 and stayed ___3___ a cozy inn near the train station. Every morning, we walked ___4___ the streets to find small restaurants and cute shops. The ramen and takoyaki were so amazing that we ate them almost every day. I hope to go back again someday soon.",
+    "question": "(4) 填入正確的介系詞",
+    "options": [
+      "through",
+      "on",
+      "at",
+      "in"
+    ],
+    "answer": "through",
+    "explanation": "walk through the streets 表示「穿梭在街道間」，through 強調穿越的動作，最符合文意。(A) through 正確；(B) on the streets 表示「在街上」，但缺乏動態穿梭感；(C) at 用於定點，walk at 不自然；(D) in the streets 表示在街道區域內，但 through 更生動表達漫步穿梭之意。"
+  },
+  {
+    "id": "C-G2-020",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "school-event",
+      "announcement"
+    ],
+    "source": "static",
+    "passage": "The school talent show ___1___ take place on December 25 in the school gym. This year's show will be ___2___ than last year's because more than thirty students are joining the performances. Our music teacher said the stage ___3___ look ___4___ beautiful with the new lights and sound equipment that the school just bought. Students who want to perform should sign up before November 30. Don't miss this exciting event!",
+    "question": "(1) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "was",
+      "did",
+      "has"
+    ],
+    "answer": "will",
+    "explanation": "本句預告未來活動（12月25日），需用 will + 原形動詞表示「將要舉行」。(A) will 正確；(B) was 為過去式，時態不符；(C) did 為過去式助動詞，不能用於未來式；(D) has 為現在完成式助動詞，時態不符且後應接過去分詞而非原形。"
+  },
+  {
+    "id": "C-G2-021",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "school-event",
+      "comparative"
+    ],
+    "source": "static",
+    "passage": "The school talent show ___1___ take place on December 25 in the school gym. This year's show will be ___2___ than last year's because more than thirty students are joining the performances. Our music teacher said the stage ___3___ look ___4___ beautiful with the new lights and sound equipment that the school just bought. Students who want to perform should sign up before November 30. Don't miss this exciting event!",
+    "question": "(2) 填入正確的形容詞比較級",
+    "options": [
+      "bigger",
+      "big",
+      "biggest",
+      "very"
+    ],
+    "answer": "bigger",
+    "explanation": "bigger than 為形容詞比較級結構，表示「比去年更大」。(A) bigger 正確，big 為單音節，比較級加 -er；(B) big 為原形，後有 than 則須用比較級；(C) biggest 為最高級，後有 than 時不可用最高級；(D) very 為副詞修飾原級形容詞，不可與 than 搭配構成比較級。"
+  },
+  {
+    "id": "C-G2-022",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "school-event",
+      "announcement"
+    ],
+    "source": "static",
+    "passage": "The school talent show ___1___ take place on December 25 in the school gym. This year's show will be ___2___ than last year's because more than thirty students are joining the performances. Our music teacher said the stage ___3___ look ___4___ beautiful with the new lights and sound equipment that the school just bought. Students who want to perform should sign up before November 30. Don't miss this exciting event!",
+    "question": "(3) 填入正確的未來式助動詞",
+    "options": [
+      "will",
+      "was",
+      "did",
+      "has"
+    ],
+    "answer": "will",
+    "explanation": "音樂老師說的話為對未來的預測，will look 表示「將會看起來……」。(A) will 正確；(B) was 為過去式，時態不符；(C) did 為過去式助動詞，不能用於未來式；(D) has 為現在完成式助動詞，時態不符且後應接過去分詞而非原形。"
+  },
+  {
+    "id": "C-G2-023",
+    "grade": "G2",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "future-tense",
+      "school-event",
+      "comparative"
+    ],
+    "source": "static",
+    "passage": "The school talent show ___1___ take place on December 25 in the school gym. This year's show will be ___2___ than last year's because more than thirty students are joining the performances. Our music teacher said the stage ___3___ look ___4___ beautiful with the new lights and sound equipment that the school just bought. Students who want to perform should sign up before November 30. Don't miss this exciting event!",
+    "question": "(4) 填入正確的比較級修飾詞",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": "more",
+    "explanation": "more beautiful 為多音節形容詞的比較級結構，more + 形容詞表示「更美麗的」。(A) more 正確；(B) most 為最高級，此處為比較級語境（與原本的舞台相比）；(C) much 可修飾比較級，但不能單獨構成比較結構；(D) many 修飾可數名詞，不修飾形容詞。"
+  }
+]

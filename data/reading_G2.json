@@ -1,0 +1,361 @@
+[
+  {
+    "id": "R-G2-001",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "school",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Attention all Grade 8 students! We are going to have a field trip to the City Science Museum next Friday, March 15th. The bus will leave school at 8:30 a.m. and return at 3:00 p.m. Please bring your own lunch and a water bottle. You should wear comfortable shoes because we will walk a lot. The museum has a new robot exhibition, and I am sure you will love it. If you have any questions, please come to the school office before Wednesday.",
+    "question": "What is the main purpose of this notice?",
+    "options": [
+      "To sell tickets for a robot show",
+      "To tell students about a field trip",
+      "To ask students to bring robots to school",
+      "To explain how to make a school lunch"
+    ],
+    "answer": "To tell students about a field trip",
+    "explanation": "公告的主旨是要通知八年級學生關於前往市立科學博物館的校外教學（field trip）。第一句即明確指出「We are going to have a field trip to the City Science Museum next Friday」"
+  },
+  {
+    "id": "R-G2-002",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "school",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Attention all Grade 8 students! We are going to have a field trip to the City Science Museum next Friday, March 15th. The bus will leave school at 8:30 a.m. and return at 3:00 p.m. Please bring your own lunch and a water bottle. You should wear comfortable shoes because we will walk a lot. The museum has a new robot exhibition, and I am sure you will love it. If you have any questions, please come to the school office before Wednesday.",
+    "question": "According to the notice, why should students wear comfortable shoes?",
+    "options": [
+      "Because the museum floor is wet",
+      "Because they will walk a lot",
+      "Because the bus does not allow other shoes",
+      "Because it is a school rule every Friday"
+    ],
+    "answer": "Because they will walk a lot",
+    "explanation": "公告中明確指出「You should wear comfortable shoes because we will walk a lot」，說明需要穿舒適鞋子的原因是當天會走很多路。"
+  },
+  {
+    "id": "R-G2-003",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "school",
+      "notice"
+    ],
+    "source": "static",
+    "passage": "Attention all Grade 8 students! We are going to have a field trip to the City Science Museum next Friday, March 15th. The bus will leave school at 8:30 a.m. and return at 3:00 p.m. Please bring your own lunch and a water bottle. You should wear comfortable shoes because we will walk a lot. The museum has a new robot exhibition, and I am sure you will love it. If you have any questions, please come to the school office before Wednesday.",
+    "question": "What can be inferred from the notice?",
+    "options": [
+      "Students will eat lunch at a restaurant",
+      "The museum is very close to the school",
+      "Students should prepare for the trip before Wednesday",
+      "The robot exhibition will end on Friday"
+    ],
+    "answer": "Students should prepare for the trip before Wednesday",
+    "explanation": "公告最後提到「If you have any questions, please come to the school office before Wednesday」，由此可推測學生應在星期三之前完成準備工作。"
+  },
+  {
+    "id": "R-G2-004",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "email",
+      "social"
+    ],
+    "source": "static",
+    "passage": "Dear Kevin, Thank you for inviting me to your basketball game last Saturday. I had a great time watching you play! Your team was much better than the other team, and you scored the most points. This weekend, my family is going to have a barbecue in the park. Would you like to join us? We will start at noon and finish around 4 p.m. My dad makes the best grilled chicken, and I think you will enjoy it. Please let me know by Friday. Your friend, Jason",
+    "question": "What did Jason do last Saturday?",
+    "options": [
+      "He played in a basketball game",
+      "He had a barbecue in the park",
+      "He watched Kevin's basketball game",
+      "He cooked grilled chicken with his dad"
+    ],
+    "answer": "He watched Kevin's basketball game",
+    "explanation": "信件第一段提到「Thank you for inviting me to your basketball game last Saturday. I had a great time watching you play!」，Jason 上週六去看了Kevin的籃球比賽。"
+  },
+  {
+    "id": "R-G2-005",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "email",
+      "social"
+    ],
+    "source": "static",
+    "passage": "Dear Kevin, Thank you for inviting me to your basketball game last Saturday. I had a great time watching you play! Your team was much better than the other team, and you scored the most points. This weekend, my family is going to have a barbecue in the park. Would you like to join us? We will start at noon and finish around 4 p.m. My dad makes the best grilled chicken, and I think you will enjoy it. Please let me know by Friday. Your friend, Jason",
+    "question": "What is Jason's purpose in writing this email?",
+    "options": [
+      "To say sorry for missing the game",
+      "To invite Kevin to a barbecue",
+      "To ask Kevin to teach him basketball",
+      "To tell Kevin about his new house"
+    ],
+    "answer": "To invite Kevin to a barbecue",
+    "explanation": "Jason 寫信的主要目的是邀請 Kevin 參加週末的烤肉活動，第二段直接詢問「This weekend, my family is going to have a barbecue in the park. Would you like to join us?」"
+  },
+  {
+    "id": "R-G2-006",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "dialogue",
+      "sports"
+    ],
+    "source": "static",
+    "passage": "Amy: Hey Ben, are you going to join any school clubs this year? Ben: Yes, I am thinking about the swimming club. I heard the coach is very good. Amy: That sounds fun! But isn't swimming harder than running? Ben: Maybe, but I think it's more interesting. You can also make more friends in the pool than on the track. Amy: That's true. I joined the art club last year, but I want to try something new. Maybe I will join the swimming club too. Ben: Great! Let's go together after school tomorrow.",
+    "question": "Why does Ben prefer swimming over running?",
+    "options": [
+      "Because swimming is easier",
+      "Because he thinks swimming is more interesting",
+      "Because the running club is full",
+      "Because Amy asked him to swim"
+    ],
+    "answer": "Because he thinks swimming is more interesting",
+    "explanation": "Ben 在對話中說「Maybe, but I think it's more interesting」，明確表示他覺得游泳比跑步更有趣，所以選擇游泳社。"
+  },
+  {
+    "id": "R-G2-007",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "dialogue",
+      "sports"
+    ],
+    "source": "static",
+    "passage": "Amy: Hey Ben, are you going to join any school clubs this year? Ben: Yes, I am thinking about the swimming club. I heard the coach is very good. Amy: That sounds fun! But isn't swimming harder than running? Ben: Maybe, but I think it's more interesting. You can also make more friends in the pool than on the track. Amy: That's true. I joined the art club last year, but I want to try something new. Maybe I will join the swimming club too. Ben: Great! Let's go together after school tomorrow.",
+    "question": "What will Amy and Ben most likely do tomorrow?",
+    "options": [
+      "Go running on the track",
+      "Join the art club together",
+      "Go to the swimming club after school",
+      "Watch a swimming competition"
+    ],
+    "answer": "Go to the swimming club after school",
+    "explanation": "對話結尾 Ben 說「Let's go together after school tomorrow」，而他們討論的是游泳社，因此推測他們明天放學後會一起去游泳社報名。"
+  },
+  {
+    "id": "R-G2-008",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "trip",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last month, my class went on a three-day trip to Sun Moon Lake. On the first day, we took a boat ride across the lake. The water was so clear and beautiful. The next day, we rode bicycles around the lake. It was the longest bike ride I had ever done — almost 30 kilometers! I felt very tired but also very proud. On the last day, we visited a small town near the lake and bought some gifts for our families. I bought a wooden keychain for my mom. The trip was more exciting than I expected. I hope we can go on another trip next year.",
+    "question": "What did the writer do on the second day of the trip?",
+    "options": [
+      "Took a boat ride",
+      "Bought gifts for family",
+      "Rode bicycles around the lake",
+      "Visited a small town"
+    ],
+    "answer": "Rode bicycles around the lake",
+    "explanation": "文章中提到「The next day, we rode bicycles around the lake」，這裡的「the next day」即指第二天。"
+  },
+  {
+    "id": "R-G2-009",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "trip",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last month, my class went on a three-day trip to Sun Moon Lake. On the first day, we took a boat ride across the lake. The water was so clear and beautiful. The next day, we rode bicycles around the lake. It was the longest bike ride I had ever done — almost 30 kilometers! I felt very tired but also very proud. On the last day, we visited a small town near the lake and bought some gifts for our families. I bought a wooden keychain for my mom. The trip was more exciting than I expected. I hope we can go on another trip next year.",
+    "question": "How did the writer feel after the bike ride?",
+    "options": [
+      "Sad and bored",
+      "Tired but proud",
+      "Angry and upset",
+      "Nervous and scared"
+    ],
+    "answer": "Tired but proud",
+    "explanation": "文章中提到騎完腳踏車後「I felt very tired but also very proud」，直接表達了疲憊但驕傲的心情。"
+  },
+  {
+    "id": "R-G2-010",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "trip",
+      "past-tense"
+    ],
+    "source": "static",
+    "passage": "Last month, my class went on a three-day trip to Sun Moon Lake. On the first day, we took a boat ride across the lake. The water was so clear and beautiful. The next day, we rode bicycles around the lake. It was the longest bike ride I had ever done — almost 30 kilometers! I felt very tired but also very proud. On the last day, we visited a small town near the lake and bought some gifts for our families. I bought a wooden keychain for my mom. The trip was more exciting than I expected. I hope we can go on another trip next year.",
+    "question": "What is the best title for this passage?",
+    "options": [
+      "How to Ride a Bicycle",
+      "The Beautiful Sun Moon Lake",
+      "My Exciting Class Trip",
+      "Buying Gifts for Mom"
+    ],
+    "answer": "My Exciting Class Trip",
+    "explanation": "這篇文章主要在描述作者班級的三天校外教學經歷與感受，最後一句也提到「The trip was more exciting than I expected」，因此「My Exciting Class Trip」最能涵蓋全文主旨。"
+  },
+  {
+    "id": "R-G2-011",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "food",
+      "cooking"
+    ],
+    "source": "static",
+    "passage": "Do you want to make delicious banana pancakes? It's very easy! First, put one cup of flour and one tablespoon of sugar into a large bowl. Next, add one egg and one cup of milk. Mix everything well until it becomes smooth. Then, cut a banana into small pieces and add them to the mixture. Heat a pan with a little oil over medium heat. Pour some mixture into the pan and cook each side for about two minutes. When the pancakes turn golden brown, they are ready. You can serve them with honey or chocolate sauce. Enjoy your homemade pancakes!",
+    "question": "How much flour do you need to make the pancakes?",
+    "options": [
+      "One tablespoon",
+      "One cup",
+      "Two cups",
+      "One small bowl"
+    ],
+    "answer": "One cup",
+    "explanation": "食譜中明確寫道「put one cup of flour」，需要使用一杯麵粉。"
+  },
+  {
+    "id": "R-G2-012",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "food",
+      "cooking"
+    ],
+    "source": "static",
+    "passage": "Do you want to make delicious banana pancakes? It's very easy! First, put one cup of flour and one tablespoon of sugar into a large bowl. Next, add one egg and one cup of milk. Mix everything well until it becomes smooth. Then, cut a banana into small pieces and add them to the mixture. Heat a pan with a little oil over medium heat. Pour some mixture into the pan and cook each side for about two minutes. When the pancakes turn golden brown, they are ready. You can serve them with honey or chocolate sauce. Enjoy your homemade pancakes!",
+    "question": "According to the passage, when should you add the banana pieces?",
+    "options": [
+      "Before adding the egg",
+      "After the mixture becomes smooth",
+      "After cooking the pancakes",
+      "Before putting flour in the bowl"
+    ],
+    "answer": "After the mixture becomes smooth",
+    "explanation": "食譜步驟說「Mix everything well until it becomes smooth. Then, cut a banana into small pieces and add them」，因此香蕉要在麵糊攪拌均勻後才加入。"
+  },
+  {
+    "id": "R-G2-013",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "letter",
+      "competition"
+    ],
+    "source": "static",
+    "passage": "Dear Mom and Dad, I have wonderful news to share! Yesterday, I took part in the school English speech contest, and I won first place! I was very nervous before my turn. When I stood on the stage, my hands were shaking. But I remembered what you told me — to take a deep breath and speak slowly. The title of my speech was 'My Dream Job,' and I talked about wanting to become a teacher. After the contest, my English teacher said I spoke more clearly than anyone else. The prize was a new dictionary and a book about American history. I am so happy! See you on Friday. Love, Emily",
+    "question": "What helped Emily stop feeling nervous?",
+    "options": [
+      "Her teacher stood next to her",
+      "She remembered her parents' advice",
+      "She read from a book on stage",
+      "She won the first prize early"
+    ],
+    "answer": "She remembered her parents' advice",
+    "explanation": "Emily 在信中寫道「But I remembered what you told me — to take a deep breath and speak slowly」，是她父母的建議幫助她克服緊張。"
+  },
+  {
+    "id": "R-G2-014",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "letter",
+      "competition"
+    ],
+    "source": "static",
+    "passage": "Dear Mom and Dad, I have wonderful news to share! Yesterday, I took part in the school English speech contest, and I won first place! I was very nervous before my turn. When I stood on the stage, my hands were shaking. But I remembered what you told me — to take a deep breath and speak slowly. The title of my speech was 'My Dream Job,' and I talked about wanting to become a teacher. After the contest, my English teacher said I spoke more clearly than anyone else. The prize was a new dictionary and a book about American history. I am so happy! See you on Friday. Love, Emily",
+    "question": "Why did the teacher say Emily spoke more clearly than anyone else?",
+    "options": [
+      "Because Emily used a microphone",
+      "Because Emily was the last speaker",
+      "Because Emily spoke slowly and clearly",
+      "Because Emily's speech was the shortest"
+    ],
+    "answer": "Because Emily spoke slowly and clearly",
+    "explanation": "Emily 的演講題目中提到她遵循父母的建議「take a deep breath and speak slowly」，這讓她能說得比其他人更清楚，因此老師給予這樣的評價。"
+  },
+  {
+    "id": "R-G2-015",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "letter",
+      "competition"
+    ],
+    "source": "static",
+    "passage": "Dear Mom and Dad, I have wonderful news to share! Yesterday, I took part in the school English speech contest, and I won first place! I was very nervous before my turn. When I stood on the stage, my hands were shaking. But I remembered what you told me — to take a deep breath and speak slowly. The title of my speech was 'My Dream Job,' and I talked about wanting to become a teacher. After the contest, my English teacher said I spoke more clearly than anyone else. The prize was a new dictionary and a book about American history. I am so happy! See you on Friday. Love, Emily",
+    "question": "What did Emily receive as the prize?",
+    "options": [
+      "A dictionary and a history book",
+      "A new computer and a book",
+      "A speech trophy and money",
+      "A teacher's certificate"
+    ],
+    "answer": "A dictionary and a history book",
+    "explanation": "Emily 信中明確寫出獎品內容「The prize was a new dictionary and a book about American history」"
+  },
+  {
+    "id": "R-G2-016",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "notice",
+      "lost",
+      "school"
+    ],
+    "source": "static",
+    "passage": "Found: A blue sports bag was found in the school gym yesterday afternoon. The bag contains a pair of white running shoes, a red towel, and a water bottle. There is also a small notebook with the name 'Kevin' written on the first page. However, the notebook has no phone number or class number. If this bag belongs to you or someone you know, please come to the Lost and Found office on the first floor. The office is open from 8:00 a.m. to 5:00 p.m., Monday through Friday. You must bring your student ID card to get the bag back.",
+    "question": "What item in the bag could best help find the owner?",
+    "options": [
+      "The white running shoes",
+      "The red towel",
+      "The notebook with a name",
+      "The water bottle"
+    ],
+    "answer": "The notebook with a name",
+    "explanation": "失物招領公告中提到包包裡「a small notebook with the name 'Kevin' written on the first page」，名字是最能幫助辨認失主的線索。"
+  },
+  {
+    "id": "R-G2-017",
+    "grade": "G2",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "notice",
+      "lost",
+      "school"
+    ],
+    "source": "static",
+    "passage": "Found: A blue sports bag was found in the school gym yesterday afternoon. The bag contains a pair of white running shoes, a red towel, and a water bottle. There is also a small notebook with the name 'Kevin' written on the first page. However, the notebook has no phone number or class number. If this bag belongs to you or someone you know, please come to the Lost and Found office on the first floor. The office is open from 8:00 a.m. to 5:00 p.m., Monday through Friday. You must bring your student ID card to get the bag back.",
+    "question": "What must a student bring to get the bag back?",
+    "options": [
+      "A phone number",
+      "A student ID card",
+      "The notebook from the bag",
+      "A letter from a teacher"
+    ],
+    "answer": "A student ID card",
+    "explanation": "公告最後一句明確規定「You must bring your student ID card to get the bag back」，領取失物需要攜帶學生證。"
+  }
+]

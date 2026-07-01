@@ -1,0 +1,902 @@
+[
+  {
+    "id": "V-G3-001",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "The study of ancient objects and structures is called ______.",
+    "options": [
+      "archaeology",
+      "astronomy",
+      "psychology",
+      "biology"
+    ],
+    "answer": "archaeology",
+    "explanation": "archaeology（考古學）是研究古代文物與結構的學問；astronomy 是天文學；psychology 是心理學；biology 是生物學，皆與古代文物研究無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-002",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "The heavy rain was a ______ that stopped us from going to the beach.",
+    "options": [
+      "decoration",
+      "circumstance",
+      "celebration",
+      "population"
+    ],
+    "answer": "circumstance",
+    "explanation": "circumstance（情況、環境）指一個特定的事件或條件；celebration 是慶祝；population 是人口；decoration 是裝飾，皆不符合句意。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-003",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "She showed great ______ to finish the marathon despite her injury.",
+    "options": [
+      "description",
+      "destination",
+      "determination",
+      "disappointment"
+    ],
+    "answer": "determination",
+    "explanation": "determination（決心、毅力）符合「即使受傷仍完成馬拉松」的語境；disappointment 是失望；description 是描述；destination 是目的地，語意皆不通。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-004",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "The audience was very ______ about the upcoming concert.",
+    "options": [
+      "embarrassed",
+      "exhausted",
+      "experienced",
+      "enthusiastic"
+    ],
+    "answer": "enthusiastic",
+    "explanation": "enthusiastic（熱情的、熱衷的）表示對即將到來的演唱會充滿期待；embarrassed 是尷尬的；exhausted 是精疲力竭的；experienced 是有經驗的，與語境不合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-005",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學術"
+    ],
+    "source": "static",
+    "question": "A rainbow is a natural ______ that appears after rain.",
+    "options": [
+      "phenomenon",
+      "photograph",
+      "philosophy",
+      "physician"
+    ],
+    "answer": "phenomenon",
+    "explanation": "phenomenon（現象）指自然界中可觀察到的事件，彩虹即為一種自然現象；photograph 是照片；philosophy 是哲學；physician 是醫生，皆不符句意。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-006",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "政治"
+    ],
+    "source": "static",
+    "question": "Each state sends a ______ to the national congress.",
+    "options": [
+      "reporter",
+      "representative",
+      "receptionist",
+      "researcher"
+    ],
+    "answer": "representative",
+    "explanation": "representative（代表）指被選出代表某地區或團體出席會議的人；receptionist 是接待員；researcher 是研究員；reporter 是記者，皆與國會代表身分不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-007",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "He felt guilty because his ______ bothered him after telling the lie.",
+    "options": [
+      "conversation",
+      "convenience",
+      "conscience",
+      "confidence"
+    ],
+    "answer": "conscience",
+    "explanation": "conscience（良心）指內在的道德感，說謊後良心不安是常見用法；confidence 是信心；conversation 是對話；convenience 是方便，皆不合上下文。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-008",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學術"
+    ],
+    "source": "static",
+    "question": "The teacher used a model to ______ how the solar system works.",
+    "options": [
+      "decorate",
+      "describe",
+      "destroy",
+      "demonstrate"
+    ],
+    "answer": "demonstrate",
+    "explanation": "demonstrate（示範、展示）表示用模型展示太陽系的運作方式；decorate 是裝飾；describe 是描述（偏口頭）；destroy 是摧毀，與教學情境矛盾。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-009",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "文學"
+    ],
+    "source": "static",
+    "question": "He tends to ______ his achievements to make them sound more impressive.",
+    "options": [
+      "exaggerate",
+      "examine",
+      "exchange",
+      "exercise"
+    ],
+    "answer": "exaggerate",
+    "explanation": "exaggerate（誇大）指把事物說得比實際更了不起；examine 是檢查；exchange 是交換；exercise 是運動或行使，皆與誇大不實的描述無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-010",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "Her piano talent is ______; she won competitions at a very young age.",
+    "options": [
+      "necessary",
+      "extraordinary",
+      "ordinary",
+      "temporary"
+    ],
+    "answer": "extraordinary",
+    "explanation": "extraordinary（非凡的、卓越的）形容超越一般水準的能力；ordinary 是普通的，與「年幼獲獎」矛盾；temporary 是暫時的；necessary 是必要的，語意不當。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-011",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "Water is a ______ need for all living things on Earth.",
+    "options": [
+      "fortunate",
+      "flexible",
+      "fundamental",
+      "fashionable"
+    ],
+    "answer": "fundamental",
+    "explanation": "fundamental（基本的、根本的）表示水是所有生物的基本需求；fashionable 是時尚的；fortunate 是幸運的；flexible 是有彈性的，描述水對生命的重要性時皆不恰當。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-012",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "The United States is a country formed largely through ______ from many nations.",
+    "options": [
+      "imagination",
+      "imitation",
+      "illustration",
+      "immigration"
+    ],
+    "answer": "immigration",
+    "explanation": "immigration（移民）指從其他國家移入定居，美國正是由移民構成的國家；imagination 是想像力；imitation 是模仿；illustration 是插圖或說明，皆不符合國家形成的脈絡。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-013",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "政治"
+    ],
+    "source": "static",
+    "question": "India gained ______ from British rule in 1947.",
+    "options": [
+      "independence",
+      "intelligence",
+      "interference",
+      "insurance"
+    ],
+    "answer": "independence",
+    "explanation": "independence（獨立）指脫離殖民統治獲得自主；intelligence 是智力；interference 是干預；insurance 是保險，1947年印度脫離英國統治為歷史常識。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-014",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "經濟"
+    ],
+    "source": "static",
+    "question": "This factory can ______ up to 10,000 toys every day.",
+    "options": [
+      "memorize",
+      "manufacture",
+      "manage",
+      "measure"
+    ],
+    "answer": "manufacture",
+    "explanation": "manufacture（製造、生產）指工廠大量生產商品；manage 是管理；measure 是測量；memorize 是記住，皆不符合工廠生產玩具的語境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-015",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "The two countries are in ______ to sign a peace agreement.",
+    "options": [
+      "narration",
+      "nutrition",
+      "negotiation",
+      "navigation"
+    ],
+    "answer": "negotiation",
+    "explanation": "negotiation（談判、協商）指雙方為了達成和平協議而進行的討論；navigation 是導航；narration 是敘述；nutrition 是營養，皆與外交談判無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-016",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "What is your ______? I work as an engineer at a tech company.",
+    "options": [
+      "operation",
+      "observation",
+      "organization",
+      "occupation"
+    ],
+    "answer": "occupation",
+    "explanation": "occupation（職業）用於詢問或說明一個人的工作；operation 是操作或手術；observation 是觀察；organization 是組織，皆無法用來回答「你做什麼工作」。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-017",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "She has a cheerful ______ and always smiles at everyone.",
+    "options": [
+      "personality",
+      "popularity",
+      "possibility",
+      "permission"
+    ],
+    "answer": "personality",
+    "explanation": "personality（個性）指一個人的性格特質，搭配 cheerful（開朗的）描述她總是微笑待人；popularity 是受歡迎程度；possibility 是可能性；permission 是許可，語意不當。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-018",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "商業"
+    ],
+    "source": "static",
+    "question": "The company has a strict ______ for handling customer complaints.",
+    "options": [
+      "promise",
+      "procedure",
+      "product",
+      "project"
+    ],
+    "answer": "procedure",
+    "explanation": "procedure（程序、流程）指公司處理客訴的標準步驟；product 是產品；project 是專案；promise 是承諾，無法表達「處理流程」的概念。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-019",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "教育"
+    ],
+    "source": "static",
+    "question": "To apply for this job, you need a ______ in computer science.",
+    "options": [
+      "quantity",
+      "quotation",
+      "qualification",
+      "questionnaire"
+    ],
+    "answer": "qualification",
+    "explanation": "qualification（資格、學歷）指申請工作所需的學位或證照；questionnaire 是問卷；quantity 是數量；quotation 是報價或引文，皆非求職所需條件。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-020",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "Please put the ice cream in the ______ so it won't melt.",
+    "options": [
+      "restaurant",
+      "reservoir",
+      "reception",
+      "refrigerator"
+    ],
+    "answer": "refrigerator",
+    "explanation": "refrigerator（冰箱）用來冷藏食物以防融化；restaurant 是餐廳；reservoir 是水庫；reception 是接待處，皆無法保存冰淇淋。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-021",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "The old house had a dark and ______ atmosphere that made people uneasy.",
+    "options": [
+      "mysterious",
+      "magnificent",
+      "miserable",
+      "modest"
+    ],
+    "answer": "mysterious",
+    "explanation": "mysterious（神秘的）形容老房子給人一種詭異不安的氛圍；magnificent 是宏偉的；miserable 是悲慘的；modest 是謙虛的或樸素的，無法準確描述「令人不安」的氛圍。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-022",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "I really ______ your help during such a difficult time.",
+    "options": [
+      "approve",
+      "appreciate",
+      "apologize",
+      "approach"
+    ],
+    "answer": "appreciate",
+    "explanation": "appreciate（感激）表示對他人幫助的感謝；apologize 是道歉；approach 是接近；approve 是批准或贊成，在表達感謝的語境下皆不適用。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-023",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "She visits her grandparents ______, about once every two months.",
+    "options": [
+      "obviously",
+      "officially",
+      "occasionally",
+      "originally"
+    ],
+    "answer": "occasionally",
+    "explanation": "occasionally（偶爾）對應每兩個月一次的頻率；originally 是原本；obviously 是明顯地；officially 是官方地，皆無法表達「偶爾」的頻率概念。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-024",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "Every citizen should be ______ for protecting the environment.",
+    "options": [
+      "respectful",
+      "recyclable",
+      "renewable",
+      "responsible"
+    ],
+    "answer": "responsible",
+    "explanation": "responsible（有責任的）搭配 for 表示對某事負有責任；respectful 是尊敬的；recyclable 是可回收的；renewable 是可再生的，與「公民責任」語境不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-025",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "藝術"
+    ],
+    "source": "static",
+    "question": "The butterfly has a ______ pattern on its wings, with both sides exactly alike.",
+    "options": [
+      "symmetrical",
+      "symbolic",
+      "symptomatic",
+      "sympathetic"
+    ],
+    "answer": "symmetrical",
+    "explanation": "symmetrical（對稱的）指兩邊完全相同，蝴蝶翅膀正是典型對稱結構；symbolic 是象徵的；symptomatic 是症狀的；sympathetic 是同情的，皆不合句意。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-026",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "The pain is only ______; it should go away in a few hours.",
+    "options": [
+      "traditional",
+      "temporary",
+      "terrible",
+      "typical"
+    ],
+    "answer": "temporary",
+    "explanation": "temporary（暫時的）表示疼痛會很快消失；terrible 是可怕的；typical 是典型的；traditional 是傳統的，皆無法表達「暫時性」的意思。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-027",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "飲食"
+    ],
+    "source": "static",
+    "question": "She decided to become a ______ and stopped eating all meat and fish.",
+    "options": [
+      "volunteer",
+      "visitor",
+      "vegetarian",
+      "veterinarian"
+    ],
+    "answer": "vegetarian",
+    "explanation": "vegetarian（素食者）指不吃肉和魚的人；veterinarian 是獸醫；volunteer 是志工；visitor 是訪客，皆不是飲食習慣的類別。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-028",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "教育"
+    ],
+    "source": "static",
+    "question": "If you want to learn about many different topics, you can read an ______.",
+    "options": [
+      "elevator",
+      "electricity",
+      "embassy",
+      "encyclopedia"
+    ],
+    "answer": "encyclopedia",
+    "explanation": "encyclopedia（百科全書）涵蓋各種主題的知識；elevator 是電梯；electricity 是電力；embassy 是大使館，與廣泛學習不同主題無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-029",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "媒體"
+    ],
+    "source": "static",
+    "question": "Watching movies is a popular form of ______ for many people.",
+    "options": [
+      "entertainment",
+      "environment",
+      "equipment",
+      "experiment"
+    ],
+    "answer": "entertainment",
+    "explanation": "entertainment（娛樂）指看電影作為消遣活動；environment 是環境；equipment 是設備；experiment 是實驗，皆無法描述「觀影」的休閒性質。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-030",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "數學"
+    ],
+    "source": "static",
+    "question": "The cost is ______ NT$500, but the exact amount is NT$495.",
+    "options": [
+      "apparently",
+      "approximately",
+      "absolutely",
+      "automatically"
+    ],
+    "answer": "approximately",
+    "explanation": "approximately（大約）表示約略估計的金額，與後面的精確數字形成對比；absolutely 是絕對地；automatically 是自動地；apparently 是顯然地，皆不表示「大約」。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-031",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "Effective ______ between team members is key to a successful project.",
+    "options": [
+      "composition",
+      "concentration",
+      "communication",
+      "competition"
+    ],
+    "answer": "communication",
+    "explanation": "communication（溝通）是團隊合作成功的關鍵；competition 是競爭；composition 是作文或組成；concentration 是專注力，與團隊互動的核心要素不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-032",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "We should ______ our friend on winning the first prize in the contest.",
+    "options": [
+      "concentrate",
+      "contribute",
+      "construct",
+      "congratulate"
+    ],
+    "answer": "congratulate",
+    "explanation": "congratulate（祝賀）用於對他人得獎表達恭賀；concentrate 是專注；contribute 是貢獻；construct 是建造，皆無法表達「祝賀」之意。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-033",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "Cats and dogs are common ______ animals kept as pets in many families.",
+    "options": [
+      "domestic",
+      "dangerous",
+      "dramatic",
+      "digital"
+    ],
+    "answer": "domestic",
+    "explanation": "domestic（家庭的、馴養的）指在家中飼養的動物；dangerous 是危險的；dramatic 是戲劇性的；digital 是數位的，皆不符合「寵物」的語境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-034",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "The view from the top of the mountain was absolutely ______!",
+    "options": [
+      "inaccurate",
+      "incredible",
+      "invisible",
+      "inexpensive"
+    ],
+    "answer": "incredible",
+    "explanation": "incredible（難以置信的、極好的）用來讚嘆山頂美景之壯麗；invisible 是看不見的；inexpensive 是便宜的；inaccurate 是不準確的，皆無法表達讚嘆語氣。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-035",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "Be careful when handling the glass vase; it is ______ fragile.",
+    "options": [
+      "perfectly",
+      "permanently",
+      "particularly",
+      "patiently"
+    ],
+    "answer": "particularly",
+    "explanation": "particularly（特別地、格外地）強調花瓶格外易碎，需小心處理；patiently 是耐心地；perfectly 是完美地；permanently 是永久地，修飾 fragile 時強度不如 particularly。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-036",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "抽象概念"
+    ],
+    "source": "static",
+    "question": "When the fire alarm rang, everyone left the building ______.",
+    "options": [
+      "importantly",
+      "impossibly",
+      "impolitely",
+      "immediately"
+    ],
+    "answer": "immediately",
+    "explanation": "immediately（立刻、馬上）呼應火災警報響起後眾人迅速撤離的行為；importantly 是重要地；impossibly 是不可能地；impolitely 是不禮貌地，皆不符合緊急撤離的情境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-037",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社會"
+    ],
+    "source": "static",
+    "question": "A strong ______ between parents and children is built on trust and love.",
+    "options": [
+      "relationship",
+      "replacement",
+      "requirement",
+      "retirement"
+    ],
+    "answer": "relationship",
+    "explanation": "relationship（關係）指親子之間建立在信任與愛之上的情感連結；replacement 是替代品；requirement 是要求；retirement 是退休，皆不符合人際關係語境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-038",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "question": "The invention of the internet was a major technological ______.",
+    "options": [
+      "breakwater",
+      "breakthrough",
+      "breakdown",
+      "breakfast"
+    ],
+    "answer": "breakthrough",
+    "explanation": "breakthrough（突破）指科技上的重大進展，網路發明即為劃時代突破；breakdown 是故障或崩潰；breakfast 是早餐；breakwater 是防波堤，皆非科技成就。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-039",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "經濟"
+    ],
+    "source": "static",
+    "question": "The country's ______ is growing rapidly thanks to increased exports.",
+    "options": [
+      "education",
+      "elevation",
+      "economy",
+      "ecology"
+    ],
+    "answer": "economy",
+    "explanation": "economy（經濟）指國家的整體經濟狀況，出口增長帶動經濟成長；ecology 是生態；education 是教育；elevation 是高度或提升，與出口貿易脈絡不合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-040",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "After waiting two hours, the customers became ______ and started complaining.",
+    "options": [
+      "impossible",
+      "immature",
+      "immigrant",
+      "impatient"
+    ],
+    "answer": "impatient",
+    "explanation": "impatient（不耐煩的）表示等太久後失去耐心；impossible 是不可能的；immature 是不成熟的；immigrant 是移民，皆無法描述「等得不耐煩」的情緒。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-041",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "文學"
+    ],
+    "source": "static",
+    "question": "This novel is a work of ______, not based on real events.",
+    "options": [
+      "fiction",
+      "friction",
+      "fraction",
+      "fashion"
+    ],
+    "answer": "fiction",
+    "explanation": "fiction（虛構小說）表示作品非真實事件改編；friction 是摩擦；fraction 是分數、部分；fashion 是時尚，皆無法區分虛構與非虛構的文學類別。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-042",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "法律"
+    ],
+    "source": "static",
+    "question": "The suspect needs a lawyer to provide legal ______ in court.",
+    "options": [
+      "assessment",
+      "assistance",
+      "assistant",
+      "assignment"
+    ],
+    "answer": "assistance",
+    "explanation": "assistance（協助）在此指法律上的援助，律師為嫌犯提供 legal assistance；assistant 是助理（人）；assignment 是作業或任務；assessment 是評估，與法庭辯護情境不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-043",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "教育"
+    ],
+    "source": "static",
+    "question": "The school will ______ 50 new students this September.",
+    "options": [
+      "adapt",
+      "adult",
+      "admit",
+      "adopt"
+    ],
+    "answer": "admit",
+    "explanation": "admit（准許進入、錄取）指學校招收新生；adopt 是收養或採用；adapt 是適應；adult 是名詞「成人」，與學校招生語境不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-044",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "政治"
+    ],
+    "source": "static",
+    "question": "The government announced a new ______ to protect endangered species.",
+    "options": [
+      "politics",
+      "pollution",
+      "population",
+      "policy"
+    ],
+    "answer": "policy",
+    "explanation": "policy（政策）指政府針對保護瀕危物種所發布的新措施；politics 是政治（廣義）；pollution 是汙染；population 是人口，政府宣布的具體措施應為 policy。",
+    "passage": ""
+  },
+  {
+    "id": "V-G3-045",
+    "grade": "G3",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "心理"
+    ],
+    "source": "static",
+    "question": "He felt a deep sense of ______ after losing his best friend in the accident.",
+    "options": [
+      "sorrow",
+      "humor",
+      "honor",
+      "favor"
+    ],
+    "answer": "sorrow",
+    "explanation": "sorrow（悲傷、悲痛）用來描述失去摯友後的深切哀傷；humor 是幽默；honor 是榮譽；favor 是恩惠或贊同，皆無法表達喪友之痛。",
+    "passage": ""
+  }
+]

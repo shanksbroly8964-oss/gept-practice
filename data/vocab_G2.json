@@ -1,0 +1,902 @@
+[
+  {
+    "id": "V-G2-001",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "question": "Modern ______ has changed the way we communicate, from smartphones to video calls, making it faster than ever before.",
+    "options": [
+      "technology",
+      "tradition",
+      "structure",
+      "construction"
+    ],
+    "answer": "technology",
+    "explanation": "technology（科技）最符合句子語境，指智慧型手機、視訊通話等現代科技改變了溝通方式。tradition（傳統）與句子相反；structure（結構）與溝通無關；construction（建設）指建築，不合語境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-002",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "自然"
+    ],
+    "source": "static",
+    "question": "The ______ around the lake was so peaceful that we could hear the wind blowing through the trees.",
+    "options": [
+      "distance",
+      "atmosphere",
+      "temperature",
+      "pressure"
+    ],
+    "answer": "atmosphere",
+    "explanation": "atmosphere（氣氛）指湖邊的寧靜氛圍，適合描述風吹過樹林的感覺。temperature（溫度）專指冷熱程度；pressure（壓力）指心理或物理壓力；distance（距離）指遠近，皆不符句意。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-003",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "環境"
+    ],
+    "source": "static",
+    "question": "Air ______ in big cities is a serious problem that can cause health issues for many people.",
+    "options": [
+      "population",
+      "attention",
+      "pollution",
+      "solution"
+    ],
+    "answer": "pollution",
+    "explanation": "pollution（污染）與空氣相關聯，空氣污染是大城市的嚴重問題。solution（解決方案）意思相反；population（人口）指人數；attention（注意力）指專注，三者與「空氣問題」無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-004",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "健康"
+    ],
+    "source": "static",
+    "question": "The doctor told him to take this ______ three times a day after meals for a week.",
+    "options": [
+      "magazine",
+      "machine",
+      "message",
+      "medicine"
+    ],
+    "answer": "medicine",
+    "explanation": "medicine（藥物）是醫生開立、飯後服用的藥。magazine（雜誌）是讀物；machine（機器）是設備；message（訊息）是通訊內容，三者皆非醫生會開的東西。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-005",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "She felt ______ when her best friend forgot her birthday even though they had known each other for ten years.",
+    "options": [
+      "disappointed",
+      "excited",
+      "comfortable",
+      "organized"
+    ],
+    "answer": "disappointed",
+    "explanation": "disappointed（失望的）最切合朋友忘記生日的負面情緒。excited（興奮的）是正面情緒，與被遺忘不符；comfortable（舒適的）指身體感覺；organized（有條理的）形容人或事物整齊，皆不適合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-006",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "文化"
+    ],
+    "source": "static",
+    "question": "People around the world ______ the New Year in different ways — some set off fireworks, and others have family dinners.",
+    "options": [
+      "graduate",
+      "celebrate",
+      "separate",
+      "investigate"
+    ],
+    "answer": "celebrate",
+    "explanation": "celebrate（慶祝）指慶祝新年，各國有不同方式。separate（分開）指分離；investigate（調查）指偵查；graduate（畢業）指完成學業，三者皆與過年情景不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-007",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "question": "A ______ is someone who writes stories, articles, or books for a living.",
+    "options": [
+      "waiter",
+      "winter",
+      "writer",
+      "worker"
+    ],
+    "answer": "writer",
+    "explanation": "writer（作家）是撰寫故事、文章或書籍的人。worker（工人）範圍太廣；waiter（服務生）在餐廳工作；winter（冬天）是季節，完全不對。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-008",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社交"
+    ],
+    "source": "static",
+    "question": "It is polite to ______ yourself when you meet someone for the first time.",
+    "options": [
+      "interrupt",
+      "interview",
+      "interest",
+      "introduce"
+    ],
+    "answer": "introduce",
+    "explanation": "introduce（介紹）指自我介紹，是初次見面的禮儀。interrupt（打斷）是不禮貌的行為；interview（面試、採訪）是正式會談；interest（興趣）是名詞或動詞，不合語境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-009",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "旅遊"
+    ],
+    "source": "static",
+    "question": "You need to show your passport at the ______ before you can enter another country.",
+    "options": [
+      "entrance",
+      "exit",
+      "example",
+      "exercise"
+    ],
+    "answer": "entrance",
+    "explanation": "entrance（入口）指入境關口，須出示護照。exit（出口）是離開時經過的地方；example（例子）與出入境無關；exercise（運動）完全不相關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-010",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "question": "You can use the Internet to search for ______ about almost any topic in the world.",
+    "options": [
+      "invention",
+      "information",
+      "invitation",
+      "imagination"
+    ],
+    "answer": "information",
+    "explanation": "information（資訊）是上網搜尋的對象。invitation（邀請）是請人參加活動的訊息；imagination（想像力）是創造力；invention（發明）是新發明的東西，三者都不適合搜尋情境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-011",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "Even though he made a mistake, his parents were ______ and gave him a chance to try again.",
+    "options": [
+      "private",
+      "perfect",
+      "patient",
+      "proud"
+    ],
+    "answer": "patient",
+    "explanation": "patient（有耐心的）形容父母給予再試一次的機會。proud（驕傲的）通常指因成就而感到自豪，不合犯錯後的寬容情境；private（私人的）指隱私；perfect（完美的）與犯錯情境矛盾。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-012",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "環境"
+    ],
+    "source": "static",
+    "question": "We should ______ our natural resources like water and forests so future generations can enjoy them too.",
+    "options": [
+      "produce",
+      "prepare",
+      "pretend",
+      "protect"
+    ],
+    "answer": "protect",
+    "explanation": "protect（保護）指保護水、森林等自然資源。produce（生產）是製造東西；prepare（準備）是做準備工作；pretend（假裝）指偽裝，三者與保育自然資源無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-013",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "健康"
+    ],
+    "source": "static",
+    "question": "It is important to ______ deeply when you feel nervous, because it can help calm your mind.",
+    "options": [
+      "breathe",
+      "believe",
+      "balance",
+      "borrow"
+    ],
+    "answer": "breathe",
+    "explanation": "breathe（呼吸）搭配 deeply 表示深呼吸，有助於平靜心情。believe（相信）是信任；balance（平衡）指保持穩定；borrow（借）指向人借東西，三者與放鬆心情無直接關聯。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-014",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "question": "A ______ is a person whose job is to design buildings and make sure they are safe and beautiful.",
+    "options": [
+      "author",
+      "architect",
+      "artist",
+      "athlete"
+    ],
+    "answer": "architect",
+    "explanation": "architect（建築師）專門設計建築物。artist（藝術家）從事藝術創作；athlete（運動員）從事體育運動；author（作者）寫書或文章，三者都不是設計建築的專業。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-015",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "文化"
+    ],
+    "source": "static",
+    "question": "Learning about ______ civilizations, like ancient Egypt and Rome, helps us understand our history better.",
+    "options": [
+      "active",
+      "afraid",
+      "ancient",
+      "average"
+    ],
+    "answer": "ancient",
+    "explanation": "ancient（古代的）形容古埃及、古羅馬等古老文明。average（平均的）指數值；active（活躍的）形容動態；afraid（害怕的）是恐懼情緒，三者都不適合修飾文明。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-016",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社交"
+    ],
+    "source": "static",
+    "question": "When you cannot speak the same language, you can still ______ through body language and gestures.",
+    "options": [
+      "compete",
+      "complete",
+      "complain",
+      "communicate"
+    ],
+    "answer": "communicate",
+    "explanation": "communicate（溝通）指透過肢體語言進行交流。compete（競爭）是比賽；complete（完成）是結束某事；complain（抱怨）是表達不滿，三者與用肢體語言互動的情境不吻合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-017",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "購物"
+    ],
+    "source": "static",
+    "question": "Before you buy something expensive, you should ______ prices at different stores to get the best deal.",
+    "options": [
+      "compare",
+      "collect",
+      "connect",
+      "correct"
+    ],
+    "answer": "compare",
+    "explanation": "compare（比較）指貨比三家以獲得最優惠價格。collect（收集）是蒐集物品；connect（連接）是建立連結；correct（正確的、改正）與比價無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-018",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "自然"
+    ],
+    "source": "static",
+    "question": "The ______ of a caterpillar turning into a butterfly is one of nature's most amazing changes.",
+    "options": [
+      "program",
+      "process",
+      "problem",
+      "product"
+    ],
+    "answer": "process",
+    "explanation": "process（過程）指毛毛蟲變成蝴蝶的變化過程。problem（問題）指難題；product（產品）是商品；program（節目、程式）指電視節目或電腦程式，三者都不適合描述自然變化。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-019",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "Walking into a dark room alone at night can be a scary ______ for a young child.",
+    "options": [
+      "expression",
+      "explanation",
+      "experience",
+      "experiment"
+    ],
+    "answer": "experience",
+    "explanation": "experience（經驗、經歷）指獨自在夜晚走進黑暗房間的可怕經歷。experiment（實驗）是科學測試；expression（表情、表達）指臉部表情或詞語表達；explanation（解釋）是說明原因，三者都不適合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-020",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "旅遊"
+    ],
+    "source": "static",
+    "question": "Many tourists enjoy visiting ______ countries to learn about new foods, languages, and traditions.",
+    "options": [
+      "following",
+      "friendly",
+      "favorite",
+      "foreign"
+    ],
+    "answer": "foreign",
+    "explanation": "foreign（外國的）指其他國家，遊客去國外體驗新文化。following（接下來的）表順序；friendly（友善的）形容態度；favorite（最喜愛的）指偏好，三者都不修飾「國家」以表達出國旅遊。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-021",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "question": "Can you help me set up this new ______? I don't know how to connect it to the Wi-Fi.",
+    "options": [
+      "equipment",
+      "environment",
+      "entertainment",
+      "education"
+    ],
+    "answer": "equipment",
+    "explanation": "equipment（設備）指需要連接 Wi-Fi 的新裝置。environment（環境）是周遭條件；entertainment（娛樂）是休閒活動；education（教育）是學習，三者皆不需設定 Wi-Fi。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-022",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "My neighbor often plays loud music at midnight. I wish he would be more ______ of others.",
+    "options": [
+      "talented",
+      "thoughtful",
+      "thankful",
+      "terrible"
+    ],
+    "answer": "thoughtful",
+    "explanation": "thoughtful（體貼的）指為他人著想、在深夜不吵到鄰居。thankful（感激的）是感謝心情；terrible（糟糕的）形容壞事；talented（有天賦的）指才華，與考慮他人感受的情境不符。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-023",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "交通"
+    ],
+    "source": "static",
+    "question": "The subway was so ______ during rush hour that I could hardly find a place to stand.",
+    "options": [
+      "careful",
+      "correct",
+      "crowded",
+      "curious"
+    ],
+    "answer": "crowded",
+    "explanation": "crowded（擁擠的）形容尖峰時段地鐵人潮洶湧。curious（好奇的）是想知道更多；careful（小心的）是謹慎；correct（正確的）指對錯，三者都不形容人多。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-024",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "教育"
+    ],
+    "source": "static",
+    "question": "She won a ______ that pays for all her college tuition because of her excellent grades.",
+    "options": [
+      "friendship",
+      "leadership",
+      "relationship",
+      "scholarship"
+    ],
+    "answer": "scholarship",
+    "explanation": "scholarship（獎學金）是因成績優秀而獲得、用來支付學費的金錢獎勵。friendship（友誼）是人際關係；leadership（領導力）是領導能力；relationship（關係）指人與人之間的聯繫，三者與金錢獎勵無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-025",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "環境"
+    ],
+    "source": "static",
+    "question": "We should throw ______ into the trash can instead of leaving it on the street.",
+    "options": [
+      "garbage",
+      "garden",
+      "garage",
+      "guitar"
+    ],
+    "answer": "garbage",
+    "explanation": "garbage（垃圾）應丟進垃圾桶。garden（花園）是種植物的土地；garage（車庫）是停車的地方；guitar（吉他）是樂器，三者都不能被丟棄。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-026",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "法律"
+    ],
+    "source": "static",
+    "question": "The new ______ has made it illegal to smoke in all public parks and playgrounds.",
+    "options": [
+      "lip",
+      "law",
+      "lie",
+      "lab"
+    ],
+    "answer": "law",
+    "explanation": "law（法律）規定公共場所禁菸。lie（謊言）是假話；lab（實驗室）是科學工作場所；lip（嘴唇）是身體部位，三者與禁菸規定無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-027",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "question": "The company is looking for experienced workers, so they will hold an ______ tomorrow to find the right person.",
+    "options": [
+      "instrument",
+      "institute",
+      "interview",
+      "internet"
+    ],
+    "answer": "interview",
+    "explanation": "interview（面試）是公司找人時進行的會談。internet（網際網路）是網路系統；instrument（樂器、儀器）是工具；institute（機構）是組織，三者都不適合「徵才會談」的情境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-028",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "自然"
+    ],
+    "source": "static",
+    "question": "During a thunderstorm, you can see bright ______ flash across the sky before you hear the thunder.",
+    "options": [
+      "lighting",
+      "listing",
+      "lifting",
+      "lightning"
+    ],
+    "answer": "lightning",
+    "explanation": "lightning（閃電）是雷雨中在天上閃爍的光。lighting（照明）指燈光系統；listing（清單）是列出的項目；lifting（舉起）是動作，三者都不會在天上產生。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-029",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "She felt very ______ after reading a funny comic book and couldn't stop laughing for several minutes.",
+    "options": [
+      "amused",
+      "ashamed",
+      "annoyed",
+      "afraid"
+    ],
+    "answer": "amused",
+    "explanation": "amused（覺得好笑的）是看了有趣漫畫後忍不住笑的感受。ashamed（羞愧的）是因做錯事感到丟臉；annoyed（惱怒的）是被打擾而生氣；afraid（害怕的）是恐懼，三者都不符可笑情境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-030",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社交"
+    ],
+    "source": "static",
+    "question": "When you hurt someone's feelings, even by accident, the right thing to do is to ______ sincerely.",
+    "options": [
+      "approach",
+      "apologize",
+      "appreciate",
+      "announce"
+    ],
+    "answer": "apologize",
+    "explanation": "apologize（道歉）是傷害他人後的適當行為。appreciate（感激）是感謝；announce（宣布）是公開告知；approach（靠近）是走近，三者都不是彌補過失時該做的動作。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-031",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "健康"
+    ],
+    "source": "static",
+    "question": "To stay healthy, you need to eat a ______ diet that includes fruits, vegetables, meat, and grains.",
+    "options": [
+      "brave",
+      "brief",
+      "balanced",
+      "bitter"
+    ],
+    "answer": "balanced",
+    "explanation": "balanced（均衡的）形容飲食包含各類食物以維持健康。bitter（苦的）是味道；brave（勇敢的）形容勇氣；brief（簡短的）形容時間或長度短，三者都不修飾飲食類型。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-032",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "文化"
+    ],
+    "source": "static",
+    "question": "In some countries, people wear traditional ______ during festivals to show respect for their culture and ancestors.",
+    "options": [
+      "customer",
+      "custom",
+      "curtain",
+      "costume"
+    ],
+    "answer": "costume",
+    "explanation": "costume（服裝、戲服）指節慶時穿的傳統服飾。customer（顧客）是購物的人；custom（習俗）是傳統習慣，但不能「穿」；curtain（窗簾）是窗戶上的布，三者都不適合。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-033",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "question": "If you save this document in the cloud, you can ______ it from any device with an Internet connection.",
+    "options": [
+      "access",
+      "accept",
+      "achieve",
+      "advise"
+    ],
+    "answer": "access",
+    "explanation": "access（存取、進入）指透過雲端從任何裝置取得文件。accept（接受）是收下東西；achieve（達成）是完成目標；advise（建議）是給意見，三者與從雲端取資料無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-034",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "旅遊"
+    ],
+    "source": "static",
+    "question": "Our flight was canceled because of heavy snow, so we had to find a hotel and wait for the next ______ flight.",
+    "options": [
+      "adjustable",
+      "available",
+      "avoidable",
+      "agreeable"
+    ],
+    "answer": "available",
+    "explanation": "available（可取得的、可用的）指下一班可搭乘的航班。avoidable（可避免的）指可避開的事情；agreeable（令人愉悅的）形容使人開心；adjustable（可調整的）指能改變的，三者都不修飾航班。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-035",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "This sofa is very ______. I can sit on it for hours watching TV without feeling uncomfortable.",
+    "options": [
+      "changeable",
+      "countable",
+      "comfortable",
+      "comparable"
+    ],
+    "answer": "comfortable",
+    "explanation": "comfortable（舒適的）形容沙發坐起來舒服。comparable（可比較的）指能對比的；changeable（多變的）形容易變的事物；countable（可數的）指能計算的，三者都不適合描述沙發坐感。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-036",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "交通"
+    ],
+    "source": "static",
+    "question": "Living near a subway station is very ______ because you can get around the city quickly and easily.",
+    "options": [
+      "confusing",
+      "continuous",
+      "confident",
+      "convenient"
+    ],
+    "answer": "convenient",
+    "explanation": "convenient（方便的）形容住在地鐵站附近出行便捷。confusing（令人困惑的）是讓人搞不清楚；continuous（連續的）是不間斷的；confident（有自信的）是對自己有信心，三者都不修飾交通便利性。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-037",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "His speech was so ______ that everyone in the audience stood up and clapped for a long time.",
+    "options": [
+      "inspiring",
+      "insisting",
+      "insulting",
+      "inventing"
+    ],
+    "answer": "inspiring",
+    "explanation": "inspiring（激勵人心的）形容演講令聽眾起立鼓掌。insisting（堅持的）是不放棄主張；insulting（侮辱的）是冒犯他人；inventing（發明的）是創造新事物，三者都不符演講讓全場鼓掌的情境。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-038",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "自然"
+    ],
+    "source": "static",
+    "question": "Many animals ______ during the winter by sleeping for months to save energy until spring arrives.",
+    "options": [
+      "hydrate",
+      "hibernate",
+      "hesitate",
+      "humiliate"
+    ],
+    "answer": "hibernate",
+    "explanation": "hibernate（冬眠）是動物在冬天長睡以節省能量的行為。hesitate（猶豫）是做決定前的遲疑；humiliate（羞辱）是讓他人丟臉；hydrate（補充水分）是喝水，三者皆非動物過冬的方式。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-039",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "商業"
+    ],
+    "source": "static",
+    "question": "The car ______ employs thousands of workers and produces over a million vehicles each year.",
+    "options": [
+      "inquiry",
+      "infant",
+      "industry",
+      "injury"
+    ],
+    "answer": "industry",
+    "explanation": "industry（產業、工業）指汽車產業僱用大量工人並大量生產。injury（受傷）是身體傷害；inquiry（詢問）是查問；infant（嬰兒）是幼童，三者與大型生產無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-040",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "教育"
+    ],
+    "source": "static",
+    "question": "Please read the ______ carefully before you start the test so you know exactly what to do.",
+    "options": [
+      "introductions",
+      "inventions",
+      "invitations",
+      "instructions"
+    ],
+    "answer": "instructions",
+    "explanation": "instructions（指示、說明）是考試前應仔細閱讀的操作指引。introductions（介紹）是讓人認識某人或事物；inventions（發明）是新創造的東西；invitations（邀請）是請人參加活動，三者不適合考試前閱讀。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-041",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "社交"
+    ],
+    "source": "static",
+    "question": "Everyone should ______ others' beliefs and opinions, even if they are different from their own.",
+    "options": [
+      "respect",
+      "reject",
+      "repeat",
+      "repair"
+    ],
+    "answer": "respect",
+    "explanation": "respect（尊重）是對他人信仰與意見應有的態度。reject（拒絕）是不接受；repeat（重複）是再做一次；repair（修理）是修復物品，三者與待人態度無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-042",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "健康"
+    ],
+    "source": "static",
+    "question": "In case of an ______ like a fire or earthquake, stay calm and follow the safety rules you have learned.",
+    "options": [
+      "excitement",
+      "emergency",
+      "encouragement",
+      "entertainment"
+    ],
+    "answer": "emergency",
+    "explanation": "emergency（緊急情況）如火災或地震，需冷靜遵循安全守則。encouragement（鼓勵）是給人信心；entertainment（娛樂）是休閒；excitement（興奮）是情緒，三者都不是需要安全守則的狀況。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-043",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "時間"
+    ],
+    "source": "static",
+    "question": "She ______ visits her grandparents on weekends, so they always expect her to come on Saturday afternoons.",
+    "options": [
+      "fiercely",
+      "finally",
+      "frequently",
+      "fortunately"
+    ],
+    "answer": "frequently",
+    "explanation": "frequently（經常地）表示她常在週末探望祖父母。fortunately（幸運地）是表達運氣；fiercely（猛烈地）形容激烈程度；finally（終於）指最後結果，三者都不適合描述「規律的週末拜訪」。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-044",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "情緒"
+    ],
+    "source": "static",
+    "question": "The little boy looked at the magician in ______ as he pulled a rabbit out of an empty hat.",
+    "options": [
+      "argument",
+      "agreement",
+      "achievement",
+      "amazement"
+    ],
+    "answer": "amazement",
+    "explanation": "amazement（驚奇）是看到魔術師從空帽子拉出兔子時的反應。argument（爭論）是吵架；agreement（同意）是贊成；achievement（成就）是達成的功績，三者都不符觀看魔術的感受。",
+    "passage": ""
+  },
+  {
+    "id": "V-G2-045",
+    "grade": "G2",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "生活"
+    ],
+    "source": "static",
+    "question": "Please keep your ______ information such as phone number and address safe and do not share it with strangers.",
+    "options": [
+      "private",
+      "popular",
+      "physical",
+      "pleasant"
+    ],
+    "answer": "private",
+    "explanation": "private（私人的）指個人資訊如電話號碼、地址等不應洩漏給陌生人。popular（受歡迎的）形容人氣高；physical（身體的、物理的）指身體或物理性質；pleasant（愉快的）形容令人開心，三者都不修飾資訊安全。",
+    "passage": ""
+  }
+]

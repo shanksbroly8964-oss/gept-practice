@@ -1,0 +1,482 @@
+[
+  {
+    "id": "LP-G3-001",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "家庭生活"
+    ],
+    "source": "static",
+    "image": "👨‍👩‍👧‍👦🏡🍳👩‍🍳🔥🥘🥗🍽️🍚🥢👨‍💼📱💬",
+    "audio_script": "The woman is preparing a large family dinner in the kitchen while her husband is working on his laptop at the dining table, and the children are setting the table with plates and chopsticks.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The woman is cooking dinner in the kitchen while the children play outside.",
+      "B. The woman is cooking dinner in the kitchen while her husband works on his laptop and the children set the table.",
+      "C. The whole family is eating dinner together at the restaurant."
+    ],
+    "answer": "B. The woman is cooking dinner in the kitchen while her husband works on his laptop and the children set the table.",
+    "explanation": "敘述提到媽媽在廚房煮晚餐，爸爸在用筆電工作，孩子們在擺餐具，選項B最完整地描述了這個家庭場景。"
+  },
+  {
+    "id": "LP-G3-002",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "校園"
+    ],
+    "source": "static",
+    "image": "🏫📚👩‍🏫🧑‍🎓👨‍🎓📝✏️📖🗣️🧪🔬👩‍🔬",
+    "audio_script": "A science teacher is demonstrating a chemistry experiment to a group of students who are watching carefully and taking notes, while a few students at the back are raising their hands to ask questions.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The students are playing basketball in the school gym.",
+      "B. A science teacher is doing an experiment while students watch, take notes, and some raise their hands.",
+      "C. The students are taking a final exam silently at their desks."
+    ],
+    "answer": "B. A science teacher is doing an experiment while students watch, take notes, and some raise their hands.",
+    "explanation": "敘述描述科學老師在示範實驗，學生們在觀看、做筆記，還有人舉手發問，與選項B完全吻合。"
+  },
+  {
+    "id": "LP-G3-003",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "天氣"
+    ],
+    "source": "static",
+    "image": "⛈️🌧️💨🌂☔🏃‍♂️🏃‍♀️🚗💦🌊⚡🌩️🏠",
+    "audio_script": "It is raining heavily outside, and people on the street are running for shelter while holding umbrellas that are being blown inside out by the strong wind, as lightning flashes across the dark sky.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The sun is shining brightly and people are enjoying a picnic in the park.",
+      "B. It is snowing lightly and children are building a snowman in the yard.",
+      "C. Heavy rain is falling as people run for shelter with umbrellas, and lightning flashes in the dark sky."
+    ],
+    "answer": "C. Heavy rain is falling as people run for shelter with umbrellas, and lightning flashes in the dark sky.",
+    "explanation": "敘述提到大雨、人們撐傘奔跑避雨、閃電劃過黑暗天空，選項C完整呈現暴風雨的場景。"
+  },
+  {
+    "id": "LP-G3-004",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "動物"
+    ],
+    "source": "static",
+    "image": "🐘🦒🦁🦓🐒🌳🌿🦜🐍📸👨‍👩‍👧🏞️🚙",
+    "audio_script": "A family is on a safari tour in their jeep, and they have stopped to take pictures of a herd of elephants crossing the road while giraffes are eating leaves from tall trees in the background.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The family is watching dolphins jump out of the water at the aquarium.",
+      "B. A family is on a safari, photographing elephants crossing the road with giraffes in the background.",
+      "C. The children are feeding goats and sheep at the petting zoo."
+    ],
+    "answer": "B. A family is on a safari, photographing elephants crossing the road with giraffes in the background.",
+    "explanation": "敘述描述一家人在野生動物園搭吉普車，正在拍大象過馬路，背景有長頸鹿吃樹葉，與選項B相符。"
+  },
+  {
+    "id": "LP-G3-005",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "運動競賽"
+    ],
+    "source": "static",
+    "image": "🏟️⚽🏃‍♂️🏃‍♂️🥅🧤👥🎉🏆📣🔴🔵",
+    "audio_script": "The soccer match has just ended and the red team is celebrating their victory on the field, while the goalkeeper of the losing team is sitting on the grass looking disappointed as fans in the stands are cheering loudly.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The basketball game is still in the first quarter and both teams are tied.",
+      "B. The soccer match ended with the red team celebrating on the field and the losing goalkeeper looking disappointed.",
+      "C. The tennis player just won the championship and is holding the trophy above her head."
+    ],
+    "answer": "B. The soccer match ended with the red team celebrating on the field and the losing goalkeeper looking disappointed.",
+    "explanation": "敘述提到足球比賽結束，紅隊在球場上慶祝勝利，輸隊守門員坐在草地上很失望，選項B正確。"
+  },
+  {
+    "id": "LP-G3-006",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "購物"
+    ],
+    "source": "static",
+    "image": "🛒🛍️🏪👩‍🦰🧥👗👠🪞💳💵🛍️🛍️",
+    "audio_script": "A young woman is standing in front of a mirror in a clothing store, trying on a red dress and a blue jacket while her shopping cart is already filled with several pairs of shoes and accessories.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The woman is buying groceries at the supermarket with a full cart of vegetables.",
+      "B. A young woman is trying on clothes in a store mirror while her cart is full of shoes and accessories.",
+      "C. The woman is returning a pair of shoes she bought online last week."
+    ],
+    "answer": "B. A young woman is trying on clothes in a store mirror while her cart is full of shoes and accessories.",
+    "explanation": "敘述描述年輕女性在服飾店鏡子前試穿紅裙和藍外套，購物車已裝滿鞋子和配件，選項B正確描述此場景。"
+  },
+  {
+    "id": "LP-G3-007",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "交通運輸"
+    ],
+    "source": "static",
+    "image": "🚉🚆🚶‍♂️🚶‍♀️🚶‍♂️🧳🎒🕒🖥️🚪🔊🎫",
+    "audio_script": "Commuters are rushing through the train station during rush hour, checking the departure board for their platform numbers while others are lining up at the ticket machines to purchase their tickets before the next train arrives.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. People are waiting quietly at the bus stop for the morning bus to arrive.",
+      "B. Commuters are rushing through the train station, checking departure boards and buying tickets at machines.",
+      "C. Travelers are boarding an airplane at the airport departure gate."
+    ],
+    "answer": "B. Commuters are rushing through the train station, checking departure boards and buying tickets at machines.",
+    "explanation": "敘述描述尖峰時間通勤族在火車站匆忙趕車、查看出發時刻表、排隊使用售票機，選項B完全符合。"
+  },
+  {
+    "id": "LP-G3-008",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "健康"
+    ],
+    "source": "static",
+    "image": "🏥👨‍⚕️🩺👩‍🦰🤒🌡️💊💉📋🩻🛏️😷",
+    "audio_script": "A female patient with a high fever is sitting on the examination bed while the doctor is listening to her heartbeat with a stethoscope and writing notes on her medical chart, as a nurse prepares an injection nearby.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The dentist is checking the patient's teeth with a small mirror and drill.",
+      "B. A doctor is examining a feverish patient with a stethoscope while a nurse prepares an injection.",
+      "C. The pharmacist is explaining how to take the medicine to the customer at the counter."
+    ],
+    "answer": "B. A doctor is examining a feverish patient with a stethoscope while a nurse prepares an injection.",
+    "explanation": "敘述提到發燒的女病人坐在診療床上，醫生用聽診器聽心跳並寫病歷，護士準備注射，選項B正確。"
+  },
+  {
+    "id": "LP-G3-009",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "節日文化"
+    ],
+    "source": "static",
+    "image": "🎄🎅🧑‍🎄🎁✨🌟🕯️🍪🥛🧦👨‍👩‍👧‍👦🔥",
+    "audio_script": "On Christmas Eve, the family has gathered around the fireplace where stockings are hanging, and the children are placing cookies and a glass of milk on the table for Santa while the Christmas tree sparkles with colorful lights in the corner.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The family is celebrating Chinese New Year with red envelopes and firecrackers.",
+      "B. On Christmas Eve, the family gathers by the fireplace with stockings, and children leave cookies and milk for Santa near the sparkling tree.",
+      "C. The children are dressing up in costumes and going trick-or-treating on Halloween night."
+    ],
+    "answer": "B. On Christmas Eve, the family gathers by the fireplace with stockings, and children leave cookies and milk for Santa near the sparkling tree.",
+    "explanation": "敘述提到聖誕夜全家圍著壁爐、掛聖誕襪、孩子放餅乾和牛奶給聖誕老人、聖誕樹閃爍彩燈，選項B完整描述。"
+  },
+  {
+    "id": "LP-G3-010",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "自然環境"
+    ],
+    "source": "static",
+    "image": "🏔️⛰️🌲🌲🦅🏕️🔥🧑‍🤝‍🧑🥾🎒🗺️🌄",
+    "audio_script": "Two hikers have set up their tent on a mountain ridge and are sitting by a small campfire, studying a map and pointing toward the mountain peak that they plan to climb early tomorrow morning when the sun rises.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Two fishermen are sitting by the lake, waiting for fish to bite their lines.",
+      "B. Two hikers are camping on a mountain ridge, sitting by a campfire and planning their climb to the peak for sunrise.",
+      "C. A family is having a barbecue in their backyard garden on a sunny afternoon."
+    ],
+    "answer": "B. Two hikers are camping on a mountain ridge, sitting by a campfire and planning their climb to the peak for sunrise.",
+    "explanation": "敘述描述兩位登山者在山脊搭帳篷、坐在營火旁看地圖、計劃明天日出時攀登山頂，選項B正確。"
+  },
+  {
+    "id": "LP-G3-011",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "image": "🚒🔥🏢👨‍🚒👨‍🚒💦🧯🪜🪟😷🏥🚑",
+    "audio_script": "Firefighters are arriving at a burning building with their fire truck, and while two of them are using a tall ladder to rescue people from the upper windows, others are spraying water at the flames with their hoses as an ambulance waits nearby.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Police officers are directing traffic at a busy intersection during an accident.",
+      "B. Firefighters are rescuing people from a burning building using a ladder while others spray water at the flames.",
+      "C. Construction workers are building a new skyscraper with a tall crane."
+    ],
+    "answer": "B. Firefighters are rescuing people from a burning building using a ladder while others spray water at the flames.",
+    "explanation": "敘述描述消防員到達火場，有人用長梯救援樓上窗戶的人，其他人用水管噴水滅火，旁邊還有救護車待命，選項B正確。"
+  },
+  {
+    "id": "LP-G3-012",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "科技"
+    ],
+    "source": "static",
+    "image": "💻🖥️⌨️🖱️👨‍💻📱🤖🔌🔋🎧🪑☕",
+    "audio_script": "A software developer is working late at his desk with two monitors displaying code, while his smartphone on the desk keeps buzzing with notifications, and a small robot that he built himself is moving around the room delivering cups of coffee.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. A chef is following a cooking video on his tablet to prepare a new recipe.",
+      "B. A software developer works late with dual monitors showing code while a small robot delivers coffee around the room.",
+      "C. A graphic designer is drawing illustrations on a digital tablet in a bright studio."
+    ],
+    "answer": "B. A software developer works late with dual monitors showing code while a small robot delivers coffee around the room.",
+    "explanation": "敘述提到軟體開發者加班寫程式、雙螢幕顯示程式碼、手機不斷有通知、自製的小機器人在房間送咖啡，選項B正確。"
+  },
+  {
+    "id": "LP-G3-013",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "旅遊"
+    ],
+    "source": "static",
+    "image": "✈️🛄🧳🗺️🗼🏯📸👩‍🦱👨‍🦰🌸⛩️🍜",
+    "audio_script": "A young couple has just arrived in Japan for their vacation, and they are standing in front of a famous temple taking selfies with cherry blossoms blooming all around them while checking a travel guide to decide which restaurant to visit for their first bowl of authentic ramen.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The couple is at the beach building sandcastles and surfing the waves.",
+      "B. A young couple is visiting a temple in Japan, taking selfies under cherry blossoms while planning where to eat ramen.",
+      "C. The tourists are hiking through a jungle in South America looking for ancient ruins."
+    ],
+    "answer": "B. A young couple is visiting a temple in Japan, taking selfies under cherry blossoms while planning where to eat ramen.",
+    "explanation": "敘述描述年輕情侶到日本度假，在寺廟前櫻花下自拍，同時查看旅遊指南找拉麵店，選項B正確。"
+  },
+  {
+    "id": "LP-G3-014",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "飲食"
+    ],
+    "source": "static",
+    "image": "🍕🧑‍🍳🍅🧀🍄🫒🔥🪵👨‍🍳🍽️🍷🕯️",
+    "audio_script": "In a traditional Italian pizzeria, the chef is tossing pizza dough high into the air and then carefully spreading fresh tomato sauce, mozzarella cheese, and mushrooms on top before sliding it into a wood-fired oven where the flames are crackling.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The baker is pulling fresh loaves of bread out of the electric oven in the bakery.",
+      "B. A chef in an Italian pizzeria is tossing dough, adding fresh toppings, and sliding the pizza into a wood-fired oven.",
+      "C. The sushi master is slicing fresh fish and rolling maki at the sushi bar counter."
+    ],
+    "answer": "B. A chef in an Italian pizzeria is tossing dough, adding fresh toppings, and sliding the pizza into a wood-fired oven.",
+    "explanation": "敘述描述義大利披薩店的廚師拋餅皮、加番茄醬和起司等配料、放入柴燒窯爐，選項B正確。"
+  },
+  {
+    "id": "LP-G3-015",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "環保"
+    ],
+    "source": "static",
+    "image": "🌍♻️🗑️🧑‍🤝‍🧑👩‍👧🌱🌳🌿🪴🧤🪣🚮",
+    "audio_script": "A group of volunteers is cleaning up a local park on Earth Day, with some people picking up plastic bottles and trash while others are planting young trees and flowers in the freshly dug soil, and children are learning how to sort recyclables into different colored bins.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Students are having a picnic and leaving their trash all over the grass in the park.",
+      "B. Volunteers on Earth Day are cleaning the park, planting trees, and teaching children how to recycle into colored bins.",
+      "C. Gardeners are trimming hedges and mowing the lawn at a private golf course."
+    ],
+    "answer": "B. Volunteers on Earth Day are cleaning the park, planting trees, and teaching children how to recycle into colored bins.",
+    "explanation": "敘述提到地球日志工在公園撿垃圾、種樹種花、教孩子分類回收物到不同顏色的垃圾桶，選項B正確。"
+  },
+  {
+    "id": "LP-G3-016",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "音樂藝術"
+    ],
+    "source": "static",
+    "image": "🎻🎹🎺🥁🎵👨‍🎤🎤🎼🎶👥🎫🏛️",
+    "audio_script": "An orchestra is performing on stage in a grand concert hall, and the conductor is waving his baton energetically while the violinists play in perfect harmony and the pianist's fingers move swiftly across the keys, as the audience listens in complete silence.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. A rock band is playing loud electric guitar solos at an outdoor music festival.",
+      "B. An orchestra is performing in a concert hall with the conductor leading, violinists playing, and the pianist performing swiftly.",
+      "C. A jazz trio is improvising in a small smoky nightclub with a saxophone solo."
+    ],
+    "answer": "B. An orchestra is performing in a concert hall with the conductor leading, violinists playing, and the pianist performing swiftly.",
+    "explanation": "敘述描述交響樂團在音樂廳演奏，指揮揮舞指揮棒、小提琴手合奏、鋼琴家手指快速彈奏、觀眾安靜聆聽，選項B正確。"
+  },
+  {
+    "id": "LP-G3-017",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "農場生活"
+    ],
+    "source": "static",
+    "image": "🚜🌾🐄🐓🐑👨‍🌾🧑‍🌾🌞🥚🧺🥛🪣🏡",
+    "audio_script": "Early in the morning on the farm, a farmer is driving his tractor across the wheat field while his wife is collecting fresh eggs from the chicken coop and their daughter is feeding hay to the cows in the barn before milking them.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The farmer is sleeping late because it is a holiday and there is no work to do.",
+      "B. On a farm early morning, a farmer drives a tractor, his wife collects eggs, and their daughter feeds and milks the cows.",
+      "C. The family is at the farmers' market selling vegetables and homemade jam to customers."
+    ],
+    "answer": "B. On a farm early morning, a farmer drives a tractor, his wife collects eggs, and their daughter feeds and milks the cows.",
+    "explanation": "敘述描述農場清晨，農夫開拖拉機耕田、妻子撿雞蛋、女兒餵牛後擠牛奶，選項B完整描述農場分工場景。"
+  },
+  {
+    "id": "LP-G3-018",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "海洋世界"
+    ],
+    "source": "static",
+    "image": "🌊🏄‍♂️🏄‍♀️🐬🐠🐙🪸🤿🛥️🏝️☀️🌴",
+    "audio_script": "While a group of surfers is riding the waves near a tropical island, a scuba diver underwater is exploring a colorful coral reef where schools of tropical fish are swimming among the coral, and a curious dolphin is circling around the diver.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. People are ice skating on a frozen lake surrounded by snowy mountains.",
+      "B. Surfers ride waves near an island while a diver explores a coral reef with tropical fish and a dolphin underwater.",
+      "C. Tourists are riding jet skis and parasailing above the ocean at a crowded beach resort."
+    ],
+    "answer": "B. Surfers ride waves near an island while a diver explores a coral reef with tropical fish and a dolphin underwater.",
+    "explanation": "敘述描述海面上有人在衝浪，海面下有潛水員探索珊瑚礁、熱帶魚群穿梭、好奇的海豚圍繞，選項B同時涵蓋水面上下場景。"
+  },
+  {
+    "id": "LP-G3-019",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "機場旅行"
+    ],
+    "source": "static",
+    "image": "🛫✈️🧳🛄🛂🎫👮‍♂️🛬🕐📢👨‍👩‍👧🏢",
+    "audio_script": "A family of three is waiting at the departure gate, and the father is checking their passports and boarding passes one more time while the mother is comforting their young child who is feeling nervous about flying for the first time, as announcements about flight delays echo through the terminal.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The family is boarding a cruise ship while the crew welcomes them with drinks.",
+      "B. A family at the departure gate has the father checking passports, the mother comforting their nervous child, as delay announcements echo.",
+      "C. The family is checking into a hotel and the receptionist is handing them their room keys."
+    ],
+    "answer": "B. A family at the departure gate has the father checking passports, the mother comforting their nervous child, as delay announcements echo.",
+    "explanation": "敘述描述一家三口在登機門等候，爸爸檢查護照和登機證、媽媽安撫第一次搭飛機緊張的孩子、航廈廣播航班延誤，選項B正確。"
+  },
+  {
+    "id": "LP-G3-020",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "圖書館"
+    ],
+    "source": "static",
+    "image": "📚🏛️📖👩‍🎓👨‍🎓💻🔇🪑🪜🤫🔍📑✍️",
+    "audio_script": "Inside a large public library, several university students are sitting at wooden tables studying quietly, while a librarian is climbing a tall ladder to reach a rare book on the top shelf, and someone at the computer station is searching the online catalog for research articles.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Students are chatting loudly and eating snacks in the library's reading room.",
+      "B. In a large library, students study quietly, a librarian climbs a ladder for a rare book, and someone searches the online catalog.",
+      "C. The bookshop is having a big sale and customers are rushing to grab discounted bestsellers."
+    ],
+    "answer": "B. In a large library, students study quietly, a librarian climbs a ladder for a rare book, and someone searches the online catalog.",
+    "explanation": "敘述提到大型圖書館內大學生安靜讀書、圖書館員爬梯子取高處珍本書、有人在電腦查線上目錄，選項B正確。"
+  },
+  {
+    "id": "LP-G3-021",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "建築工地"
+    ],
+    "source": "static",
+    "image": "🏗️👷‍♂️👷‍♀️🏢🚧🔩🔨🪚🏗️📐📏🦺⛑️",
+    "audio_script": "Construction workers wearing yellow safety helmets and orange vests are busy at a construction site, where a crane is lifting heavy steel beams to the top floor of a skyscraper while an architect is reviewing the blueprints with the site supervisor near the entrance.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Office workers are having a meeting in a conference room on the top floor.",
+      "B. Construction workers in safety gear work at a site where a crane lifts steel beams and an architect reviews blueprints with the supervisor.",
+      "C. Delivery workers are unloading packages from a truck at a warehouse loading dock."
+    ],
+    "answer": "B. Construction workers in safety gear work at a site where a crane lifts steel beams and an architect reviews blueprints with the supervisor.",
+    "explanation": "敘述描述建築工人戴安全帽穿背心，起重機吊鋼樑到摩天大樓頂層，建築師和工地主管在入口處審查藍圖，選項B正確。"
+  },
+  {
+    "id": "LP-G3-022",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "太空探索"
+    ],
+    "source": "static",
+    "image": "🚀🌍🌙🧑‍🚀🌌✨🛰️🛸🔭⭐🪐🌠",
+    "audio_script": "An astronaut is floating in space outside the International Space Station, repairing a solar panel with a special tool while the Earth can be seen glowing blue and green far below, and a satellite is orbiting nearby against a backdrop of countless stars.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. A pilot is flying a commercial airplane through clouds above the ocean at sunset.",
+      "B. An astronaut is floating in space repairing a solar panel outside the space station with the Earth visible below.",
+      "C. A deep-sea diver is exploring an underwater cave with a flashlight in the dark ocean."
+    ],
+    "answer": "B. An astronaut is floating in space repairing a solar panel outside the space station with the Earth visible below.",
+    "explanation": "敘述描述太空人在國際太空站外飄浮修理太陽能板，下方可見藍綠色的地球，附近有衛星環繞、星空背景，選項B正確。"
+  },
+  {
+    "id": "LP-G3-023",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "夜市小吃"
+    ],
+    "source": "static",
+    "image": "🏮🍢🍜🥟🧋🎪👨‍🍳🔥🍗🦑🍧👥🎆",
+    "audio_script": "The night market is crowded with people walking between rows of food stalls, where a vendor is grilling skewers of meat over hot charcoal while another is frying squid in a large wok, and a group of friends is sharing a bowl of shaved ice with fresh fruit on top.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. Diners are enjoying a formal banquet in a fancy hotel ballroom with chandeliers.",
+      "B. At a crowded night market, vendors grill meat skewers and fry squid while friends share shaved ice with fruit.",
+      "C. Customers are selecting fresh seafood from an aquarium tank at a high-end sushi restaurant."
+    ],
+    "answer": "B. At a crowded night market, vendors grill meat skewers and fry squid while friends share shaved ice with fruit.",
+    "explanation": "敘述描述夜市人潮擁擠，攤販烤串燒、炒魷魚，一群朋友分享水果刨冰，選項B正確呈現台灣夜市場景。"
+  },
+  {
+    "id": "LP-G3-024",
+    "grade": "G3",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": [
+      "寵物"
+    ],
+    "source": "static",
+    "image": "🐕🐈🦜🐠🏠👩‍🦰🧹🧽🛋️🪴🐾🦴",
+    "audio_script": "A woman who owns three pets is having a busy afternoon at home because her dog is running around the living room with a shoe in its mouth, her cat is knocking over a potted plant from the shelf, and her parrot is loudly imitating the sound of the doorbell.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. The woman is relaxing on the sofa while her pets are sleeping peacefully beside her.",
+      "B. A woman's three pets are causing chaos at home as the dog steals a shoe, the cat knocks over a plant, and the parrot mimics the doorbell.",
+      "C. The pets are being examined by a veterinarian at the animal clinic for their annual checkup."
+    ],
+    "answer": "B. A woman's three pets are causing chaos at home as the dog steals a shoe, the cat knocks over a plant, and the parrot mimics the doorbell.",
+    "explanation": "敘述描述飼主的三隻寵物同時搗亂：狗咬鞋奔跑、貓推倒盆栽、鸚鵡模仿門鈴聲，選項B完整捕捉混亂有趣的居家場景。"
+  }
+]

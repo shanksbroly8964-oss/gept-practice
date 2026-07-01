@@ -1,0 +1,445 @@
+[
+  {
+    "id": "R-G3-001",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "biography",
+      "environment"
+    ],
+    "source": "static",
+    "passage": "When Boyan Slat was sixteen years old, he went diving in Greece and was shocked to see more plastic bags than fish in the water. This experience, which changed his life forever, made him wonder why the ocean could not clean itself. At the age of eighteen, Slat founded The Ocean Cleanup, a non-profit organization that develops advanced technologies to remove plastic from the oceans. His most famous invention is a U-shaped floating barrier that collects plastic waste without harming marine life. The project has already removed tons of garbage from the Great Pacific Garbage Patch, which is the largest collection of ocean plastic in the world. Although his ideas were doubted by many scientists at first, Slat has proven that young people can make a real difference in protecting our planet. He has received many international awards for his work.",
+    "question": "What inspired Boyan Slat to start his ocean cleanup project?",
+    "options": [
+      "A science competition that he won",
+      "Seeing plastic pollution while diving in Greece",
+      "A documentary he watched about fish",
+      "A school project about marine life"
+    ],
+    "answer": "Seeing plastic pollution while diving in Greece",
+    "explanation": "根據文章第一句「When Boyan Slat was sixteen years old, he went diving in Greece and was shocked to see more plastic bags than fish in the water」，Slat 在希臘潛水時看到大量塑膠垃圾而受到震撼，此經歷促使他投入海洋清理工作。"
+  },
+  {
+    "id": "R-G3-002",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "biography",
+      "environment"
+    ],
+    "source": "static",
+    "passage": "When Boyan Slat was sixteen years old, he went diving in Greece and was shocked to see more plastic bags than fish in the water. This experience, which changed his life forever, made him wonder why the ocean could not clean itself. At the age of eighteen, Slat founded The Ocean Cleanup, a non-profit organization that develops advanced technologies to remove plastic from the oceans. His most famous invention is a U-shaped floating barrier that collects plastic waste without harming marine life. The project has already removed tons of garbage from the Great Pacific Garbage Patch, which is the largest collection of ocean plastic in the world. Although his ideas were doubted by many scientists at first, Slat has proven that young people can make a real difference in protecting our planet. He has received many international awards for his work.",
+    "question": "What can be inferred about Slat's invention from the passage?",
+    "options": [
+      "It uses nets to catch plastic and fish together.",
+      "It is still being tested and has not been used yet.",
+      "It collects plastic while protecting sea creatures.",
+      "It was immediately supported by all scientists."
+    ],
+    "answer": "It collects plastic while protecting sea creatures.",
+    "explanation": "文章提到「a U-shaped floating barrier that collects plastic waste without harming marine life」，可推知此發明能在不傷害海洋生物的前提下收集塑膠垃圾。"
+  },
+  {
+    "id": "R-G3-003",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "biography",
+      "vocabulary"
+    ],
+    "source": "static",
+    "passage": "When Boyan Slat was sixteen years old, he went diving in Greece and was shocked to see more plastic bags than fish in the water. This experience, which changed his life forever, made him wonder why the ocean could not clean itself. At the age of eighteen, Slat founded The Ocean Cleanup, a non-profit organization that develops advanced technologies to remove plastic from the oceans. His most famous invention is a U-shaped floating barrier that collects plastic waste without harming marine life. The project has already removed tons of garbage from the Great Pacific Garbage Patch, which is the largest collection of ocean plastic in the world. Although his ideas were doubted by many scientists at first, Slat has proven that young people can make a real difference in protecting our planet. He has received many international awards for his work.",
+    "question": "The word 'founded' in the passage is closest in meaning to:",
+    "options": [
+      "discovered",
+      "established",
+      "imagined",
+      "destroyed"
+    ],
+    "answer": "established",
+    "explanation": "文章中「Slat founded The Ocean Cleanup」意指 Slat 創立了這個組織，founded 的意思等同於 established（建立、創立）。"
+  },
+  {
+    "id": "R-G3-004",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "environment",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "Coral reefs, which are often called the rainforests of the sea, are among the most diverse ecosystems on Earth. They cover less than one percent of the ocean floor, yet they provide a home for about twenty-five percent of all marine species. However, these beautiful underwater worlds are being destroyed at an alarming rate. Rising ocean temperatures, which have been caused by climate change, lead to a dangerous condition known as coral bleaching. When the water becomes too warm, corals push out the tiny algae that live inside them and give them both food and color. Without these algae, the corals turn completely white and are much more likely to die. Scientists have been working hard to find ways to protect and restore coral reefs, including growing new corals in underwater nurseries before transplanting them back to the ocean.",
+    "question": "According to the passage, coral reefs are called 'the rainforests of the sea' because:",
+    "options": [
+      "they are located near rainforests",
+      "they receive a lot of rainfall",
+      "they support a great variety of life",
+      "they are green in color"
+    ],
+    "answer": "they support a great variety of life",
+    "explanation": "文章指出珊瑚礁被稱為「海洋的雨林」是因為它們是「the most diverse ecosystems on Earth」，且僅佔海底百分之一卻提供 25% 海洋物種棲息地，類似熱帶雨林擁有豐富的生物多樣性。"
+  },
+  {
+    "id": "R-G3-005",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "environment",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Coral reefs, which are often called the rainforests of the sea, are among the most diverse ecosystems on Earth. They cover less than one percent of the ocean floor, yet they provide a home for about twenty-five percent of all marine species. However, these beautiful underwater worlds are being destroyed at an alarming rate. Rising ocean temperatures, which have been caused by climate change, lead to a dangerous condition known as coral bleaching. When the water becomes too warm, corals push out the tiny algae that live inside them and give them both food and color. Without these algae, the corals turn completely white and are much more likely to die. Scientists have been working hard to find ways to protect and restore coral reefs, including growing new corals in underwater nurseries before transplanting them back to the ocean.",
+    "question": "What happens to corals during coral bleaching?",
+    "options": [
+      "They change color to protect themselves.",
+      "They expel the algae that give them color and food.",
+      "They grow faster in warm water.",
+      "They move to cooler areas of the ocean."
+    ],
+    "answer": "They expel the algae that give them color and food.",
+    "explanation": "文章明確說明「corals push out the tiny algae that live inside them and give them both food and color」，珊瑚白化時會排出體內的藻類，失去顏色與食物來源。"
+  },
+  {
+    "id": "R-G3-006",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "environment",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "Coral reefs, which are often called the rainforests of the sea, are among the most diverse ecosystems on Earth. They cover less than one percent of the ocean floor, yet they provide a home for about twenty-five percent of all marine species. However, these beautiful underwater worlds are being destroyed at an alarming rate. Rising ocean temperatures, which have been caused by climate change, lead to a dangerous condition known as coral bleaching. When the water becomes too warm, corals push out the tiny algae that live inside them and give them both food and color. Without these algae, the corals turn completely white and are much more likely to die. Scientists have been working hard to find ways to protect and restore coral reefs, including growing new corals in underwater nurseries before transplanting them back to the ocean.",
+    "question": "What is the main idea of this passage?",
+    "options": [
+      "Coral reefs are beautiful tourist attractions.",
+      "Climate change only affects animals that live on land.",
+      "Coral reefs are important but are being threatened by rising ocean temperatures.",
+      "Scientists have already solved the coral bleaching problem."
+    ],
+    "answer": "Coral reefs are important but are being threatened by rising ocean temperatures.",
+    "explanation": "全文先說明珊瑚礁的重要性（生物多樣性），再指出氣候變遷導致海水升溫與珊瑚白化的危機，最後提及科學家仍在努力尋找解決方案，故主旨為珊瑚礁重要但受威脅。"
+  },
+  {
+    "id": "R-G3-007",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "technology",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Farming, which has been practiced by humans for thousands of years, is now being transformed by modern technology. Today's farmers have begun using drones, sensors, and artificial intelligence to grow more food with fewer resources. Drones, which are equipped with special cameras, can fly over large fields and quickly identify crops that need more water or are being attacked by insects. Sensors that are placed in the soil can measure moisture levels and send this information directly to a farmer's smartphone. By analyzing this data, AI systems can tell farmers exactly when and where to plant seeds or apply fertilizer. These smart farming methods have not only increased crop production but also reduced the amount of water and chemicals that are used. As the world's population continues to grow, such technologies are becoming increasingly important for feeding everyone on the planet.",
+    "question": "According to the passage, how do drones help farmers?",
+    "options": [
+      "They plant seeds faster than humans can.",
+      "They carry heavy equipment across the field.",
+      "They identify crops that have problems.",
+      "They predict future weather conditions."
+    ],
+    "answer": "They identify crops that have problems.",
+    "explanation": "文章提到「Drones...can fly over large fields and quickly identify crops that need more water or are being attacked by insects」，無人機可辨識出需要更多水或遭受蟲害的作物。"
+  },
+  {
+    "id": "R-G3-008",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "technology",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "Farming, which has been practiced by humans for thousands of years, is now being transformed by modern technology. Today's farmers have begun using drones, sensors, and artificial intelligence to grow more food with fewer resources. Drones, which are equipped with special cameras, can fly over large fields and quickly identify crops that need more water or are being attacked by insects. Sensors that are placed in the soil can measure moisture levels and send this information directly to a farmer's smartphone. By analyzing this data, AI systems can tell farmers exactly when and where to plant seeds or apply fertilizer. These smart farming methods have not only increased crop production but also reduced the amount of water and chemicals that are used. As the world's population continues to grow, such technologies are becoming increasingly important for feeding everyone on the planet.",
+    "question": "What has been one result of using smart farming methods?",
+    "options": [
+      "Farmers need more workers than before.",
+      "More water and chemicals are being used.",
+      "Crop production has increased while resource use has decreased.",
+      "Only large farms can afford to grow food."
+    ],
+    "answer": "Crop production has increased while resource use has decreased.",
+    "explanation": "文章末段提到「These smart farming methods have not only increased crop production but also reduced the amount of water and chemicals that are used」，產量增加而資源使用減少。"
+  },
+  {
+    "id": "R-G3-009",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "technology",
+      "attitude"
+    ],
+    "source": "static",
+    "passage": "Farming, which has been practiced by humans for thousands of years, is now being transformed by modern technology. Today's farmers have begun using drones, sensors, and artificial intelligence to grow more food with fewer resources. Drones, which are equipped with special cameras, can fly over large fields and quickly identify crops that need more water or are being attacked by insects. Sensors that are placed in the soil can measure moisture levels and send this information directly to a farmer's smartphone. By analyzing this data, AI systems can tell farmers exactly when and where to plant seeds or apply fertilizer. These smart farming methods have not only increased crop production but also reduced the amount of water and chemicals that are used. As the world's population continues to grow, such technologies are becoming increasingly important for feeding everyone on the planet.",
+    "question": "What is the author's attitude toward smart farming technology?",
+    "options": [
+      "Worried and doubtful",
+      "Positive and hopeful",
+      "Angry and critical",
+      "Completely neutral with no opinion"
+    ],
+    "answer": "Positive and hopeful",
+    "explanation": "作者使用「have not only increased crop production but also reduced」及「becoming increasingly important for feeding everyone」等正面語句，展現對智慧農業科技的支持與樂觀態度。"
+  },
+  {
+    "id": "R-G3-010",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "culture",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "In Western countries such as the United States or the United Kingdom, when a person receives a gift, it is considered polite to open it immediately in front of the giver. The receiver is expected to show excitement and thank the giver right away. However, in many East Asian cultures, including Taiwan, Japan, and Korea, the custom is quite different. Gifts are usually not opened in front of the person who gave them. This practice, which has been followed for generations, is meant to show that the receiver values the relationship more than the gift itself. Opening a gift immediately could be seen as greedy or impatient. Another interesting difference is that in Chinese culture, gifts such as clocks or umbrellas should be avoided because their names sound like words that have negative meanings. Understanding these cultural differences has become more important as people around the world interact more frequently.",
+    "question": "According to the passage, what is the polite way to receive a gift in Taiwan?",
+    "options": [
+      "Open it immediately and show excitement.",
+      "Refuse to accept it the first time it is offered.",
+      "Not open it in front of the giver.",
+      "Open it only after the giver leaves the room."
+    ],
+    "answer": "Not open it in front of the giver.",
+    "explanation": "文章指出「Gifts are usually not opened in front of the person who gave them」是東亞文化的習俗，包含台灣在內，收禮時不當場拆開才是有禮貌的做法。"
+  },
+  {
+    "id": "R-G3-011",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "culture",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "In Western countries such as the United States or the United Kingdom, when a person receives a gift, it is considered polite to open it immediately in front of the giver. The receiver is expected to show excitement and thank the giver right away. However, in many East Asian cultures, including Taiwan, Japan, and Korea, the custom is quite different. Gifts are usually not opened in front of the person who gave them. This practice, which has been followed for generations, is meant to show that the receiver values the relationship more than the gift itself. Opening a gift immediately could be seen as greedy or impatient. Another interesting difference is that in Chinese culture, gifts such as clocks or umbrellas should be avoided because their names sound like words that have negative meanings. Understanding these cultural differences has become more important as people around the world interact more frequently.",
+    "question": "Why should clocks be avoided as gifts in Chinese culture?",
+    "options": [
+      "They are too expensive for most people.",
+      "They are considered old-fashioned presents.",
+      "The word for clock sounds like a word with a negative meaning.",
+      "Clocks are difficult to wrap properly."
+    ],
+    "answer": "The word for clock sounds like a word with a negative meaning.",
+    "explanation": "文章說明「gifts such as clocks or umbrellas should be avoided because their names sound like words that have negative meanings」，鐘的發音與「終」相近，有負面含義。"
+  },
+  {
+    "id": "R-G3-012",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "data",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "A recent survey conducted by the Taiwan Children and Youth Foundation examined how teenagers in Taiwan spend their free time. The results, which were collected from over 2,000 students aged 13 to 15, show some worrying trends. According to the data, 68% of teenagers spend more than three hours a day on their smartphones, while only 12% spend more than one hour reading books for pleasure. Social media and video streaming are the most popular activities, which are enjoyed by 74% and 61% of teenagers respectively. In contrast, only 28% of the surveyed students reported that they exercise for at least 30 minutes every day. The survey also found that teenagers who spend more than five hours a day on screens are twice as likely to report feeling lonely or depressed compared to those who use screens for less than two hours. Experts have suggested that parents and schools should work together to help young people develop healthier habits.",
+    "question": "According to the survey, what percentage of teenagers read for pleasure for more than one hour a day?",
+    "options": [
+      "68%",
+      "28%",
+      "12%",
+      "74%"
+    ],
+    "answer": "12%",
+    "explanation": "文章數據明確指出「only 12% spend more than one hour reading books for pleasure」，僅有 12% 的青少年每天為樂趣而閱讀超過一小時。"
+  },
+  {
+    "id": "R-G3-013",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "data",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "A recent survey conducted by the Taiwan Children and Youth Foundation examined how teenagers in Taiwan spend their free time. The results, which were collected from over 2,000 students aged 13 to 15, show some worrying trends. According to the data, 68% of teenagers spend more than three hours a day on their smartphones, while only 12% spend more than one hour reading books for pleasure. Social media and video streaming are the most popular activities, which are enjoyed by 74% and 61% of teenagers respectively. In contrast, only 28% of the surveyed students reported that they exercise for at least 30 minutes every day. The survey also found that teenagers who spend more than five hours a day on screens are twice as likely to report feeling lonely or depressed compared to those who use screens for less than two hours. Experts have suggested that parents and schools should work together to help young people develop healthier habits.",
+    "question": "According to the survey, heavy screen users are more likely to:",
+    "options": [
+      "have more friends than light users",
+      "feel lonely or depressed",
+      "exercise more frequently",
+      "get better grades in school"
+    ],
+    "answer": "feel lonely or depressed",
+    "explanation": "文章調查結果顯示「teenagers who spend more than five hours a day on screens are twice as likely to report feeling lonely or depressed」，重度螢幕使用者更容易感到孤單或憂鬱。"
+  },
+  {
+    "id": "R-G3-014",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "data",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "A recent survey conducted by the Taiwan Children and Youth Foundation examined how teenagers in Taiwan spend their free time. The results, which were collected from over 2,000 students aged 13 to 15, show some worrying trends. According to the data, 68% of teenagers spend more than three hours a day on their smartphones, while only 12% spend more than one hour reading books for pleasure. Social media and video streaming are the most popular activities, which are enjoyed by 74% and 61% of teenagers respectively. In contrast, only 28% of the surveyed students reported that they exercise for at least 30 minutes every day. The survey also found that teenagers who spend more than five hours a day on screens are twice as likely to report feeling lonely or depressed compared to those who use screens for less than two hours. Experts have suggested that parents and schools should work together to help young people develop healthier habits.",
+    "question": "What is the main purpose of this passage?",
+    "options": [
+      "To advertise new smartphone models to teenagers.",
+      "To present survey data and raise concern about teen screen habits.",
+      "To prove that social media is harmful to all teenagers.",
+      "To compare teenagers in Taiwan with those in other countries."
+    ],
+    "answer": "To present survey data and raise concern about teen screen habits.",
+    "explanation": "全文引述調查數據，呈現台灣青少年的螢幕使用趨勢並引述專家建議，目的是呈現數據並呼籲關注青少年螢幕使用習慣。"
+  },
+  {
+    "id": "R-G3-015",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "health",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Sleep, which is often ignored by busy teenagers, plays a crucial role in both physical and mental health. During sleep, the brain processes information that has been learned during the day and moves it from short-term to long-term memory. This is why students who get enough sleep tend to perform better on tests. In addition, certain hormones that are essential for growth and repair are released only during deep sleep. Recent studies have revealed that teenagers need about eight to ten hours of sleep every night, yet most get fewer than seven. The blue light emitted by smartphones and tablets has been shown to interfere with the body's natural sleep cycle by reducing the production of melatonin, a hormone that helps us fall asleep. For this reason, health experts recommend that electronic devices be put away at least one hour before bedtime.",
+    "question": "According to the passage, what happens in the brain during sleep?",
+    "options": [
+      "New brain cells are created.",
+      "Information is moved to long-term memory.",
+      "The brain stops all activity.",
+      "The brain produces more blue light."
+    ],
+    "answer": "Information is moved to long-term memory.",
+    "explanation": "文章第二句說明「the brain processes information that has been learned during the day and moves it from short-term to long-term memory」，睡眠時大腦會將資訊從短期記憶轉移到長期記憶。"
+  },
+  {
+    "id": "R-G3-016",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "health",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Sleep, which is often ignored by busy teenagers, plays a crucial role in both physical and mental health. During sleep, the brain processes information that has been learned during the day and moves it from short-term to long-term memory. This is why students who get enough sleep tend to perform better on tests. In addition, certain hormones that are essential for growth and repair are released only during deep sleep. Recent studies have revealed that teenagers need about eight to ten hours of sleep every night, yet most get fewer than seven. The blue light emitted by smartphones and tablets has been shown to interfere with the body's natural sleep cycle by reducing the production of melatonin, a hormone that helps us fall asleep. For this reason, health experts recommend that electronic devices be put away at least one hour before bedtime.",
+    "question": "What causes the reduction of melatonin according to the passage?",
+    "options": [
+      "Not eating enough vegetables",
+      "Exercising too late in the evening",
+      "Blue light from electronic devices",
+      "Sleeping for more than ten hours"
+    ],
+    "answer": "Blue light from electronic devices",
+    "explanation": "文章指出「The blue light emitted by smartphones and tablets has been shown to interfere...by reducing the production of melatonin」，電子裝置發出的藍光會減少褪黑激素的分泌。"
+  },
+  {
+    "id": "R-G3-017",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "health",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Sleep, which is often ignored by busy teenagers, plays a crucial role in both physical and mental health. During sleep, the brain processes information that has been learned during the day and moves it from short-term to long-term memory. This is why students who get enough sleep tend to perform better on tests. In addition, certain hormones that are essential for growth and repair are released only during deep sleep. Recent studies have revealed that teenagers need about eight to ten hours of sleep every night, yet most get fewer than seven. The blue light emitted by smartphones and tablets has been shown to interfere with the body's natural sleep cycle by reducing the production of melatonin, a hormone that helps us fall asleep. For this reason, health experts recommend that electronic devices be put away at least one hour before bedtime.",
+    "question": "How much sleep do experts recommend for teenagers?",
+    "options": [
+      "About six to seven hours",
+      "About seven to eight hours",
+      "About eight to ten hours",
+      "About ten to twelve hours"
+    ],
+    "answer": "About eight to ten hours",
+    "explanation": "文章明確寫道「teenagers need about eight to ten hours of sleep every night」，專家建議青少年每晚需要八到十小時的睡眠。"
+  },
+  {
+    "id": "R-G3-018",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "biography",
+      "environment"
+    ],
+    "source": "static",
+    "passage": "Wangari Maathai, who was born in Kenya in 1940, became the first African woman to win the Nobel Peace Prize. She is best known for starting the Green Belt Movement, an environmental organization that has planted over 50 million trees across Africa. Maathai, who had studied biology in the United States, returned to Kenya and noticed that many forests had been cut down, which led to soil erosion and water shortages. She began teaching local women to plant trees, believing that this simple action could solve many problems at once. The trees provided firewood for cooking, prevented soil from being washed away by rain, and gave women a small income from selling fruit and timber. Her work was not always accepted by the government, and she was arrested several times for protesting against environmental destruction. However, her courage and determination have inspired millions of people around the world.",
+    "question": "According to the passage, what was one benefit of planting trees for local women?",
+    "options": [
+      "They received free education in biology.",
+      "They could make money from selling fruit and timber.",
+      "They were given jobs in the government.",
+      "They no longer needed to cook at home."
+    ],
+    "answer": "They could make money from selling fruit and timber.",
+    "explanation": "文章提到種樹帶來的好處之一是「gave women a small income from selling fruit and timber」，婦女可透過販售水果和木材獲得收入。"
+  },
+  {
+    "id": "R-G3-019",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "biography",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "Wangari Maathai, who was born in Kenya in 1940, became the first African woman to win the Nobel Peace Prize. She is best known for starting the Green Belt Movement, an environmental organization that has planted over 50 million trees across Africa. Maathai, who had studied biology in the United States, returned to Kenya and noticed that many forests had been cut down, which led to soil erosion and water shortages. She began teaching local women to plant trees, believing that this simple action could solve many problems at once. The trees provided firewood for cooking, prevented soil from being washed away by rain, and gave women a small income from selling fruit and timber. Her work was not always accepted by the government, and she was arrested several times for protesting against environmental destruction. However, her courage and determination have inspired millions of people around the world.",
+    "question": "What can be inferred about Wangari Maathai from the passage?",
+    "options": [
+      "She gave up when the government opposed her.",
+      "She only cared about winning international awards.",
+      "She was brave and never stopped fighting for her beliefs.",
+      "She planted all 50 million trees by herself."
+    ],
+    "answer": "She was brave and never stopped fighting for her beliefs.",
+    "explanation": "文章描述 Maathai 曾多次被捕，但仍持續抗爭環境破壞，並說「her courage and determination have inspired millions」，可推知她勇敢且堅持自己的信念。"
+  },
+  {
+    "id": "R-G3-020",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "food",
+      "culture",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "In recent years, insects have been promoted by the United Nations as a sustainable food source for the future. Many people in Western countries, who are not used to eating insects, find this idea difficult to accept. However, in countries such as Thailand, Mexico, and parts of Africa, insects have been a normal part of the diet for centuries. Crickets, for example, contain more protein than beef and require far less water and land to produce. They also produce fewer greenhouse gases than traditional farm animals. Despite these advantages, insect-based food products, which are now sold in some supermarkets, have not yet become popular in Europe and North America. Food scientists believe that as the global population increases and resources become scarcer, more people will have to consider insects as a serious food option. Changing people's eating habits, however, may take a very long time.",
+    "question": "What is the main reason insects are considered a sustainable food source?",
+    "options": [
+      "They taste better than traditional meat.",
+      "They are easier to cook than beef.",
+      "They require fewer resources to produce than traditional meat.",
+      "They are already popular in all countries."
+    ],
+    "answer": "They require fewer resources to produce than traditional meat.",
+    "explanation": "文章指出「Crickets...contain more protein than beef and require far less water and land to produce」以及「produce fewer greenhouse gases」，說明昆蟲所需資源遠少於傳統肉類，因此被視為永續食物來源。"
+  },
+  {
+    "id": "R-G3-021",
+    "grade": "G3",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "food",
+      "culture",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "In recent years, insects have been promoted by the United Nations as a sustainable food source for the future. Many people in Western countries, who are not used to eating insects, find this idea difficult to accept. However, in countries such as Thailand, Mexico, and parts of Africa, insects have been a normal part of the diet for centuries. Crickets, for example, contain more protein than beef and require far less water and land to produce. They also produce fewer greenhouse gases than traditional farm animals. Despite these advantages, insect-based food products, which are now sold in some supermarkets, have not yet become popular in Europe and North America. Food scientists believe that as the global population increases and resources become scarcer, more people will have to consider insects as a serious food option. Changing people's eating habits, however, may take a very long time.",
+    "question": "Why are insect-based foods not yet popular in Europe and North America?",
+    "options": [
+      "Insects are illegal to sell in those places.",
+      "People there are not used to eating insects.",
+      "Insects do not grow well in cold weather.",
+      "Scientists have not developed insect-based products yet."
+    ],
+    "answer": "People there are not used to eating insects.",
+    "explanation": "文章開頭指出「Many people in Western countries, who are not used to eating insects, find this idea difficult to accept」，西方人不習慣吃昆蟲，因此難以接受此觀念，導致產品不流行。"
+  }
+]

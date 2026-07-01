@@ -1,0 +1,342 @@
+[
+  {
+    "id": "LR-G3-001",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["假設情境", "旅遊", "條件句"],
+    "source": "static",
+    "audio_script": "If you could travel anywhere in the world, where would you go and why? I mean, if money and time weren't a problem at all, what would be your dream destination?",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I've been to Japan three times, and I really enjoyed the food there. But next time I'll probably go somewhere else.",
+      "I think I'd choose Iceland, to be honest. I've always wanted to see the Northern Lights, and the landscape there looks absolutely incredible in photos.",
+      "Traveling is too expensive these days, so I usually just stay at home. Hotels and flights cost way too much."
+    ],
+    "answer": "I think I'd choose Iceland, to be honest. I've always wanted to see the Northern Lights, and the landscape there looks absolutely incredible in photos.",
+    "explanation": "題目問的是「如果可以到世界上任何地方旅行，你會去哪裡？」屬於假設情境問題（would + 原因）。第二個選項直接回答想去冰島並說明想看極光的理由，最切題。第一個選項是過去經驗而非假設，第三個選項抱怨花費而非回答問題。"
+  },
+  {
+    "id": "LR-G3-002",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["現在完成式", "經驗", "食物"],
+    "source": "static",
+    "audio_script": "Have you ever tried Vietnamese food? A friend of mine just opened a pho restaurant nearby, and I was wondering if you'd like to check it out sometime.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I eat lunch at school every day. The cafeteria serves different dishes, but honestly, most of them are kind of boring.",
+      "Actually, I haven't, but I've heard great things about it! I'd love to go with you. What day were you thinking?",
+      "My mom usually cooks dinner at home, but sometimes we order takeout when she's too busy."
+    ],
+    "answer": "Actually, I haven't, but I've heard great things about it! I'd love to go with you. What day were you thinking?",
+    "explanation": "題目問「你吃過越南料理嗎？」用現在完成式問經驗，並邀請一起去。第二個選項先回答「沒有吃過」（I haven't），再表達興趣並追問日期，完整回應了兩個重點。第一和第三個選項都在講日常飲食習慣，與問題無關。"
+  },
+  {
+    "id": "LR-G3-003",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["表達意見", "科技", "線上學習"],
+    "source": "static",
+    "audio_script": "What do you think about online learning compared to traditional classrooms? Some people say it's the future of education, but others think it just can't replace real interaction.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Personally, I think both have their strengths. Online learning is super flexible and you can review the material anytime, but there's definitely something missing when you don't have face-to-face discussions with your classmates.",
+      "My school has really old computers that barely work. We've been asking for new ones for years.",
+      "The internet connection at my house is pretty slow, so watching videos takes forever."
+    ],
+    "answer": "Personally, I think both have their strengths. Online learning is super flexible and you can review the material anytime, but there's definitely something missing when you don't have face-to-face discussions with your classmates.",
+    "explanation": "題目問對「線上學習 vs. 傳統教室」的看法。第一個選項用 Personally 開頭表達個人意見，分析兩者優缺點（彈性 vs. 面對面互動），完整回應比較問題。第二個選項抱怨學校電腦舊，第三個選項抱怨網路慢，都偏離主題。"
+  },
+  {
+    "id": "LR-G3-004",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["解釋原因", "語言學習", "表達觀點"],
+    "source": "static",
+    "audio_script": "Why do you think it's so important to learn English these days? I've been wondering whether it's really as essential as everyone keeps saying.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I started learning English when I was in elementary school. My first teacher was really nice.",
+      "Well, from what I can see, English opens up so many doors. You can communicate with people from all over the world, access way more information online, and honestly, most international job opportunities require it.",
+      "English grammar is actually quite tricky, especially the tenses. I always mix up the present perfect and past simple."
+    ],
+    "answer": "Well, from what I can see, English opens up so many doors. You can communicate with people from all over the world, access way more information online, and honestly, most international job opportunities require it.",
+    "explanation": "題目問「為什麼學英文很重要？」需要解釋原因。第二個選項列舉多個理由（國際交流、資訊獲取、工作機會），用 Well 開頭自然地表達觀點。第一個選項只說自己何時開始學，第三個選項只抱怨文法難，都未回答「為什麼重要」。"
+  },
+  {
+    "id": "LR-G3-005",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["假設情境", "金錢", "條件句"],
+    "source": "static",
+    "audio_script": "What would you do if you suddenly won a million dollars? Like, imagine you checked your lottery ticket tomorrow and realized you'd actually won — what's the first thing you'd do?",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I've never bought a lottery ticket in my life. Gambling just doesn't seem like a smart way to spend money.",
+      "That's a fun question! I think I'd first pay off my parents' mortgage, then put a big chunk into savings, and honestly, I'd probably use some of it to travel around Southeast Asia for a few months.",
+      "Money isn't the most important thing in the world. Happiness and health matter way more."
+    ],
+    "answer": "That's a fun question! I think I'd first pay off my parents' mortgage, then put a big chunk into savings, and honestly, I'd probably use some of it to travel around Southeast Asia for a few months.",
+    "explanation": "題目是假設性問題「如果中了百萬美元你會怎麼做？」用 would 問假設情境。第二個選項用 I'd 回答具體行動計畫（還房貸、儲蓄、旅行），層次分明。第一個選項否定買彩券本身，第三個選項說金錢不重要，都未正面回答假設問題。"
+  },
+  {
+    "id": "LR-G3-006",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["現在完成式", "學習經驗", "時間長度"],
+    "source": "static",
+    "audio_script": "How long have you been studying at this school? And do you feel like you've changed a lot since you first started here?",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I go to school by bus every morning. It takes about 20 minutes if there's no traffic.",
+      "Let me think — I've been here for almost three years now. Honestly, I've grown a lot, not just academically but also in terms of confidence. When I first arrived, I was super shy.",
+      "My school is one of the biggest in the district. We have over two thousand students."
+    ],
+    "answer": "Let me think — I've been here for almost three years now. Honestly, I've grown a lot, not just academically but also in terms of confidence. When I first arrived, I was super shy.",
+    "explanation": "題目問「你在這所學校讀多久了？」用現在完成進行式（have been studying）問持續時間，還追問是否有改變。第二個選項用 I've been here for... 回答時間長度，並用現在完成式描述成長變化，完整回應兩部分的問題。第一和第三個選項分別講通勤方式和學校規模，完全無關。"
+  },
+  {
+    "id": "LR-G3-007",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["禮貌請求", "資訊詢問", "正式用語"],
+    "source": "static",
+    "audio_script": "Excuse me, could you tell me what time the museum opens on weekends? I tried looking it up online but the website keeps showing an error message.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Sure, I believe it opens at 9:30 on Saturdays and Sundays. But you might want to get there early because the line can get pretty long, especially during summer.",
+      "Museums are actually really interesting places to visit. You can learn so much about history and culture.",
+      "I don't go to museums very often. The last time I went was probably three or four years ago."
+    ],
+    "answer": "Sure, I believe it opens at 9:30 on Saturdays and Sundays. But you might want to get there early because the line can get pretty long, especially during summer.",
+    "explanation": "題目用禮貌語氣（Could you tell me...）詢問博物館週末開放時間。第一個選項直接回答具體時間（9:30），並附帶排隊建議，完整且貼心。第二個選項只評論博物館很有趣，第三個選項說自己不常去，都未回答時間問題。"
+  },
+  {
+    "id": "LR-G3-008",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["禮貌徵求同意", "日常對話", "生活情境"],
+    "source": "static",
+    "audio_script": "Do you mind if I open the window? It's getting a bit stuffy in here, and I feel like we could use some fresh air.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Windows are made of glass, and you should clean them regularly so they stay clear.",
+      "Not at all, go right ahead! I was actually thinking the same thing. It's been closed all day and the room does feel a little warm.",
+      "The weather forecast said it might rain later this afternoon, so bring an umbrella."
+    ],
+    "answer": "Not at all, go right ahead! I was actually thinking the same thing. It's been closed all day and the room does feel a little warm.",
+    "explanation": "題目用「Do you mind if I...」（你介意我...嗎？）禮貌地徵求同意開窗。第二個選項用「Not at all」（一點也不介意）正確回應此類禮貌請求，還表示自己也有一樣的想法，非常自然。第一個選項介紹窗戶材質，第三個選項講天氣預報，都與請求無關。"
+  },
+  {
+    "id": "LR-G3-009",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["課外活動", "經驗分享", "日常對話"],
+    "source": "static",
+    "audio_script": "I heard you joined the school choir last month. How's it going so far? Are you enjoying the rehearsals?",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I listen to music almost every day when I'm studying or just relaxing in my room.",
+      "It's been really fun, actually! The rehearsals are twice a week, and we're already preparing for the winter concert. I didn't expect to enjoy it this much.",
+      "My favorite subject is music, but I also like art and P.E. They're all quite relaxing."
+    ],
+    "answer": "It's been really fun, actually! The rehearsals are twice a week, and we're already preparing for the winter concert. I didn't expect to enjoy it this much.",
+    "explanation": "題目問參加合唱團的近況與感受。第二個選項用現在完成式（It's been...）描述加入後的情況，提到排練頻率、準備音樂會的進度，並表達感受，資訊豐富且自然。第一個選項只說自己常聽音樂，第三個選項只說喜歡的科目，都未回應合唱團近況。"
+  },
+  {
+    "id": "LR-G3-010",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["經驗分享", "旅遊", "最高級"],
+    "source": "static",
+    "audio_script": "What's the most interesting place you've ever visited? I'm trying to plan a trip for next summer and I could really use some inspiration.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I visited my grandparents last weekend. They live in the countryside, about two hours away.",
+      "That's a tough one, but I'd probably say Kyoto in Japan. The temples there are just breathtaking, and I'll never forget walking through the bamboo forest — it felt like stepping into another world.",
+      "Summer is definitely the best season for traveling. The weather is perfect and you don't need to pack heavy clothes."
+    ],
+    "answer": "That's a tough one, but I'd probably say Kyoto in Japan. The temples there are just breathtaking, and I'll never forget walking through the bamboo forest — it felt like stepping into another world.",
+    "explanation": "題目問「你去過最有趣的地方是哪裡？」並請對方提供旅遊靈感。第二個選項直接回答京都，用具體細節（寺廟、竹林）和感性描述生動地分享經驗，切合問題。第一個選項只說上週末去祖父母家，第三個選項只評論哪個季節適合旅行，都未推薦具體地點。"
+  },
+  {
+    "id": "LR-G3-011",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["解釋科學現象", "描述過程", "因果關係"],
+    "source": "static",
+    "audio_script": "Can you explain why the sky appears blue during the day? I know it has something to do with sunlight, but I've never really understood the science behind it.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Basically, sunlight is made up of different colors, and when it hits the atmosphere, the blue light gets scattered more than the other colors because it travels in shorter waves. That's why our eyes see the sky as blue.",
+      "The sky can also be orange and red during sunset, which I think is actually more beautiful than the daytime blue.",
+      "Blue is one of my favorite colors, along with green and purple. I have a blue backpack and blue sneakers."
+    ],
+    "answer": "Basically, sunlight is made up of different colors, and when it hits the atmosphere, the blue light gets scattered more than the other colors because it travels in shorter waves. That's why our eyes see the sky as blue.",
+    "explanation": "題目要求解釋天空為什麼是藍色的科學原理。第一個選項用簡單的因果關係解釋了瑞利散射（藍光波短、散射多），解釋清晰且有邏輯。第二個選項只說夕陽顏色更美，第三個選項談個人顏色偏好，都未解釋科學原理。"
+  },
+  {
+    "id": "LR-G3-012",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["表達關心", "情緒察覺", "日常對話"],
+    "source": "static",
+    "audio_script": "You look a bit worried. Is everything okay? You've been really quiet all morning, and that's not like you at all.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I'm usually an early riser. I wake up at six every morning without needing an alarm.",
+      "Yeah, I'm fine, just a little stressed about the math exam this afternoon. I stayed up late studying, but I still don't feel fully prepared.",
+      "Worrying too much isn't good for your health. You should try to relax more often."
+    ],
+    "answer": "Yeah, I'm fine, just a little stressed about the math exam this afternoon. I stayed up late studying, but I still don't feel fully prepared.",
+    "explanation": "題目觀察到對方臉色憂慮並表達關心。第二個選項先安撫說沒事，然後坦承壓力來源（數學考試、熬夜讀書），真誠地回應關心。第一個選項講自己早起習慣，第三個選項反而變成說教者，都不符合被關心的回應情境。"
+  },
+  {
+    "id": "LR-G3-013",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["偏好選擇", "假設情境", "休閒活動"],
+    "source": "static",
+    "audio_script": "Would you rather go hiking in the mountains or stay home and read a good book on a Sunday? Personally, I can never decide between the two.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I read about twenty books last year. Most of them were novels and a few were biographies.",
+      "Hmm, honestly, it depends on my mood. If the weather's nice and I have the energy, I'd go for the hike in a heartbeat. But if I'm exhausted from the week, nothing beats curling up with a book.",
+      "Sundays are the best day of the week because there's no school and you can sleep in."
+    ],
+    "answer": "Hmm, honestly, it depends on my mood. If the weather's nice and I have the energy, I'd go for the hike in a heartbeat. But if I'm exhausted from the week, nothing beats curling up with a book.",
+    "explanation": "題目是二選一偏好問題（Would you rather...）。第二個選項用「看心情」靈活回應，分別說明何時選健行、何時選讀書，使用條件句（If... I'd...）表現自然。第一個選項只說去年讀了幾本書，第三個選項只評論週日很好，都未做出選擇。"
+  },
+  {
+    "id": "LR-G3-014",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["表達偏好", "音樂", "文化"],
+    "source": "static",
+    "audio_script": "What kind of music do you enjoy listening to when you're studying or just hanging out? I'm trying to expand my playlist and I'd love some recommendations.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I have a guitar at home, but I don't really play it that often. I took a few lessons a couple of years ago.",
+      "I'm really into indie folk these days — it's calm enough to study to but still has meaningful lyrics. If you want a recommendation, I'd say check out some of the newer Taiwanese indie artists; they're doing amazing work.",
+      "Music is everywhere these days. You hear it in stores, in elevators, even on the street."
+    ],
+    "answer": "I'm really into indie folk these days — it's calm enough to study to but still has meaningful lyrics. If you want a recommendation, I'd say check out some of the newer Taiwanese indie artists; they're doing amazing work.",
+    "explanation": "題目問「你喜歡聽什麼類型的音樂？」並請對方推薦。第二個選項直接回答喜歡獨立民謠，解釋為什麼適合讀書，並主動推薦台灣獨立音樂人，完整且熱情地回應。第一個選項說自己有吉他但不常彈，第三個選項說音樂無所不在，都未回答問題。"
+  },
+  {
+    "id": "LR-G3-015",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["給予建議", "寵物", "決策討論"],
+    "source": "static",
+    "audio_script": "I'm thinking about getting a pet, but I've never had one before. What do you suggest? I live in a small apartment, so I need something that doesn't require too much space.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Pets are a huge responsibility. You have to feed them, take care of them when they're sick, and give them attention every single day.",
+      "Since you're in a small apartment, I'd recommend starting with something low-maintenance, like a hamster or maybe a pair of budgies. They don't need much room, and they're relatively easy to care for — perfect for a first-time pet owner.",
+      "My neighbor has a golden retriever and it's the friendliest dog I've ever met. It always wags its tail when I walk by."
+    ],
+    "answer": "Since you're in a small apartment, I'd recommend starting with something low-maintenance, like a hamster or maybe a pair of budgies. They don't need much room, and they're relatively easy to care for — perfect for a first-time pet owner.",
+    "explanation": "題目徵求養寵物的建議，條件是小公寓、沒經驗。第二個選項針對條件推薦適合的寵物（倉鼠或鸚鵡），解釋低空間需求、容易照顧，且適合新手，是真正有建設性的建議。第一個選項只說養寵物責任大但未給建議，第三個選項說鄰居的狗很友善，都未解決問題。"
+  },
+  {
+    "id": "LR-G3-016",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["因果推測", "交通", "日常觀察"],
+    "source": "static",
+    "audio_script": "Do you have any idea why the traffic is so terrible today? It usually only takes me fifteen minutes to get to school, but I've been stuck here for almost forty minutes now.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I take the MRT to school, so I don't have to worry about traffic at all. It's much more reliable.",
+      "I saw on the news that there's a huge accident on the main highway — three lanes are completely blocked. That's probably causing all the side roads to back up as well.",
+      "Traffic in this city has been getting worse and worse over the years. The government should do something about it."
+    ],
+    "answer": "I saw on the news that there's a huge accident on the main highway — three lanes are completely blocked. That's probably causing all the side roads to back up as well.",
+    "explanation": "題目問為什麼今天交通特別糟，要求推測原因。第二個選項引用新聞報導（高速公路事故、三線道封閉），並推論這導致支線也塞車，提供了因果解釋。第一個選項只說自己搭捷運不受影響，第三個選項只做一般性抱怨，都未針對今天的情況給出具體原因。"
+  },
+  {
+    "id": "LR-G3-017",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["壓力管理", "描述方法", "個人經驗"],
+    "source": "static",
+    "audio_script": "How do you usually deal with stress before a big exam? I've got finals next week and I'm starting to feel the pressure. I could really use some advice.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Exams are a necessary part of the education system, even though most students don't enjoy them very much.",
+      "What works for me is breaking the material into smaller chunks and studying a little bit each day instead of cramming the night before. I also make sure to take short breaks and go for a walk — it really helps clear my mind.",
+      "My last exam was a science test about the solar system. I got a pretty good grade on it."
+    ],
+    "answer": "What works for me is breaking the material into smaller chunks and studying a little bit each day instead of cramming the night before. I also make sure to take short breaks and go for a walk — it really helps clear my mind.",
+    "explanation": "題目問如何處理考前壓力，並明確請求建議。第二個選項提供了具體實用的方法（分段學習、避免臨時抱佛腳、休息散步），用 What works for me 開頭分享個人經驗，非常切題。第一個選項只評論考試的必要性，第三個選項只說上次考試的科目和成績，都未給建議。"
+  },
+  {
+    "id": "LR-G3-018",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["表達意見", "學校生活", "改善建議"],
+    "source": "static",
+    "audio_script": "What's one thing you'd like to change about your school if you had the power to make changes? It could be anything at all — from the cafeteria menu to the class schedule.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I go to a public school, and it's been around for over sixty years. The main building was built in the 1960s.",
+      "If I could change one thing, I'd make the school day start an hour later. Research shows that teenagers actually need more sleep than adults, and starting at nine instead of eight would make a huge difference in how focused and energetic students feel in class.",
+      "Schools in Finland are supposed to be really good. They have shorter school days and less homework."
+    ],
+    "answer": "If I could change one thing, I'd make the school day start an hour later. Research shows that teenagers actually need more sleep than adults, and starting at nine instead of eight would make a huge difference in how focused and energetic students feel in class.",
+    "explanation": "題目是假設性問題「如果可以改變學校一件事，你會改什麼？」第二個選項用 If I could... I'd... 句型直接回答想延後上課時間，並引用研究支持論點，有說服力。第一個選項只介紹學校歷史和建築，第三個選項講芬蘭學校但未連結到自己的學校。"
+  },
+  {
+    "id": "LR-G3-019",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["天氣", "附加問句", "日常對話"],
+    "source": "static",
+    "audio_script": "It's been raining nonstop for three days now, hasn't it? I'm starting to forget what the sun looks like. Have you been affected by the weather at all?",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "Tell me about it! My shoes are completely soaked from walking home yesterday, and our outdoor P.E. class has been canceled every single day this week. I really hope it clears up soon.",
+      "Rain is actually really important for the environment. It helps plants grow and fills up the reservoirs.",
+      "The weather forecast is usually not very accurate. They said it would be sunny yesterday, and it rained the whole day instead."
+    ],
+    "answer": "Tell me about it! My shoes are completely soaked from walking home yesterday, and our outdoor P.E. class has been canceled every single day this week. I really hope it clears up soon.",
+    "explanation": "題目用附加問句（hasn't it?）表達共鳴，抱怨連日下雨，並問對方有沒有受影響。第一個選項用「Tell me about it!」（就是說啊！）表達同感，接著具體描述被影響的情況（鞋子濕、體育課取消），語氣自然。第二個選項說雨水對環境的重要，語氣像演講而非對話，第三個選項質疑氣象預報準確性，都未回應共鳴。"
+  },
+  {
+    "id": "LR-G3-020",
+    "grade": "G3",
+    "section": "listening",
+    "type": "response",
+    "level_tag": ["表達觀點", "人際關係", "價值觀"],
+    "source": "static",
+    "audio_script": "What do you think makes a really good friend? I've been thinking about this a lot lately — there are so many people you meet in life, but only a few become true friends.",
+    "question": "聽問題，選出最適合的回應",
+    "options": [
+      "I have about ten close friends at school, and we usually hang out during lunch break in the courtyard.",
+      "For me, the most important thing is trust. A good friend is someone you can be completely honest with, who won't judge you for your mistakes, and who actually listens — not just waits for their turn to talk.",
+      "Making friends gets harder as you get older. When you're a kid, you can just go up to someone and ask if they want to play."
+    ],
+    "answer": "For me, the most important thing is trust. A good friend is someone you can be completely honest with, who won't judge you for your mistakes, and who actually listens — not just waits for their turn to talk.",
+    "explanation": "題目問「你覺得真正的朋友應該具備什麼特質？」第二個選項用 For me 開頭表達個人價值觀，將重點放在信任（trust），並具體描述好的傾聽者特質，有深度地表達了觀點。第一個選項只說自己有幾個朋友，第三個選項感嘆交朋友隨年齡變難，都未回答「好朋友的特質」是什麼。"
+  }
+]

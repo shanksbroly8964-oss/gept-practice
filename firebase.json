@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "gept-goku",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "**/.*",
+      "**/node_modules/**",
+      "_prompts/**",
+      "_logs/**",
+      "DONE_*.md",
+      "QA_REPORT_*.md",
+      "FIREBASE_SETUP.md"
+    ]
+  }
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "C-G1-001",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "自我介紹"
+    ],
+    "source": "static",
+    "passage": "Hello! My name ___1___ Tom. I ___2___ a student. I am thirteen ___3___ old. I like ___4___ basketball after school.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞為第三人稱單數 My name，be 動詞應使用 is。(A) is 正確；(B) am 用於 I；(C) are 用於複數主詞或 you；(D) be 為原形，此處須配合主詞人稱變化。"
+  },
+  {
+    "id": "C-G1-002",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "自我介紹"
+    ],
+    "source": "static",
+    "passage": "Hello! My name ___1___ Tom. I ___2___ a student. I am thirteen ___3___ old. I like ___4___ basketball after school.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "answer": "am",
+    "explanation": "主詞為第一人稱單數 I，be 動詞應使用 am。(B) am 正確；(A) is 用於第三人稱單數；(C) are 用於複數主詞或 you；(D) be 為原形，此處須配合主詞人稱變化。"
+  },
+  {
+    "id": "C-G1-003",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "名詞",
+      "年齡表達"
+    ],
+    "source": "static",
+    "passage": "Hello! My name ___1___ Tom. I ___2___ a student. I am thirteen ___3___ old. I like ___4___ basketball after school.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "year",
+      "years",
+      "month",
+      "day"
+    ],
+    "answer": "years",
+    "explanation": "表達年齡時數字大於一應使用複數名詞 years。(B) years 正確，thirteen years old 為習慣用法；(A) year 為單數，年齡大於一時不適用；(C) month 為月份，語意不合；(D) day 為天數，語意不合。"
+  },
+  {
+    "id": "C-G1-004",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "動名詞",
+      "現在簡單式"
+    ],
+    "source": "static",
+    "passage": "Hello! My name ___1___ Tom. I ___2___ a student. I am thirteen ___3___ old. I like ___4___ basketball after school.",
+    "question": "第4個空格應填入？",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "played"
+    ],
+    "answer": "playing",
+    "explanation": "like 後面接動詞時，動詞須改為動名詞 (V-ing) 形式。(C) playing 正確；(A) play 為原形，like 後不可直接接原形動詞；(B) plays 為第三人稱單數形，不適用；(D) played 為過去式，不適用於 like 後的動詞。"
+  },
+  {
+    "id": "C-G1-005",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "have動詞",
+      "家庭"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a brother. ___2___ name is Jack. He ___3___ ten years old. He studies in the same school as me.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "have",
+      "has",
+      "am",
+      "are"
+    ],
+    "answer": "have",
+    "explanation": "主詞為第一人稱 I，表示「擁有」應使用 have。(A) have 正確；(B) has 用於第三人稱單數；(C) am 為 be 動詞，無法表示「擁有」；(D) are 為複數 be 動詞，不適用。"
+  },
+  {
+    "id": "C-G1-006",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "所有格",
+      "家庭"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a brother. ___2___ name is Jack. He ___3___ ten years old. He studies in the same school as me.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "He",
+      "His",
+      "Him",
+      "Her"
+    ],
+    "answer": "His",
+    "explanation": "此處需要所有格來修飾 name，表示「他的名字」，且 Jack 是男生。(B) His 正確；(A) He 為主格，不能修飾名詞；(C) Him 為受格，不能用於修飾名詞；(D) Her 為女性所有格，Jack 是男生故不適用。"
+  },
+  {
+    "id": "C-G1-007",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "家庭"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a brother. ___2___ name is Jack. He ___3___ ten years old. He studies in the same school as me.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞 He 為第三人稱單數，be 動詞應使用 is。(B) is 正確；(A) am 僅用於 I；(C) are 用於複數主詞或 you；(D) be 為原形，此處須配合主詞人稱變化。"
+  },
+  {
+    "id": "C-G1-008",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "名詞",
+      "學校"
+    ],
+    "source": "static",
+    "passage": "My classroom is on the second ___1___ of the school. There ___2___ thirty students in my class. Our teacher ___3___ very nice. We ___4___ English every day.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "floor",
+      "room",
+      "door",
+      "desk"
+    ],
+    "answer": "floor",
+    "explanation": "表達第幾層樓應使用 floor。(A) floor 正確，second floor 即「二樓」；(B) room 為房間，不能表示樓層；(C) door 為門，語意不合；(D) desk 為書桌，語意不合。"
+  },
+  {
+    "id": "C-G1-009",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "學校"
+    ],
+    "source": "static",
+    "passage": "My classroom is on the second ___1___ of the school. There ___2___ thirty students in my class. Our teacher ___3___ very nice. We ___4___ English every day.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "have"
+    ],
+    "answer": "are",
+    "explanation": "There are 後面接複數名詞，thirty students 為複數。(C) are 正確；(A) is 用於單數名詞；(B) am 僅用於 I；(D) have 不可用於 There be 句型，因 There have 為錯誤文法。"
+  },
+  {
+    "id": "C-G1-010",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "學校"
+    ],
+    "source": "static",
+    "passage": "My classroom is on the second ___1___ of the school. There ___2___ thirty students in my class. Our teacher ___3___ very nice. We ___4___ English every day.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞 Our teacher 為第三人稱單數，be 動詞應使用 is。(B) is 正確；(A) am 僅用於 I；(C) are 用於複數主詞或 you；(D) be 為原形，此處須配合主詞人稱變化。"
+  },
+  {
+    "id": "C-G1-011",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "現在簡單式",
+      "學校"
+    ],
+    "source": "static",
+    "passage": "My classroom is on the second ___1___ of the school. There ___2___ thirty students in my class. Our teacher ___3___ very nice. We ___4___ English every day.",
+    "question": "第4個空格應填入？",
+    "options": [
+      "study",
+      "studies",
+      "studying",
+      "studied"
+    ],
+    "answer": "study",
+    "explanation": "主詞 We 為複數第一人稱，現在簡單式中動詞使用原形即可。(A) study 正確；(B) studies 為第三人稱單數形，We 不適用；(C) studying 為進行式，不適用於此處；(D) studied 為過去式，與 every day 時間不一致。"
+  },
+  {
+    "id": "C-G1-012",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "現在簡單式",
+      "日常生活"
+    ],
+    "source": "static",
+    "passage": "Every morning, I ___1___ up at six o'clock. I brush my ___2___ and wash my face. Then I ___3___ breakfast at home. I go to school ___4___ bus.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "get",
+      "gets",
+      "go",
+      "goes"
+    ],
+    "answer": "get",
+    "explanation": "get up 為固定搭配，意為「起床」。(A) get 正確，主詞 I 後接原形動詞；(B) gets 為第三人稱單數形，I 不適用；(C) go up 不是「起床」的意思；(D) goes 人稱錯誤且語意不合。"
+  },
+  {
+    "id": "C-G1-013",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "名詞複數",
+      "日常生活"
+    ],
+    "source": "static",
+    "passage": "Every morning, I ___1___ up at six o'clock. I brush my ___2___ and wash my face. Then I ___3___ breakfast at home. I go to school ___4___ bus.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "tooth",
+      "teeth",
+      "mouth",
+      "hand"
+    ],
+    "answer": "teeth",
+    "explanation": "刷牙的英文為 brush my teeth，teeth 為 tooth 的不規則複數形。(B) teeth 正確；(A) tooth 為單數，刷牙須用複數；(C) mouth 為嘴巴，brush my mouth 不是「刷牙」的習慣說法；(D) hand 為手，語意不合。"
+  },
+  {
+    "id": "C-G1-014",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "現在簡單式",
+      "日常生活"
+    ],
+    "source": "static",
+    "passage": "Every morning, I ___1___ up at six o'clock. I brush my ___2___ and wash my face. Then I ___3___ breakfast at home. I go to school ___4___ bus.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "have",
+      "has",
+      "eat",
+      "eats"
+    ],
+    "answer": "have",
+    "explanation": "have breakfast 為習慣用法，表示「吃早餐」。(A) have 正確，主詞 I 後接原形；(B) has 為第三人稱單數形，I 不適用；(C) eat 語意可通但 have breakfast 為更自然的習慣用語；(D) eats 人稱與語意皆錯誤。"
+  },
+  {
+    "id": "C-G1-015",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "介系詞",
+      "日常生活"
+    ],
+    "source": "static",
+    "passage": "Every morning, I ___1___ up at six o'clock. I brush my ___2___ and wash my face. Then I ___3___ breakfast at home. I go to school ___4___ bus.",
+    "question": "第4個空格應填入？",
+    "options": [
+      "by",
+      "on",
+      "in",
+      "at"
+    ],
+    "answer": "by",
+    "explanation": "表示搭乘交通工具使用介系詞 by。(A) by 正確，by bus 即「搭公車」；(B) on 用於 on a bus 時須加冠詞，不可直接說 on bus；(C) in 用於 in a car 等封閉空間，bus 不適用；(D) at 不能用於交通工具。"
+  },
+  {
+    "id": "C-G1-016",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "動名詞",
+      "嗜好"
+    ],
+    "source": "static",
+    "passage": "My hobby is ___1___ soccer. I play soccer ___2___ my friends after school. We always ___3___ fun together.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "to play"
+    ],
+    "answer": "playing",
+    "explanation": "My hobby is 後面接動名詞 (V-ing) 作為主詞補語。(C) playing 正確；(A) play 為原形，hobby is 後不可接原形動詞；(B) plays 為第三人稱單數形，不適用；(D) to play 雖為不定詞，但英語習慣上 My hobby is 後接動名詞而非不定詞。"
+  },
+  {
+    "id": "C-G1-017",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "介系詞",
+      "嗜好"
+    ],
+    "source": "static",
+    "passage": "My hobby is ___1___ soccer. I play soccer ___2___ my friends after school. We always ___3___ fun together.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "with",
+      "for",
+      "to",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "表示「和某人一起」使用介系詞 with。(A) with 正確，play soccer with my friends 即「和朋友一起踢足球」；(B) for 表示「為了」，語意不合；(C) to 表示方向，語意不合；(D) at 表示地點，語意不合。"
+  },
+  {
+    "id": "C-G1-018",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "have動詞",
+      "嗜好"
+    ],
+    "source": "static",
+    "passage": "My hobby is ___1___ soccer. I play soccer ___2___ my friends after school. We always ___3___ fun together.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "is"
+    ],
+    "answer": "have",
+    "explanation": "have fun 為固定搭配，意為「玩得開心」。(A) have 正確，主詞 We 後接原形；(B) has 為第三人稱單數形，We 不適用；(C) are fun 表示「是有趣的」，語意不合；(D) is 為單數 be 動詞，主詞 We 不適用。"
+  },
+  {
+    "id": "C-G1-019",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "have動詞",
+      "寵物"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a pet dog. Her name ___2___ Coco. She is very cute. She ___3___ to play with balls every day.",
+    "question": "第1個空格應填入？",
+    "options": [
+      "have",
+      "has",
+      "am",
+      "is"
+    ],
+    "answer": "have",
+    "explanation": "主詞 I 表示「擁有」時使用 have。(A) have 正確；(B) has 為第三人稱單數形，I 不適用；(C) am 為 be 動詞，無法表示「擁有」；(D) is 為 be 動詞，無法表示「擁有」且人稱不對。"
+  },
+  {
+    "id": "C-G1-020",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "be動詞",
+      "寵物"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a pet dog. Her name ___2___ Coco. She is very cute. She ___3___ to play with balls every day.",
+    "question": "第2個空格應填入？",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞 Her name 為第三人稱單數，be 動詞應使用 is。(B) is 正確；(A) am 僅用於 I；(C) are 用於複數主詞或 you；(D) be 為原形，此處須配合主詞人稱變化。"
+  },
+  {
+    "id": "C-G1-021",
+    "grade": "G1",
+    "section": "cloze",
+    "type": "cloze",
+    "level_tag": [
+      "現在簡單式",
+      "寵物"
+    ],
+    "source": "static",
+    "passage": "I ___1___ a pet dog. Her name ___2___ Coco. She is very cute. She ___3___ to play with balls every day.",
+    "question": "第3個空格應填入？",
+    "options": [
+      "like",
+      "likes",
+      "liking",
+      "liked"
+    ],
+    "answer": "likes",
+    "explanation": "主詞 She 為第三人稱單數，現在簡單式中動詞須加 -s。(B) likes 正確；(A) like 為原形，第三人稱單數不適用；(C) liking 為進行式，不適用於現在簡單式；(D) liked 為過去式，與 every day 時間不一致。"
+  }
+]

@@ -1,0 +1,857 @@
+[
+  {
+    "id": "G-G1-001",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "She _______ a student at this school.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞 She 是第三人稱單數，be動詞必須用 is。am 只搭配 I，are 搭配 you 或複數主詞，be 是原形動詞不能直接當謂語使用。"
+  },
+  {
+    "id": "G-G1-002",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "I _______ very happy to see you today.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "were"
+    ],
+    "answer": "am",
+    "explanation": "主詞 I（我）固定搭配 be動詞 am。is 用於第三人稱單數，are 用於 you 或複數，were 是過去式且搭配複數或 you，故此處只能用 am。"
+  },
+  {
+    "id": "G-G1-003",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "The dogs _______ in the garden now.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "主詞 The dogs 是複數名詞，be動詞必須用 are。is 搭配單數主詞，am 只搭配 I，be 是原形不能直接當謂語。"
+  },
+  {
+    "id": "G-G1-004",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "He _______ not my brother. He is my cousin.",
+    "options": [
+      "am",
+      "are",
+      "be",
+      "is"
+    ],
+    "answer": "is",
+    "explanation": "主詞 He 是第三人稱單數，否定句用 is not。am 只搭配 I，are 搭配 you 或複數主詞，be 無法直接構成否定句。"
+  },
+  {
+    "id": "G-G1-005",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "_______ you and Tom in the same class?",
+    "options": [
+      "Are",
+      "Is",
+      "Am",
+      "Be"
+    ],
+    "answer": "Are",
+    "explanation": "主詞 you and Tom 是兩個人，為複數主詞，疑問句把 Are 放句首。Is 用於單數主詞，Am 只搭配 I，Be 不能單獨構成疑問句。"
+  },
+  {
+    "id": "G-G1-006",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "My mother _______ a nurse at that hospital.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "主詞 My mother 是第三人稱單數，be動詞用 is。am 只搭配 I，are 搭配 you 或複數，be 是原形不能直接使用。"
+  },
+  {
+    "id": "G-G1-007",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "We _______ from Taipei, not from Tainan.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "主詞 We 是第一人稱複數，be動詞固定用 are。am 只搭配 I，is 用於第三人稱單數，be 不能直接當謂語。"
+  },
+  {
+    "id": "G-G1-008",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "This book _______ very interesting. I like it a lot.",
+    "options": [
+      "am",
+      "are",
+      "were",
+      "is"
+    ],
+    "answer": "is",
+    "explanation": "主詞 This book 是單數名詞，be動詞用 is。am 只搭配 I，are 搭配複數或 you，were 是過去式但此句為現在式描述。"
+  },
+  {
+    "id": "G-G1-009",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "be動詞"
+    ],
+    "source": "static",
+    "question": "_______ it cold outside today? You need a jacket.",
+    "options": [
+      "Is",
+      "Am",
+      "Are",
+      "Be"
+    ],
+    "answer": "Is",
+    "explanation": "主詞 it 是第三人稱單數，疑問句把 Is 放句首。Am 只搭配 I，Are 搭配 you 或複數主詞，Be 不能單獨構成疑問句。"
+  },
+  {
+    "id": "G-G1-010",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "He _______ to school by bus every morning.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "went"
+    ],
+    "answer": "goes",
+    "explanation": "主詞 He 是第三人稱單數，現在簡單式動詞須加 -s 或 -es，用 goes。go 是原形用於 I/You/We/They，going 需搭配 be動詞，went 是過去式。"
+  },
+  {
+    "id": "G-G1-011",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "I _______ breakfast at seven o'clock every morning.",
+    "options": [
+      "eats",
+      "eating",
+      "eat",
+      "ate"
+    ],
+    "answer": "eat",
+    "explanation": "主詞 I 搭配現在簡單式的原形動詞 eat。eats 用於第三人稱單數，eating 需搭配 be動詞構成進行式，ate 是過去式。"
+  },
+  {
+    "id": "G-G1-012",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "She _______ her homework after dinner every day.",
+    "options": [
+      "do",
+      "doing",
+      "did",
+      "does"
+    ],
+    "answer": "does",
+    "explanation": "主詞 She 是第三人稱單數，現在簡單式動詞用 does（do 的第三人稱單數形）。do 用於 I/You/We/They，doing 需搭配 be動詞，did 是過去式。"
+  },
+  {
+    "id": "G-G1-013",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "The boys _______ basketball in the park after school.",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "played"
+    ],
+    "answer": "play",
+    "explanation": "主詞 The boys 是複數，現在簡單式用原形動詞 play。plays 用於第三人稱單數，playing 需搭配 be動詞才能構成進行式，played 是過去式。"
+  },
+  {
+    "id": "G-G1-014",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "My father _______ in a big hospital. He is a doctor.",
+    "options": [
+      "work",
+      "works",
+      "working",
+      "worked"
+    ],
+    "answer": "works",
+    "explanation": "主詞 My father 是第三人稱單數，現在簡單式動詞需加 -s，用 works。work 用於非第三人稱單數主詞，working 需搭配 be動詞，worked 是過去式。"
+  },
+  {
+    "id": "G-G1-015",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "We _______ TV in the living room every evening.",
+    "options": [
+      "watches",
+      "watching",
+      "watch",
+      "watched"
+    ],
+    "answer": "watch",
+    "explanation": "主詞 We 是複數第一人稱，現在簡單式用原形動詞 watch。watches 用於第三人稱單數且以 -ch 結尾需加 -es，watching 需搭配 be動詞，watched 是過去式。"
+  },
+  {
+    "id": "G-G1-016",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "The baby _______ a lot every night before sleeping.",
+    "options": [
+      "cry",
+      "crying",
+      "cried",
+      "cries"
+    ],
+    "answer": "cries",
+    "explanation": "主詞 The baby 是第三人稱單數，現在簡單式動詞以子音加 y 結尾時，去 y 加 -ies，所以用 cries。cry 是原形，crying 需搭配 be動詞，cried 是過去式。"
+  },
+  {
+    "id": "G-G1-017",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "She _______ not like coffee. She likes tea.",
+    "options": [
+      "does",
+      "do",
+      "is",
+      "are"
+    ],
+    "answer": "does",
+    "explanation": "第三人稱單數的否定句需用 does not + 原形動詞。主詞 She 為第三人稱單數，所以用 does。do 用於非第三人稱單數，is/are 是 be動詞無法構成否定一般動詞。"
+  },
+  {
+    "id": "G-G1-018",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "現在簡單式"
+    ],
+    "source": "static",
+    "question": "John _______ his bike to the park every Sunday morning.",
+    "options": [
+      "ride",
+      "rides",
+      "riding",
+      "rode"
+    ],
+    "answer": "rides",
+    "explanation": "主詞 John 是第三人稱單數，現在簡單式動詞須加 -s，用 rides。ride 是用於 I/You/We/They 的原形，riding 需搭配 be動詞，rode 是過去式。"
+  },
+  {
+    "id": "G-G1-019",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "There are three _______ on the table.",
+    "options": [
+      "apple",
+      "apple's",
+      "apples",
+      "apples'"
+    ],
+    "answer": "apples",
+    "explanation": "數量詞 three 後面接複數名詞，apple 的複數是 apples。apple 是單數，apple's 是所有格，apples' 是複數所有格，此處只需要單純的複數名詞。"
+  },
+  {
+    "id": "G-G1-020",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "I have two _______ and one sister.",
+    "options": [
+      "brother",
+      "brother's",
+      "brotheries",
+      "brothers"
+    ],
+    "answer": "brothers",
+    "explanation": "數量詞 two 後面接複數名詞，brother 的複數直接在字尾加 -s 變成 brothers。brother 是單數，brother's 是所有格，brotheries 是錯誤拼法。"
+  },
+  {
+    "id": "G-G1-021",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "There is only one _______ in the classroom.",
+    "options": [
+      "child",
+      "childs",
+      "children",
+      "childes"
+    ],
+    "answer": "child",
+    "explanation": "數量詞 one 後面接單數名詞，用 child。children 是複數形，childs 和 childes 都是錯誤的複數拼法。child 的複數是不規則變化 children。"
+  },
+  {
+    "id": "G-G1-022",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "Many _______ are playing in the park this afternoon.",
+    "options": [
+      "child",
+      "children",
+      "childs",
+      "childes"
+    ],
+    "answer": "children",
+    "explanation": "形容詞 Many（許多）修飾複數名詞，child 的不規則複數是 children。child 是單數，childs 和 childes 是錯誤拼法。"
+  },
+  {
+    "id": "G-G1-023",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "I can see four _______ flying in the blue sky.",
+    "options": [
+      "bird",
+      "bird's",
+      "birds",
+      "birds'"
+    ],
+    "answer": "birds",
+    "explanation": "數量詞 four 後面接複數名詞，bird 的複數是 birds。bird 是單數，bird's 是單數所有格，birds' 是複數所有格，此處只需複數名詞。"
+  },
+  {
+    "id": "G-G1-024",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "She has five _______ in her pencil case.",
+    "options": [
+      "pen",
+      "pen's",
+      "penes",
+      "pens"
+    ],
+    "answer": "pens",
+    "explanation": "數量詞 five 後面接複數名詞，pen 的複數直接在字尾加 -s 變成 pens。pen 是單數，pen's 是所有格，penes 是錯誤拼法。"
+  },
+  {
+    "id": "G-G1-025",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "There are some _______ on the floor. Please pick them up.",
+    "options": [
+      "toys",
+      "toy",
+      "toyes",
+      "toies"
+    ],
+    "answer": "toys",
+    "explanation": "toy 以母音加 y 結尾，複數直接加 -s 變成 toys。toy 是單數，toyes 是錯誤拼法，toies 也是錯誤的（只有子音加 y 結尾才需改 y 為 ies）。"
+  },
+  {
+    "id": "G-G1-026",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "The _______ in the garden are very beautiful in spring.",
+    "options": [
+      "flower",
+      "flowers",
+      "flower's",
+      "floweres"
+    ],
+    "answer": "flowers",
+    "explanation": "動詞 are 表示主詞為複數，名詞 flower 的複數加 -s 變成 flowers。flower 是單數，flower's 是所有格，floweres 是錯誤拼法。"
+  },
+  {
+    "id": "G-G1-027",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "單複數"
+    ],
+    "source": "static",
+    "question": "How many _______ do you have in your schoolbag?",
+    "options": [
+      "book",
+      "book's",
+      "books",
+      "bookes"
+    ],
+    "answer": "books",
+    "explanation": "How many 後面一定接複數可數名詞，book 的複數加 -s 變成 books。book 是單數，book's 是所有格，bookes 是錯誤拼法。"
+  },
+  {
+    "id": "G-G1-028",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "This is my pen. Please give it to _______.",
+    "options": [
+      "I",
+      "my",
+      "mine",
+      "me"
+    ],
+    "answer": "me",
+    "explanation": "介系詞 to 後面接受格代名詞，I 的受格是 me。I 是主格只能當主詞，my 是所有格修飾名詞，mine 是所有代名詞不能放在 to 後面當受詞。"
+  },
+  {
+    "id": "G-G1-029",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "Mary is my best friend. _______ is very kind to everyone.",
+    "options": [
+      "She",
+      "He",
+      "It",
+      "They"
+    ],
+    "answer": "She",
+    "explanation": "Mary 是女生，代名詞用主格 She 代替。He 用於男生，It 用於動物或物品，They 用於複數，此處單數女生只能用 She。"
+  },
+  {
+    "id": "G-G1-030",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "The cat is hungry. Can you feed _______?",
+    "options": [
+      "he",
+      "it",
+      "she",
+      "they"
+    ],
+    "answer": "it",
+    "explanation": "動物 The cat 的代名詞用 it（尤其在不強調性別時）。he/she 用於人，they 用於複數，此處單數動物用 it。"
+  },
+  {
+    "id": "G-G1-031",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "This bag is _______. I bought it yesterday.",
+    "options": [
+      "I",
+      "my",
+      "mine",
+      "me"
+    ],
+    "answer": "mine",
+    "explanation": "此句需要所有代名詞代替 my bag，mine = my bag。I 是主格，my 後面必須接名詞，me 是受格。mine 可以單獨使用表示「我的東西」。"
+  },
+  {
+    "id": "G-G1-032",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "Tom and Jack are brothers. _______ live near the school.",
+    "options": [
+      "He",
+      "She",
+      "It",
+      "They"
+    ],
+    "answer": "They",
+    "explanation": "Tom and Jack 是兩個人，為複數，代名詞用 They。He 用於單數男生，She 用於單數女生，It 用於單數物品或動物。"
+  },
+  {
+    "id": "G-G1-033",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "Is this _______ book? Yes, it is my book.",
+    "options": [
+      "your",
+      "you",
+      "yours",
+      "you're"
+    ],
+    "answer": "your",
+    "explanation": "book 是名詞，前面需要所有格代名詞修飾，you 的所有格是 your。you 是主格或受格，yours 是所有代名詞不可接名詞，you're = you are 是縮寫。"
+  },
+  {
+    "id": "G-G1-034",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "My sister and I like music. _______ listen to music every day.",
+    "options": [
+      "I",
+      "We",
+      "You",
+      "They"
+    ],
+    "answer": "We",
+    "explanation": "My sister and I（我姊姊和我）是第一人稱複數，代名詞用 We。I 僅代表自己，You 是第二人稱，They 是第三人稱複數。"
+  },
+  {
+    "id": "G-G1-035",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "That dog is very cute. _______ name is Lucky.",
+    "options": [
+      "It",
+      "It's",
+      "Its",
+      "He"
+    ],
+    "answer": "Its",
+    "explanation": "name 前面需要所有格修飾，it 的所有格是 Its（注意沒有撇號）。It 是主格，It's = It is 是縮寫，He 用於男生代名詞。"
+  },
+  {
+    "id": "G-G1-036",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "代名詞"
+    ],
+    "source": "static",
+    "question": "The flowers are beautiful. I like _______ very much.",
+    "options": [
+      "it",
+      "they",
+      "their",
+      "them"
+    ],
+    "answer": "them",
+    "explanation": "動詞 like 後面需要受格代名詞當受詞，they 的受格是 them。it 是單數，they 是主格不能當受詞，their 是所有格不能當受詞。"
+  },
+  {
+    "id": "G-G1-037",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ is your name? My name is David.",
+    "options": [
+      "What",
+      "Who",
+      "Where",
+      "When"
+    ],
+    "answer": "What",
+    "explanation": "詢問「名字」用 What（什麼）。Who 詢問人（誰），Where 詢問地點（哪裡），When 詢問時間（何時），都不適合詢問名字。"
+  },
+  {
+    "id": "G-G1-038",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ do you live? I live in Taipei.",
+    "options": [
+      "What",
+      "Where",
+      "Who",
+      "When"
+    ],
+    "answer": "Where",
+    "explanation": "回答是地點 Taipei，所以問句用 Where（哪裡）。What 問事物，Who 問人，When 問時間，此處詢問居住地點故用 Where。"
+  },
+  {
+    "id": "G-G1-039",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ is your birthday? It is on June 15.",
+    "options": [
+      "What",
+      "Who",
+      "When",
+      "Where"
+    ],
+    "answer": "When",
+    "explanation": "回答是日期 June 15，所以問句用 When（何時）。What 問事物，Who 問人，Where 問地點，此處詢問生日時間故用 When。"
+  },
+  {
+    "id": "G-G1-040",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ is that tall girl over there? She is my cousin.",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "Who"
+    ],
+    "answer": "Who",
+    "explanation": "回答是 She is my cousin（她是我的表妹），說明問的是「人」，所以用 Who（誰）。What 問事物，Where 問地點，When 問時間。"
+  },
+  {
+    "id": "G-G1-041",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ are you late for school today? Because I missed the bus.",
+    "options": [
+      "Why",
+      "What",
+      "When",
+      "Where"
+    ],
+    "answer": "Why",
+    "explanation": "回答以 Because（因為）開頭說明原因，所以問句用 Why（為什麼）。What 問事物，When 問時間，Where 問地點，此處詢問原因故用 Why。"
+  },
+  {
+    "id": "G-G1-042",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ color do you like better, blue or green?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "When"
+    ],
+    "answer": "What",
+    "explanation": "What color 是詢問「什麼顏色」的固定搭配。Who 問人，Where 問地點，When 問時間，都不適合與 color 搭配詢問顏色。"
+  },
+  {
+    "id": "G-G1-043",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ old is your brother? He is twelve years old.",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "When"
+    ],
+    "answer": "How",
+    "explanation": "How old 是詢問「幾歲」的固定搭配。What 問什麼，Where 問哪裡，When 問何時，詢問年齡只能用 How。"
+  },
+  {
+    "id": "G-G1-044",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ pens do you have in your pencil case? I have three.",
+    "options": [
+      "What",
+      "How",
+      "How much",
+      "How many"
+    ],
+    "answer": "How many",
+    "explanation": "回答是 three（三個），表示詢問數量，且 pens 是可數名詞複數，所以用 How many。What 問事物，How 問方式，How much 用於不可數名詞。"
+  },
+  {
+    "id": "G-G1-045",
+    "grade": "G1",
+    "section": "grammar",
+    "type": "grammar",
+    "level_tag": [
+      "基本疑問句"
+    ],
+    "source": "static",
+    "question": "_______ do you go to school? I go to school by bus.",
+    "options": [
+      "How",
+      "What",
+      "Where",
+      "When"
+    ],
+    "answer": "How",
+    "explanation": "回答是 by bus（搭公車），詢問交通方式用 How（如何）。What 問事物，Where 問地點，When 問時間，此處詢問如何去學校故用 How。"
+  }
+]

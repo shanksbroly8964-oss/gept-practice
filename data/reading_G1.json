@@ -1,0 +1,401 @@
+[
+  {
+    "id": "R-G1-001",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "self-introduction",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Amy. I am twelve years old. I am a student at Happy Junior High School. I live in Taipei with my parents. I like music and English. I want to be a teacher in the future.",
+    "question": "According to the passage, how old is Amy?",
+    "options": [
+      "Ten",
+      "Eleven",
+      "Twelve",
+      "Thirteen"
+    ],
+    "answer": "Twelve",
+    "explanation": "文章中明確寫出「I am twelve years old.」，表示 Amy 今年十二歲。"
+  },
+  {
+    "id": "R-G1-002",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "self-introduction",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Amy. I am twelve years old. I am a student at Happy Junior High School. I live in Taipei with my parents. I like music and English. I want to be a teacher in the future.",
+    "question": "According to the passage, where does Amy live?",
+    "options": [
+      "Tainan",
+      "Taichung",
+      "Kaohsiung",
+      "Taipei"
+    ],
+    "answer": "Taipei",
+    "explanation": "文章中明確寫出「I live in Taipei with my parents.」，表示 Amy 住在臺北。"
+  },
+  {
+    "id": "R-G1-003",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "self-introduction",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "My name is Amy. I am twelve years old. I am a student at Happy Junior High School. I live in Taipei with my parents. I like music and English. I want to be a teacher in the future.",
+    "question": "According to the passage, what does Amy want to do in the future?",
+    "options": [
+      "Be a singer",
+      "Be a doctor",
+      "Be a teacher",
+      "Be a writer"
+    ],
+    "answer": "Be a teacher",
+    "explanation": "文章最後一句提到「I want to be a teacher in the future.」，表示 Amy 未來想當老師。"
+  },
+  {
+    "id": "R-G1-004",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "family",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "Hello, my name is Tom. There are four people in my family. My father is a doctor, and my mother is a nurse. I have a younger sister named Lily. We often go to the park on Sundays. I love my family very much.",
+    "question": "According to the passage, what is the main idea?",
+    "options": [
+      "Tom's school life",
+      "Tom's family",
+      "Tom's hobbies",
+      "Tom's pet"
+    ],
+    "answer": "Tom's family",
+    "explanation": "全文圍繞 Tom 的家庭成員及其職業展開，從「There are four people in my family」到介紹父母與妹妹，故主旨為 Tom 的家庭介紹。"
+  },
+  {
+    "id": "R-G1-005",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "family",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Hello, my name is Tom. There are four people in my family. My father is a doctor, and my mother is a nurse. I have a younger sister named Lily. We often go to the park on Sundays. I love my family very much.",
+    "question": "According to the passage, what does Tom's father do?",
+    "options": [
+      "A teacher",
+      "A nurse",
+      "A doctor",
+      "A cook"
+    ],
+    "answer": "A doctor",
+    "explanation": "文章中寫到「My father is a doctor」，可知 Tom 的父親是醫生。"
+  },
+  {
+    "id": "R-G1-006",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "family",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "Hello, my name is Tom. There are four people in my family. My father is a doctor, and my mother is a nurse. I have a younger sister named Lily. We often go to the park on Sundays. I love my family very much.",
+    "question": "According to the passage, where does Tom's family often go on Sundays?",
+    "options": [
+      "The zoo",
+      "The park",
+      "The library",
+      "The hospital"
+    ],
+    "answer": "The park",
+    "explanation": "文章中提到「We often go to the park on Sundays.」，表示 Tom 一家人常在週日去公園。"
+  },
+  {
+    "id": "R-G1-007",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "school-life",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "I go to school from Monday to Friday. School starts at eight o'clock in the morning. My favorite subject is math. I like my math teacher, Mr. Lin. He is very kind and funny.",
+    "question": "According to the passage, what time does school start?",
+    "options": [
+      "7:00 AM",
+      "8:00 AM",
+      "9:00 AM",
+      "7:30 AM"
+    ],
+    "answer": "8:00 AM",
+    "explanation": "文章中提到「School starts at eight o'clock in the morning.」，表示學校早上八點開始上課。"
+  },
+  {
+    "id": "R-G1-008",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "school-life",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "I go to school from Monday to Friday. School starts at eight o'clock in the morning. My favorite subject is math. I like my math teacher, Mr. Lin. He is very kind and funny.",
+    "question": "According to the passage, why does the writer like Mr. Lin?",
+    "options": [
+      "He is young",
+      "He is tall",
+      "He is kind and funny",
+      "He gives no homework"
+    ],
+    "answer": "He is kind and funny",
+    "explanation": "文章最後一句寫到「He is very kind and funny.」，說明作者喜歡 Mr. Lin 的原因是他既親切又風趣。"
+  },
+  {
+    "id": "R-G1-009",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "pets",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "I have a dog. His name is Lucky. He is brown and white. He is three years old. Lucky likes to play with balls. Every day I take him for a walk in the park. He is my best friend.",
+    "question": "According to the passage, what is the main idea?",
+    "options": [
+      "The park near the writer's home",
+      "The writer's pet dog",
+      "The writer's best human friend",
+      "The writer's favorite food"
+    ],
+    "answer": "The writer's pet dog",
+    "explanation": "全文從介紹狗狗的名字、顏色、年齡到日常活動，均圍繞作者的寵物狗 Lucky 展開。"
+  },
+  {
+    "id": "R-G1-010",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "pets",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "I have a dog. His name is Lucky. He is brown and white. He is three years old. Lucky likes to play with balls. Every day I take him for a walk in the park. He is my best friend.",
+    "question": "According to the passage, what color is Lucky?",
+    "options": [
+      "Black and white",
+      "Brown and black",
+      "Brown and white",
+      "White and black"
+    ],
+    "answer": "Brown and white",
+    "explanation": "文章中提到「He is brown and white.」，可知 Lucky 的毛色是棕色和白色。"
+  },
+  {
+    "id": "R-G1-011",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "pets",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "I have a dog. His name is Lucky. He is brown and white. He is three years old. Lucky likes to play with balls. Every day I take him for a walk in the park. He is my best friend.",
+    "question": "According to the passage, how does the writer feel about Lucky?",
+    "options": [
+      "The writer is afraid of Lucky",
+      "The writer does not like Lucky",
+      "The writer loves Lucky very much",
+      "The writer wants to give Lucky away"
+    ],
+    "answer": "The writer loves Lucky very much",
+    "explanation": "文中提到 Lucky 是作者最好的朋友（He is my best friend），且作者每天帶牠散步，可推斷作者非常喜愛 Lucky。"
+  },
+  {
+    "id": "R-G1-012",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "hobbies",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Emma. I have many hobbies. I like reading storybooks and drawing pictures. After school, I often go to the art club. My art teacher says I am good at painting. I want to be an artist one day.",
+    "question": "According to the passage, what club does Emma join after school?",
+    "options": [
+      "The music club",
+      "The sports club",
+      "The art club",
+      "The English club"
+    ],
+    "answer": "The art club",
+    "explanation": "文中提及「After school, I often go to the art club.」，表示 Emma 放學後參加美術社團。"
+  },
+  {
+    "id": "R-G1-013",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "hobbies",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Emma. I have many hobbies. I like reading storybooks and drawing pictures. After school, I often go to the art club. My art teacher says I am good at painting. I want to be an artist one day.",
+    "question": "According to the passage, what does Emma want to be one day?",
+    "options": [
+      "A writer",
+      "A teacher",
+      "A doctor",
+      "An artist"
+    ],
+    "answer": "An artist",
+    "explanation": "文章最後一句寫道「I want to be an artist one day.」，表示 Emma 未來想成為藝術家。"
+  },
+  {
+    "id": "R-G1-014",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "hobbies",
+      "vocabulary"
+    ],
+    "source": "static",
+    "passage": "My name is Emma. I have many hobbies. I like reading storybooks and drawing pictures. After school, I often go to the art club. My art teacher says I am good at painting. I want to be an artist one day.",
+    "question": "According to the passage, the word 'painting' means something closest to:",
+    "options": [
+      "Reading books",
+      "Making pictures with colors",
+      "Playing sports",
+      "Singing songs"
+    ],
+    "answer": "Making pictures with colors",
+    "explanation": "從前文可知 Emma 喜歡 drawing pictures（畫畫），且美術老師說她擅長 painting，故 painting 在此指「用顏料作畫」。"
+  },
+  {
+    "id": "R-G1-015",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "daily-routine",
+      "main-idea"
+    ],
+    "source": "static",
+    "passage": "My name is Ben. I get up at six thirty every morning. I eat breakfast at seven o'clock. Then I go to school by bus. After school, I do my homework first. Then I watch TV for one hour. I go to bed at nine thirty.",
+    "question": "According to the passage, what is the main idea?",
+    "options": [
+      "Ben's favorite food",
+      "Ben's daily routine",
+      "Ben's school subjects",
+      "Ben's family members"
+    ],
+    "answer": "Ben's daily routine",
+    "explanation": "全文描述 Ben 從起床、吃早餐、上學、寫作業、看電視到睡覺的一日作息，故主旨為 Ben 的日常生活。"
+  },
+  {
+    "id": "R-G1-016",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "daily-routine",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Ben. I get up at six thirty every morning. I eat breakfast at seven o'clock. Then I go to school by bus. After school, I do my homework first. Then I watch TV for one hour. I go to bed at nine thirty.",
+    "question": "According to the passage, how does Ben go to school?",
+    "options": [
+      "On foot",
+      "By car",
+      "By bike",
+      "By bus"
+    ],
+    "answer": "By bus",
+    "explanation": "文章中提到「Then I go to school by bus.」，表示 Ben 搭公車上學。"
+  },
+  {
+    "id": "R-G1-017",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "daily-routine",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My name is Ben. I get up at six thirty every morning. I eat breakfast at seven o'clock. Then I go to school by bus. After school, I do my homework first. Then I watch TV for one hour. I go to bed at nine thirty.",
+    "question": "According to the passage, what does Ben do first after school?",
+    "options": [
+      "Watch TV",
+      "Play with friends",
+      "Do his homework",
+      "Eat dinner"
+    ],
+    "answer": "Do his homework",
+    "explanation": "文中明確提到「After school, I do my homework first.」，表示 Ben 放學後第一件事是寫作業。"
+  },
+  {
+    "id": "R-G1-018",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "friends",
+      "detail"
+    ],
+    "source": "static",
+    "passage": "My best friend is Sue. She is very nice and kind. She is good at English and always helps me with my homework. We like to play badminton together after class. She is also my classmate. I am happy to have a friend like her.",
+    "question": "According to the passage, what sport do the writer and Sue play together?",
+    "options": [
+      "Basketball",
+      "Tennis",
+      "Badminton",
+      "Baseball"
+    ],
+    "answer": "Badminton",
+    "explanation": "文章中提到「We like to play badminton together after class.」，表示作者和 Sue 放學後一起打羽毛球。"
+  },
+  {
+    "id": "R-G1-019",
+    "grade": "G1",
+    "section": "reading",
+    "type": "reading",
+    "level_tag": [
+      "friends",
+      "inference"
+    ],
+    "source": "static",
+    "passage": "My best friend is Sue. She is very nice and kind. She is good at English and always helps me with my homework. We like to play badminton together after class. She is also my classmate. I am happy to have a friend like her.",
+    "question": "According to the passage, why does the writer think Sue is a good friend?",
+    "options": [
+      "She gives the writer money",
+      "She helps the writer with homework",
+      "She buys lunch for the writer",
+      "She walks the writer home"
+    ],
+    "answer": "She helps the writer with homework",
+    "explanation": "文中指出「She is good at English and always helps me with my homework.」，這是 Sue 作為好朋友的具體行為表現。"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "R-G1-001",
+  "grade": "G1",
+  "section": "reading",
+  "type": "vocab",
+  "level_tag": ["be動詞"],
+  "source": "static",
+  "question": "What ___ you do after school?",
+  "passage": "",
+  "options": ["is", "am", "are", "do"],
+  "answer": "D",
+  "explanation": "疑問句中主詞是 you，應使用助動詞 do 形成問句。"
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "LP-G1-001",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["學校"],
+    "source": "static",
+    "image": "🏫👦📚📖",
+    "audio_script": "A boy is reading a book in the classroom.",
+    "question": "聽敘述，選出符合圖片的選項",
+    "options": [
+      "A. A boy is reading a book in the classroom.",
+      "B. A boy is eating lunch in the classroom.",
+      "C. A boy is sleeping in the classroom."
+    ],
+    "answer": "A. A boy is reading a book in the classroom.",
+    "explanation": "圖中是一個男孩正在教室裡看書，所以選 A。"
+  },
+  {
+    "id": "LP-G1-002",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["家庭"],
+    "source": "static",
+    "image": "🏠👩🍳🍳",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The mother is cooking in the kitchen.",
+    "options": [
+      "A. The mother is sleeping in the bedroom.",
+      "B. The mother is cooking in the kitchen.",
+      "C. The mother is reading in the living room."
+    ],
+    "answer": "B. The mother is cooking in the kitchen.",
+    "explanation": "圖中是一位媽媽在廚房煮飯，所以選 B。"
+  },
+  {
+    "id": "LP-G1-003",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["食物"],
+    "source": "static",
+    "image": "🍎🍌🍊",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "There are three fruits on the table.",
+    "options": [
+      "A. There are three books on the table.",
+      "B. There are three dogs on the table.",
+      "C. There are three fruits on the table."
+    ],
+    "answer": "C. There are three fruits on the table.",
+    "explanation": "圖中是三種水果放在桌上，所以選 C。"
+  },
+  {
+    "id": "LP-G1-004",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["天氣"],
+    "source": "static",
+    "image": "☀️🌡️😎",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "It is sunny and hot today.",
+    "options": [
+      "A. It is rainy and cold today.",
+      "B. It is sunny and hot today.",
+      "C. It is snowy and windy today."
+    ],
+    "answer": "B. It is sunny and hot today.",
+    "explanation": "圖中是大太陽、很熱的天氣，所以選 B。"
+  },
+  {
+    "id": "LP-G1-005",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["動物"],
+    "source": "static",
+    "image": "🐶🏃‍♂️🌳",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "A dog is running in the park.",
+    "options": [
+      "A. A cat is sleeping on the sofa.",
+      "B. A dog is running in the park.",
+      "C. A bird is flying in the sky."
+    ],
+    "answer": "B. A dog is running in the park.",
+    "explanation": "圖中是一隻狗在公園裡跑步，所以選 B。"
+  },
+  {
+    "id": "LP-G1-006",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["運動"],
+    "source": "static",
+    "image": "⚽👦🥅",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The boy is playing soccer.",
+    "options": [
+      "A. The boy is playing soccer.",
+      "B. The boy is playing basketball.",
+      "C. The boy is swimming in the pool."
+    ],
+    "answer": "A. The boy is playing soccer.",
+    "explanation": "圖中是一個男孩在踢足球，所以選 A。"
+  },
+  {
+    "id": "LP-G1-007",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["顏色"],
+    "source": "static",
+    "image": "🔴🚗",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The car is red.",
+    "options": [
+      "A. The car is blue.",
+      "B. The car is red.",
+      "C. The car is yellow."
+    ],
+    "answer": "B. The car is red.",
+    "explanation": "圖中是一輛紅色的車，所以選 B。"
+  },
+  {
+    "id": "LP-G1-008",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["身體"],
+    "source": "static",
+    "image": "🖐️👀👂",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "We use our eyes to see.",
+    "options": [
+      "A. We use our ears to hear.",
+      "B. We use our hands to clap.",
+      "C. We use our eyes to see."
+    ],
+    "answer": "C. We use our eyes to see.",
+    "explanation": "圖中強調眼睛的功能，眼睛是用來看東西的，所以選 C。"
+  },
+  {
+    "id": "LP-G1-009",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["交通"],
+    "source": "static",
+    "image": "🚌🛣️🏙️",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The bus is on the road.",
+    "options": [
+      "A. The train is on the track.",
+      "B. The bus is on the road.",
+      "C. The boat is on the water."
+    ],
+    "answer": "B. The bus is on the road.",
+    "explanation": "圖中是一輛公車在馬路上，所以選 B。"
+  },
+  {
+    "id": "LP-G1-010",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["購物"],
+    "source": "static",
+    "image": "🛒👩🍞🥛",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The woman is buying bread and milk.",
+    "options": [
+      "A. The woman is buying shoes and socks.",
+      "B. The woman is buying bread and milk.",
+      "C. The woman is buying books and pens."
+    ],
+    "answer": "B. The woman is buying bread and milk.",
+    "explanation": "圖中是一位女士正在買麵包和牛奶，所以選 B。"
+  },
+  {
+    "id": "LP-G1-011",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["自然"],
+    "source": "static",
+    "image": "🌸🌿🦋",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "A butterfly is on the flower.",
+    "options": [
+      "A. A spider is on the wall.",
+      "B. A bee is in the tree.",
+      "C. A butterfly is on the flower."
+    ],
+    "answer": "C. A butterfly is on the flower.",
+    "explanation": "圖中是一隻蝴蝶停在花朵上，所以選 C。"
+  },
+  {
+    "id": "LP-G1-012",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["家人"],
+    "source": "static",
+    "image": "👨‍👩‍👧🏡😊",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The family is happy at home.",
+    "options": [
+      "A. The family is sad at home.",
+      "B. The family is angry at home.",
+      "C. The family is happy at home."
+    ],
+    "answer": "C. The family is happy at home.",
+    "explanation": "圖中一家人開心在家，所以選 C。"
+  },
+  {
+    "id": "LP-G1-013",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["飲料"],
+    "source": "static",
+    "image": "🥛👦😋",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The boy is drinking a glass of milk.",
+    "options": [
+      "A. The boy is drinking a glass of juice.",
+      "B. The boy is drinking a glass of water.",
+      "C. The boy is drinking a glass of milk."
+    ],
+    "answer": "C. The boy is drinking a glass of milk.",
+    "explanation": "圖中是一個男孩在喝一杯牛奶，所以選 C。"
+  },
+  {
+    "id": "LP-G1-014",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["衣服"],
+    "source": "static",
+    "image": "👕👖👟",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "He is wearing a shirt and pants.",
+    "options": [
+      "A. He is wearing a hat and scarf.",
+      "B. He is wearing a shirt and pants.",
+      "C. He is wearing a coat and boots."
+    ],
+    "answer": "B. He is wearing a shirt and pants.",
+    "explanation": "圖中他穿著上衣和褲子，所以選 B。"
+  },
+  {
+    "id": "LP-G1-015",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["時間"],
+    "source": "static",
+    "image": "🕗🌅👦🏃",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "He goes to school at eight o'clock.",
+    "options": [
+      "A. He goes to bed at nine o'clock.",
+      "B. He has lunch at twelve o'clock.",
+      "C. He goes to school at eight o'clock."
+    ],
+    "answer": "C. He goes to school at eight o'clock.",
+    "explanation": "圖中顯示他八點去上學，所以選 C。"
+  },
+  {
+    "id": "LP-G1-016",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["季節"],
+    "source": "static",
+    "image": "❄️⛄🧣",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "It is winter. There is snow on the ground.",
+    "options": [
+      "A. It is spring. The flowers are blooming.",
+      "B. It is summer. The sun is very hot.",
+      "C. It is winter. There is snow on the ground."
+    ],
+    "answer": "C. It is winter. There is snow on the ground.",
+    "explanation": "圖中是冬天，地上有積雪和雪人，所以選 C。"
+  },
+  {
+    "id": "LP-G1-017",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["休閒"],
+    "source": "static",
+    "image": "🎨👧🖌️",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The girl is painting a picture.",
+    "options": [
+      "A. The girl is singing a song.",
+      "B. The girl is painting a picture.",
+      "C. The girl is dancing on the stage."
+    ],
+    "answer": "B. The girl is painting a picture.",
+    "explanation": "圖中是一個女孩在畫畫，所以選 B。"
+  },
+  {
+    "id": "LP-G1-018",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["健康"],
+    "source": "static",
+    "image": "🛏️👦😴🌙",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The boy is sleeping in his bed.",
+    "options": [
+      "A. The boy is playing in his room.",
+      "B. The boy is sleeping in his bed.",
+      "C. The boy is eating in his bed."
+    ],
+    "answer": "B. The boy is sleeping in his bed.",
+    "explanation": "圖中是一個男孩在床上睡覺，所以選 B。"
+  },
+  {
+    "id": "LP-G1-019",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["地點"],
+    "source": "static",
+    "image": "🏥👩‍⚕️🩺",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The nurse is working in the hospital.",
+    "options": [
+      "A. The nurse is working in the hospital.",
+      "B. The nurse is working in the school.",
+      "C. The nurse is working in the store."
+    ],
+    "answer": "A. The nurse is working in the hospital.",
+    "explanation": "圖中是一位護士在醫院工作，所以選 A。"
+  },
+  {
+    "id": "LP-G1-020",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["數字"],
+    "source": "static",
+    "image": "🐱🐱🐱",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "There are three cats in the box.",
+    "options": [
+      "A. There are two cats in the box.",
+      "B. There are three cats in the box.",
+      "C. There are four cats in the box."
+    ],
+    "answer": "B. There are three cats in the box.",
+    "explanation": "圖中有三隻貓在盒子裡，所以選 B。"
+  },
+  {
+    "id": "LP-G1-021",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["情緒"],
+    "source": "static",
+    "image": "👧😢🧸",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The girl is sad. She lost her toy.",
+    "options": [
+      "A. The girl is happy. She got a toy.",
+      "B. The girl is sad. She lost her toy.",
+      "C. The girl is angry. She broke her toy."
+    ],
+    "answer": "B. The girl is sad. She lost her toy.",
+    "explanation": "圖中是一個小女孩因為弄丟玩具而難過，所以選 B。"
+  },
+  {
+    "id": "LP-G1-022",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["職業"],
+    "source": "static",
+    "image": "👨‍🏫📏📝",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The teacher is writing on the board.",
+    "options": [
+      "A. The doctor is checking the patient.",
+      "B. The teacher is writing on the board.",
+      "C. The driver is driving the car."
+    ],
+    "answer": "B. The teacher is writing on the board.",
+    "explanation": "圖中是一位老師在黑板上寫字，所以選 B。"
+  },
+  {
+    "id": "LP-G1-023",
+    "grade": "G1",
+    "section": "listening",
+    "type": "picture",
+    "level_tag": ["戶外"],
+    "source": "static",
+    "image": "🌳👦🪁",
+    "question": "聽敘述，選出符合圖片的選項",
+    "audio_script": "The boy is flying a kite in the park.",
+    "options": [
+      "A. The boy is riding a bike in the park.",
+      "B. The boy is flying a kite in the park.",
+      "C. The boy is reading a book in the park."
+    ],
+    "answer": "B. The boy is flying a kite in the park.",
+    "explanation": "圖中是一個男孩在公園放風箏，所以選 B。"
+  }
+]

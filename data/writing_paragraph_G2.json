@@ -1,0 +1,254 @@
+[
+  {
+    "id": "WP-G2-001",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🏃‍♂️🏅🎽🏟️👏",
+    "instruction": "請根據圖片寫一篇小短文，描述學校運動會的情景。",
+    "prompt": "Who is in the race? Where is it happening? What are the students doing? How do they feel? Who wins?",
+    "min_words": 50,
+    "sample_answer": "Last Friday was our school sports day. My classmate Tom ran in the 100-meter race. He wore a blue jersey and ran very fast. All the students stood by the track and cheered loudly. Tom won first place and got a gold medal. We all felt very happy and proud of him.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "運動會寫作要用過去式描述發生的事。先介紹人物和事件，再描寫現場氣氛和結果，最後加入感受讓文章更完整。可以用 cheered, won, proud 這類詞彙。"
+  },
+  {
+    "id": "WP-G2-002",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🏕️🔥🌲🌙👨‍👩‍👧‍👦",
+    "instruction": "請根據圖片寫一篇小短文，描述全家週末露營的情景。",
+    "prompt": "Who went camping? Where did they set up the tent? What did they do? What did they eat? How was the night?",
+    "min_words": 50,
+    "sample_answer": "Last weekend my family went camping in the mountains. We set up a big tent near a small lake. My dad made a campfire and we roasted marshmallows. Mom cooked hot dogs for dinner. At night we looked at the stars in the dark sky. It was a wonderful trip and I want to go again.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "露營寫作使用過去式描述過程。按時間順序撰寫：出發→搭帳篷→活動→晚餐→夜晚感受。記得用 roasted, cooked, looked at 等動作詞彙。"
+  },
+  {
+    "id": "WP-G2-003",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "👴👵🎁🏠🍲",
+    "instruction": "請根據圖片寫一篇小短文，描述假期去拜訪祖父母的情景。",
+    "prompt": "Which holiday is it? Who did you visit? What gifts did you bring? What did Grandma cook? How did everyone feel?",
+    "min_words": 50,
+    "sample_answer": "During the Chinese New Year holiday, my family visited my grandparents. I brought them a box of fruit and a red envelope. Grandma cooked a big dinner with fish, chicken, and dumplings. Grandpa told us funny stories about my dad when he was a boy. Everyone laughed and had a great time together.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "拜訪祖父母的寫作多用過去式。從節日切入，描述準備的禮物、做的事、吃的東西，最後寫出團聚的溫馨感受。可使用 brought, cooked, told 等過去式動詞。"
+  },
+  {
+    "id": "WP-G2-004",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🦷👨‍⚕️🏥😬🪥",
+    "instruction": "請根據圖片寫一篇小短文，描述去看牙醫的情景。",
+    "prompt": "Why did you visit the dentist? What did the dentist do? How did you feel before and after? What did the dentist tell you?",
+    "min_words": 50,
+    "sample_answer": "I went to the dentist yesterday because I had a toothache. At first I felt very nervous and scared. The dentist was very kind and told me to open my mouth. She checked my teeth and found a small cavity. After she fixed it, the pain was gone. She told me to brush my teeth twice a day. I felt much better after the visit.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "看牙醫的寫作重點是情緒變化：從害怕到安心。用過去式記錄看診過程，加上醫生給的建議。可用 nervous, scared, kind, better 等形容詞表達感受。"
+  },
+  {
+    "id": "WP-G2-005",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🚌🎒🗺️🏙️📸",
+    "instruction": "請根據圖片寫一篇小短文，描述搭巴士或火車旅行。",
+    "prompt": "Where did you go? How did you get there? What did you see from the window? What did you do during the ride? How was the trip?",
+    "min_words": 50,
+    "sample_answer": "Last Sunday I took a bus to Taipei with my family. We sat by the window and watched the green mountains pass by. I listened to music and read a comic book during the long ride. When we arrived, the city was big and busy. We took many photos of the tall buildings. The trip was fun and exciting.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "搭車旅行寫作按照時間順序：搭車→窗邊風景→車上活動→抵達目的地→感受。使用 took, sat, watched, arrived 等過去式動詞。"
+  },
+  {
+    "id": "WP-G2-006",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🧹🧤🗑️🌳🤝",
+    "instruction": "請根據圖片寫一篇小短文，描述社區公園打掃活動。",
+    "prompt": "Who joined the cleanup? Where did they go? What did they pick up? Why did they do it? How did the park look afterward?",
+    "min_words": 50,
+    "sample_answer": "My classmates and I went to the community park to clean up last Saturday. We wore gloves and brought big trash bags. Some picked up bottles and paper on the grass. Others swept the paths and picked up leaves. We did this because we wanted to keep our neighborhood clean. After two hours, the park looked beautiful and tidy. We felt proud of our work.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "社區打掃寫作要寫出原因（because）和結果。描述分工合作的情景，最後比較打掃前後的差異並寫出成就感。用過去式撰寫，可用 picked up, swept, wore 等。"
+  },
+  {
+    "id": "WP-G2-007",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🌻🌱⛏️💧☀️",
+    "instruction": "請根據圖片寫一篇小短文，描述在花園種花的情景。",
+    "prompt": "What flowers did you plant? Where did you plant them? What tools did you use? Who helped you? What will happen in a few weeks?",
+    "min_words": 50,
+    "sample_answer": "Last spring I planted sunflowers in my garden with my mom. First, we dug small holes in the soil. Then we put the seeds in the holes and covered them with dirt. I watered them every day and waited patiently. In a few weeks they are going to grow tall and bloom. I believe the yellow flowers will make our garden beautiful.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "種花寫作可以混合過去式和未來式（be going to）。用 First...Then... 的順序連接詞串聯步驟，最後預測未來的成果。"
+  },
+  {
+    "id": "WP-G2-008",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "💡⚡🕯️😨🏠",
+    "instruction": "請根據圖片寫一篇小短文，描述家裡停電的情景。",
+    "prompt": "When did the power go out? What were you doing? What did your family do? How did it feel in the dark? How long did it last?",
+    "min_words": 50,
+    "sample_answer": "At 8 p.m. last night, the power went out during a big storm. I was doing my homework and suddenly everything went dark. My little sister was scared and started to cry. Dad found some candles and lit them in the living room. We sat together and told stories. After about 30 minutes, the lights came back on and we cheered.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "停電寫作要用過去進行式（was doing）與過去式搭配，描述停電瞬間正在做什麼。按時間線：停電→反應→解決方式→復電→感受。"
+  },
+  {
+    "id": "WP-G2-009",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🔑❓😰🔍😄",
+    "instruction": "請根據圖片寫一篇小短文，描述遺失物品後又找回來的經歷。",
+    "prompt": "What did you lose? When and where did you lose it? How did you feel? Where did you find it? How did you feel after finding it?",
+    "min_words": 50,
+    "sample_answer": "Yesterday I lost my favorite pencil case at school. I could not find it after P.E. class. I felt very sad because it was a birthday gift from my best friend. I looked everywhere: under my desk, in my bag, and in the classroom. Finally, a classmate found it in the gym and gave it back to me. I was so relieved and thanked her with a big smile.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "遺失物品的寫作重點是情緒轉折：從擔心難過到放心開心。用過去式描述尋找過程，強調為什麼這個物品重要（because）。最後寫出找回後的釋然感。"
+  },
+  {
+    "id": "WP-G2-010",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🎬🎥🍿👫😆",
+    "instruction": "請根據圖片寫一篇小短文，描述和朋友一起看電影的經歷。",
+    "prompt": "What movie did you watch? Who did you go with? Where did you watch it? What snacks did you eat? What part was the most exciting?",
+    "min_words": 50,
+    "sample_answer": "I watched an animated movie at the theater with my friends on Saturday. We bought popcorn and cola before the movie started. The story was about a brave rabbit who wanted to be a police officer. The most exciting part was when the rabbit caught the bad guys. We laughed a lot during the funny scenes. It was the best movie I have ever seen.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "電影寫作用過去式描述觀影經歷。包含：片名、同行的朋友、吃的零食、最精采的情節，最後用最高級（best...ever）表達整體感受。"
+  },
+  {
+    "id": "WP-G2-011",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "📚📝⏰😰💪",
+    "instruction": "請根據圖片寫一篇小短文，描述準備學校考試的情景。",
+    "prompt": "What subject was the exam for? How did you study? Where did you study? How did you feel before the exam? What was the result?",
+    "min_words": 50,
+    "sample_answer": "Last month I had a big math exam at school. I studied very hard for three days at home. I reviewed my notes and did many practice problems. On the day before the exam I felt very nervous. My mom told me to relax and take deep breaths. The next day I did my best and got a good score. I felt proud because my hard work paid off.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "準備考試寫作用過去式描述整個過程。從準備方式、心情變化到結果，可用 because 表達因果關係（努力所以考得好）。"
+  },
+  {
+    "id": "WP-G2-012",
+    "grade": "G2",
+    "section": "writing",
+    "type": "paragraph",
+    "level_tag": [
+      "看圖寫作"
+    ],
+    "source": "static",
+    "image": "🤝👵🛍️😊🚦",
+    "instruction": "請根據圖片寫一篇小短文，描述在街上幫助陌生人的經歷。",
+    "prompt": "Who did you see on the street? What help did they need? What did you do? How did they react? How did you feel afterward?",
+    "min_words": 50,
+    "sample_answer": "On my way home yesterday, I saw an old woman carrying heavy shopping bags. She looked tired and walked very slowly. I went up to her and asked if she needed help. She smiled and said yes. I carried the bags for her and crossed the busy street together. She thanked me many times. I felt very happy because I could help someone in need.",
+    "checkpoints": [
+      "檢核點1：時態正確且一致",
+      "檢核點2：至少4句",
+      "檢核點3：包含地點、人物、動作與感受描述"
+    ],
+    "explanation": "幫助陌生人的寫作按事件順序：看到→觀察→幫忙→道謝→感受。用過去式，加入 because 解釋感受的原因。用 saw, walked, asked, carried, felt 等動詞。"
+  }
+]

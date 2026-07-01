@@ -1,0 +1,902 @@
+[
+  {
+    "id": "V-G1-001",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "動物"
+    ],
+    "source": "static",
+    "question": "Which animal is known for its long neck?",
+    "options": [
+      "giraffe",
+      "rabbit",
+      "fish",
+      "tiger"
+    ],
+    "answer": "giraffe",
+    "explanation": "giraffe（長頸鹿）以長脖子聞名，是正確答案。tiger（老虎）沒有長脖子；rabbit（兔子）脖子很短；fish（魚）根本沒有脖子。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-002",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "食物"
+    ],
+    "source": "static",
+    "question": "What do we call the first meal of the day?",
+    "options": [
+      "dinner",
+      "breakfast",
+      "snack",
+      "lunch"
+    ],
+    "answer": "breakfast",
+    "explanation": "breakfast（早餐）是一天中的第一餐，是正確答案。lunch（午餐）是中午吃的；dinner（晚餐）是晚上吃的；snack（點心）是兩餐之間的小食。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-003",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學校"
+    ],
+    "source": "static",
+    "question": "Students borrow books from the school ______.",
+    "options": [
+      "hospital",
+      "garden",
+      "library",
+      "kitchen"
+    ],
+    "answer": "library",
+    "explanation": "library（圖書館）是學生借書的地方，是正確答案。kitchen（廚房）是煮飯的地方；hospital（醫院）是看醫生的地方；garden（花園）是種植物的戶外空間。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-004",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "家庭"
+    ],
+    "source": "static",
+    "question": "Your mother's brother is your ______.",
+    "options": [
+      "cousin",
+      "aunt",
+      "grandfather",
+      "uncle"
+    ],
+    "answer": "uncle",
+    "explanation": "uncle（叔叔／舅舅）是媽媽的兄弟，是正確答案。cousin（堂表兄弟姊妹）是叔伯或舅舅的小孩；aunt（阿姨／姑姑）是媽媽的姊妹；grandfather（爺爺）是爸爸的爸爸。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-005",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "身體"
+    ],
+    "source": "static",
+    "question": "You use this part of your body to hear sounds.",
+    "options": [
+      "ear",
+      "mouth",
+      "hand",
+      "nose"
+    ],
+    "answer": "ear",
+    "explanation": "ear（耳朵）是用來聽聲音的身體部位，是正確答案。nose（鼻子）用來聞氣味；mouth（嘴巴）用來吃東西和說話；hand（手）用來拿東西。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-006",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "顏色"
+    ],
+    "source": "static",
+    "question": "The sky is usually ______ on a sunny day.",
+    "options": [
+      "red",
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "answer": "blue",
+    "explanation": "blue（藍色）是晴天的天空顏色，是正確答案。red（紅色）是太陽或火焰的顏色；yellow（黃色）是陽光的顏色；green（綠色）是草地的顏色。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-007",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "數字"
+    ],
+    "source": "static",
+    "question": "How many months are there in one year?",
+    "options": [
+      "seven",
+      "ten",
+      "twelve",
+      "thirty"
+    ],
+    "answer": "twelve",
+    "explanation": "twelve（十二）是一年的月數，是正確答案。seven（七）是一週的天數；ten（十）比一年月數少兩個月；thirty（三十）是一個月的約略天數。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-008",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "天氣"
+    ],
+    "source": "static",
+    "question": "You need an ______ when it rains.",
+    "options": [
+      "jacket",
+      "hat",
+      "scarf",
+      "umbrella"
+    ],
+    "answer": "umbrella",
+    "explanation": "umbrella（雨傘）是下雨時用來遮雨的工具，是正確答案。jacket（夾克）是保暖的外套；hat（帽子）可遮陽但不防水；scarf（圍巾）是冬天保暖用的。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-009",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "運動"
+    ],
+    "source": "static",
+    "question": "Which sport is played in a swimming pool?",
+    "options": [
+      "swimming",
+      "baseball",
+      "volleyball",
+      "tennis"
+    ],
+    "answer": "swimming",
+    "explanation": "swimming（游泳）是在游泳池中進行的運動，是正確答案。tennis（網球）在球場上打；baseball（棒球）在棒球場進行；volleyball（排球）在排球場上打。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-010",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "日常活動"
+    ],
+    "source": "static",
+    "question": "I ______ my teeth every morning and night.",
+    "options": [
+      "wash",
+      "brush",
+      "clean",
+      "cut"
+    ],
+    "answer": "brush",
+    "explanation": "brush my teeth（刷牙）是固定搭配，表示用牙刷清潔牙齒，是正確答案。wash（洗）通常用於洗臉或洗手；clean（清潔）太廣泛，不用於牙齒；cut（剪）是切斷的意思。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-011",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "交通工具"
+    ],
+    "source": "static",
+    "question": "Many students ride a ______ to school every day.",
+    "options": [
+      "train",
+      "boat",
+      "bicycle",
+      "airplane"
+    ],
+    "answer": "bicycle",
+    "explanation": "bicycle（腳踏車）是學生常騎去上學的交通工具，是正確答案。airplane（飛機）用於長途飛行；train（火車）用於城際交通；boat（船）在水上航行。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-012",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "形容詞"
+    ],
+    "source": "static",
+    "question": "The flowers in the garden are very ______. I love their colors.",
+    "options": [
+      "ugly",
+      "angry",
+      "hungry",
+      "beautiful"
+    ],
+    "answer": "beautiful",
+    "explanation": "beautiful（美麗的）形容花很漂亮，與「喜歡它們的顏色」語意一致，是正確答案。ugly（醜的）與語境相反；angry（生氣的）形容情緒；hungry（飢餓的）形容想吃東西。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-013",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "形容詞"
+    ],
+    "source": "static",
+    "question": "The pizza is so ______! I want to eat more.",
+    "options": [
+      "delicious",
+      "boring",
+      "difficult",
+      "terrible"
+    ],
+    "answer": "delicious",
+    "explanation": "delicious（美味的）形容食物很好吃，與「想再吃更多」一致，是正確答案。terrible（糟糕的）表示難吃；boring（無聊的）不用於食物；difficult（困難的）不用於描述味道。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-014",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "地點"
+    ],
+    "source": "static",
+    "question": "When you are very sick, you should go to the ______.",
+    "options": [
+      "supermarket",
+      "hospital",
+      "restaurant",
+      "library"
+    ],
+    "answer": "hospital",
+    "explanation": "hospital（醫院）是生病時去看診的地方，是正確答案。supermarket（超市）是買東西的地方；restaurant（餐廳）是吃飯的地方；library（圖書館）是看書的地方。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-015",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "question": "A person who helps sick people get well is a ______.",
+    "options": [
+      "farmer",
+      "waiter",
+      "doctor",
+      "teacher"
+    ],
+    "answer": "doctor",
+    "explanation": "doctor（醫生）是幫助病人康復的人，是正確答案。teacher（老師）在學校教書；farmer（農夫）種植農作物；waiter（服務生）在餐廳服務。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-016",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "職業"
+    ],
+    "source": "static",
+    "question": "My dad is a ______. He grows vegetables on his land.",
+    "options": [
+      "policeman",
+      "lawyer",
+      "pilot",
+      "farmer"
+    ],
+    "answer": "farmer",
+    "explanation": "farmer（農夫）種植蔬菜，是正確答案。pilot（機長）駕駛飛機；policeman（警察）維護治安；lawyer（律師）處理法律事務。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-017",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "時間"
+    ],
+    "source": "static",
+    "question": "Today is Monday. ______ will be Tuesday.",
+    "options": [
+      "Tomorrow",
+      "Weekend",
+      "Last week",
+      "Yesterday"
+    ],
+    "answer": "Tomorrow",
+    "explanation": "Tomorrow（明天），因為今天是星期一，明天就是星期二，是正確答案。Yesterday（昨天）是過去的；Weekend（週末）是星期六和星期天；Last week（上週）是過去的一週。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-018",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "時間"
+    ],
+    "source": "static",
+    "question": "Today is Wednesday. ______ was Tuesday.",
+    "options": [
+      "Tomorrow",
+      "Yesterday",
+      "Tonight",
+      "Next week"
+    ],
+    "answer": "Yesterday",
+    "explanation": "Yesterday（昨天），因為今天是星期三，昨天是星期二，是正確答案。Tomorrow（明天）是未來；Tonight（今晚）是今天晚上；Next week（下週）是未來的一週。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-019",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "時間"
+    ],
+    "source": "static",
+    "question": "Saturday and Sunday together are called the ______.",
+    "options": [
+      "vacation",
+      "weekday",
+      "weekend",
+      "holiday"
+    ],
+    "answer": "weekend",
+    "explanation": "weekend（週末）是星期六和星期天的總稱，是正確答案。weekday（平日）是星期一到星期五；holiday（假日）是特定節日或放假的日子；vacation（假期）是較長的休假。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-020",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學校"
+    ],
+    "source": "static",
+    "question": "The teacher writes on the ______ with chalk.",
+    "options": [
+      "window",
+      "door",
+      "desk",
+      "blackboard"
+    ],
+    "answer": "blackboard",
+    "explanation": "blackboard（黑板）是老師用粉筆寫字的板子，是正確答案。window（窗戶）是透光的；door（門）是進出的；desk（書桌）是學生放書的地方。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-021",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學校"
+    ],
+    "source": "static",
+    "question": "I forgot to do my math ______, so the teacher was not happy.",
+    "options": [
+      "homework",
+      "dinner",
+      "shopping",
+      "sports"
+    ],
+    "answer": "homework",
+    "explanation": "homework（功課／作業）是老師指定回家做的練習，忘記做會讓老師不高興，是正確答案。dinner（晚餐）不適合語境；shopping（購物）不是學校相關的事；sports（運動）不會讓老師不高興。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-022",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "學校"
+    ],
+    "source": "static",
+    "question": "We have English class in the big ______ on the second floor.",
+    "options": [
+      "living room",
+      "classroom",
+      "bedroom",
+      "bathroom"
+    ],
+    "answer": "classroom",
+    "explanation": "classroom（教室）是學校上課的房間，是正確答案。bedroom（臥室）是睡覺的地方；bathroom（浴室）是洗澡的地方；living room（客廳）是家中的起居空間。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-023",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "家庭"
+    ],
+    "source": "static",
+    "question": "Your father and mother are your ______.",
+    "options": [
+      "friends",
+      "neighbors",
+      "parents",
+      "children"
+    ],
+    "answer": "parents",
+    "explanation": "parents（父母）是爸爸和媽媽的總稱，是正確答案。children（小孩）是父母的子女；friends（朋友）不是家人關係；neighbors（鄰居）是住在附近的人。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-024",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "身體"
+    ],
+    "source": "static",
+    "question": "You carry a heavy bag on your ______.",
+    "options": [
+      "knee",
+      "foot",
+      "finger",
+      "shoulder"
+    ],
+    "answer": "shoulder",
+    "explanation": "shoulder（肩膀）常用來背負重物，是正確答案。knee（膝蓋）是用來彎腿的關節；foot（腳）用來走路；finger（手指）通常不承擔重量。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-025",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "日常活動"
+    ],
+    "source": "static",
+    "question": "Before you go to bed, you should take a ______.",
+    "options": [
+      "bath",
+      "breakfast",
+      "walk",
+      "test"
+    ],
+    "answer": "bath",
+    "explanation": "take a bath（洗澡）是睡前常做的活動，是正確答案。breakfast（早餐）搭配 eat，不適合睡前；walk（走路）可以搭配 take a walk，但不是睡前必做的事；test（測驗）與 take a test 搭配，與睡前無關。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-026",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "地點"
+    ],
+    "source": "static",
+    "question": "We buy food and drinks at the ______.",
+    "options": [
+      "bank",
+      "supermarket",
+      "museum",
+      "post office"
+    ],
+    "answer": "supermarket",
+    "explanation": "supermarket（超市）是購買食物和飲料的地方，是正確答案。museum（博物館）是參觀展覽的地方；post office（郵局）寄信的地方；bank（銀行）存錢領錢的地方。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-027",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "地點"
+    ],
+    "source": "static",
+    "question": "People go to a ______ to eat meals when they don't want to cook.",
+    "options": [
+      "station",
+      "factory",
+      "restaurant",
+      "airport"
+    ],
+    "answer": "restaurant",
+    "explanation": "restaurant（餐廳）是人們外出用餐的地方，不想煮飯時就會去，是正確答案。airport（機場）是搭飛機的地方；station（車站）是搭車的地方；factory（工廠）是製造東西的地方。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-028",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "交通工具"
+    ],
+    "source": "static",
+    "question": "A ______ can fly high in the sky.",
+    "options": [
+      "motorcycle",
+      "ship",
+      "bus",
+      "airplane"
+    ],
+    "answer": "airplane",
+    "explanation": "airplane（飛機）能在高空中飛行，是正確答案。bus（公車）在馬路上行駛；motorcycle（機車）也是陸地交通工具；ship（船）在水上航行。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-029",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "服裝"
+    ],
+    "source": "static",
+    "question": "When it is cold outside, you should wear a warm ______.",
+    "options": [
+      "jacket",
+      "shorts",
+      "swimsuit",
+      "sunglasses"
+    ],
+    "answer": "jacket",
+    "explanation": "jacket（夾克／外套）是寒冷時穿著的保暖衣物，是正確答案。shorts（短褲）是夏天穿的；swimsuit（泳衣）是游泳時穿的；sunglasses（太陽眼鏡）是遮陽用的。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-030",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "天氣"
+    ],
+    "source": "static",
+    "question": "In winter, white ______ falls from the sky.",
+    "options": [
+      "rain",
+      "snow",
+      "wind",
+      "fog"
+    ],
+    "answer": "snow",
+    "explanation": "snow（雪）是冬天從天空飄落的白色結晶，是正確答案。rain（雨）是水滴，不限冬天；wind（風）是空氣流動，看不見白色；fog（霧）是靠近地面的水氣。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-031",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "運動"
+    ],
+    "source": "static",
+    "question": "In this sport, players kick a black-and-white ball into a net. It is called ______.",
+    "options": [
+      "tennis",
+      "badminton",
+      "soccer",
+      "basketball"
+    ],
+    "answer": "soccer",
+    "explanation": "soccer（足球）是用腳踢黑白球進球門的運動，是正確答案。basketball（籃球）用手投籃；tennis（網球）用球拍打球；badminton（羽毛球）用球拍打羽球。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-032",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "形容詞"
+    ],
+    "source": "static",
+    "question": "This book is very ______. I cannot stop reading it.",
+    "options": [
+      "boring",
+      "scary",
+      "difficult",
+      "interesting"
+    ],
+    "answer": "interesting",
+    "explanation": "interesting（有趣的）形容書本讓人停不下來閱讀，是正確答案。boring（無聊的）會讓人不想看；scary（恐怖的）不一定適合上下文；difficult（困難的）會讓人想放棄。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-033",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "形容詞"
+    ],
+    "source": "static",
+    "question": "Learning English is very ______ for your future.",
+    "options": [
+      "important",
+      "silly",
+      "lazy",
+      "tiny"
+    ],
+    "answer": "important",
+    "explanation": "important（重要的）強調學英文對未來有價值，是正確答案。silly（愚蠢的）是貶義詞；lazy（懶惰的）形容人，不能形容學習；tiny（微小的）形容大小。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-034",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "大自然"
+    ],
+    "source": "static",
+    "question": "We climbed to the top of the ______ and saw a beautiful view.",
+    "options": [
+      "river",
+      "mountain",
+      "ocean",
+      "lake"
+    ],
+    "answer": "mountain",
+    "explanation": "mountain（山）是可以攀登的高地，爬到山頂能看到美景，是正確答案。ocean（海洋）不能攀登；lake（湖）和 river（河流）都是水域，無法攀登。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-035",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "大自然"
+    ],
+    "source": "static",
+    "question": "Taiwan is an ______ surrounded by the sea.",
+    "options": [
+      "desert",
+      "forest",
+      "island",
+      "continent"
+    ],
+    "answer": "island",
+    "explanation": "island（島嶼）是被海洋環繞的陸地，台灣就是一個島嶼，是正確答案。continent（大陸）很大，不只被海環繞；desert（沙漠）是乾燥地區；forest（森林）是樹木茂密的地區。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-036",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "動物"
+    ],
+    "source": "static",
+    "question": "The ______ is called the 'king of the jungle.'",
+    "options": [
+      "monkey",
+      "elephant",
+      "tiger",
+      "lion"
+    ],
+    "answer": "lion",
+    "explanation": "lion（獅子）被稱為「叢林之王」，是正確答案。monkey（猴子）在樹上活動；elephant（大象）是陸地上最大的動物但不是王者；tiger（老虎）雖然很強，但通常不被稱為叢林之王。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-037",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "動物"
+    ],
+    "source": "static",
+    "question": "An ______ has a very long nose called a trunk.",
+    "options": [
+      "elephant",
+      "rabbit",
+      "horse",
+      "turtle"
+    ],
+    "answer": "elephant",
+    "explanation": "elephant（大象）有長長的鼻子稱為 trunk（象鼻），是正確答案。rabbit（兔子）鼻子很短；horse（馬）鼻子長度普通；turtle（烏龜）沒有長鼻子。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-038",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "服裝"
+    ],
+    "source": "static",
+    "question": "I usually wear ______ in summer to keep my legs cool.",
+    "options": [
+      "boots",
+      "shorts",
+      "sweater",
+      "gloves"
+    ],
+    "answer": "shorts",
+    "explanation": "shorts（短褲）是夏天讓腿保持涼爽的服裝，是正確答案。sweater（毛衣）是冬天穿的保暖衣物；gloves（手套）是保護手部的；boots（靴子）是腳上穿的。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-039",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "音樂"
+    ],
+    "source": "static",
+    "question": "My sister is learning to play the ______. It has black and white keys.",
+    "options": [
+      "drum",
+      "violin",
+      "piano",
+      "guitar"
+    ],
+    "answer": "piano",
+    "explanation": "piano（鋼琴）有黑白琴鍵，是正確答案。guitar（吉他）有弦而無琴鍵；drum（鼓）用鼓棒敲擊；violin（小提琴）用弓拉弦。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-040",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "音樂"
+    ],
+    "source": "static",
+    "question": "He plays the ______ in a rock band. It has six strings.",
+    "options": [
+      "flute",
+      "trumpet",
+      "piano",
+      "guitar"
+    ],
+    "answer": "guitar",
+    "explanation": "guitar（吉他）有六條弦，常在搖滾樂團中使用，是正確答案。flute（長笛）是管樂器；trumpet（小號）是銅管樂器；piano（鋼琴）是鍵盤樂器。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-041",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "交通"
+    ],
+    "source": "static",
+    "question": "There is a long ______ over the river for cars to cross.",
+    "options": [
+      "bridge",
+      "tunnel",
+      "park",
+      "hill"
+    ],
+    "answer": "bridge",
+    "explanation": "bridge（橋樑）是跨過河流讓車輛通過的建築物，是正確答案。tunnel（隧道）是在地底或山中的通道；park（公園）是休閒場所；hill（小山丘）是自然地形。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-042",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "日常活動"
+    ],
+    "source": "static",
+    "question": "I ______ English every day to get better.",
+    "options": [
+      "forget",
+      "practice",
+      "sleep",
+      "ignore"
+    ],
+    "answer": "practice",
+    "explanation": "practice（練習）每天練習英文才能進步，是正確答案。sleep（睡覺）不會讓英文變好；ignore（忽略）反而退步；forget（忘記）是失去記憶。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-043",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "節日"
+    ],
+    "source": "static",
+    "question": "We have a long summer ______ in July and August.",
+    "options": [
+      "exam",
+      "class",
+      "vacation",
+      "meeting"
+    ],
+    "answer": "vacation",
+    "explanation": "vacation（假期），七月和八月是長長的暑假，是正確答案。meeting（會議）與放假無關；exam（考試）通常在學期中；class（課堂）是上課，不是放假。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-044",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "通訊"
+    ],
+    "source": "static",
+    "question": "I need to make a phone call. May I use your ______?",
+    "options": [
+      "computer",
+      "camera",
+      "radio",
+      "telephone"
+    ],
+    "answer": "telephone",
+    "explanation": "telephone（電話）是用來打電話的通訊設備，是正確答案。computer（電腦）主要用來上網或工作；camera（相機）用來拍照；radio（收音機）用來收聽廣播。",
+    "passage": ""
+  },
+  {
+    "id": "V-G1-045",
+    "grade": "G1",
+    "section": "vocab",
+    "type": "vocab",
+    "level_tag": [
+      "形容詞"
+    ],
+    "source": "static",
+    "question": "After running for one hour, I felt very ______ and needed water.",
+    "options": [
+      "thirsty",
+      "sleepy",
+      "bored",
+      "excited"
+    ],
+    "answer": "thirsty",
+    "explanation": "thirsty（口渴的）是跑步一小時後的自然反應，需要喝水，是正確答案。sleepy（想睡的）不是跑步後的典型感受；bored（無聊的）與運動後感覺無關；excited（興奮的）雖然可能，但「需要喝水」提示了口渴。",
+    "passage": ""
+  }
+]
