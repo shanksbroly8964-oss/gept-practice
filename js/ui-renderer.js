@@ -16,11 +16,15 @@ window.GEPT.UIRenderer = (function() {
   function showGradePicker() {
     document.getElementById('grade-picker').classList.remove('hidden');
     document.getElementById('app').classList.add('hidden');
+    var bn = document.getElementById('bottom-nav');
+    if (bn) bn.classList.add('hidden');
   }
 
   function hideGradePicker() {
     document.getElementById('grade-picker').classList.add('hidden');
     document.getElementById('app').classList.remove('hidden');
+    var bn = document.getElementById('bottom-nav');
+    if (bn) bn.classList.remove('hidden');
   }
 
   function updateGradeDisplay(grade) {

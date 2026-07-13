@@ -2,16 +2,13 @@ window.GEPT = window.GEPT || {};
 window.GEPT.App = (function() {
   var currentGrade = '';
   var currentSection = '';
+  var initCalled = false;
 
   function init() {
-    GEPT.UIRenderer.init();
+    if (initCalled) return;
+    initCalled = true;
 
-    currentGrade = GEPT.Storage.getGrade();
-    if (currentGrade) {
-      startApp(currentGrade);
-    } else {
-      GEPT.UIRenderer.showGradePicker();
-    }
+    GEPT.UIRenderer.init();
 
     document.querySelectorAll('.grade-btn').forEach(function(btn) {
       btn.addEventListener('click', function() {
@@ -23,51 +20,57 @@ window.GEPT.App = (function() {
 
     document.querySelectorAll('.nav-btn').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        GEPT.Listening.resetSession();
-        GEPT.Speaking.resetSession();
-        GEPT.MockExam.init(currentGrade);
         var section = this.dataset.section;
-        if (section === 'listening') {
-          loadListening();
-        } else if (section === 'wrongbook') {
-          loadWrongBook();
-        } else if (section === 'writing') {
-          loadWriting();
-        } else if (section === 'speaking') {
-          loadSpeaking();
-        } else if (section === 'mockexam') {
-          loadMockExam();
-        } else if (section === 'progress') {
-          loadProgress();
-        } else {
-          loadSection(section);
-        }
+        navigateTo(section);
       });
     });
 
+    setupBottomNav();
+
     GEPT.QuizEngine.onStatsUpdate(updateStatsDisplay);
+
+    currentGrade = GEPT.Storage.getGrade();
+    if (currentGrade) {
+      startApp(currentGrade);
+    } else {
+      showGradePicker();
+    }
   }
 
-  function loadWriting() {
-    currentSection = 'writing';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'writing');
-    });
-    GEPT.Writing.showSubtypeSelection();
+  function navigateTo(section) {
+    GEPT.Listening.resetSession();
+    GEPT.Speaking.resetSession();
+    GEPT.MockExam.init(currentGrade);
+    updateBottomNavActive(section);
+
+    if (section === 'listening') {
+      loadListening();
+    } else if (section === 'wrongbook') {
+      loadWrongBook();
+    } else if (section === 'writing') {
+      loadWriting();
+    } else if (section === 'speaking') {
+      loadSpeaking();
+    } else if (section === 'mockexam') {
+      loadMockExam();
+    } else if (section === 'progress') {
+      loadProgress();
+    } else {
+      loadSection(section);
+    }
   }
 
-  function loadSpeaking() {
-    currentSection = 'speaking';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'speaking');
-    });
-    GEPT.Speaking.showSubtypeSelection();
+  function showGradePicker() {
+    GEPT.UIRenderer.showGradePicker();
+    document.getElementById('bottom-nav').classList.add('hidden');
   }
 
   function startApp(grade) {
     currentGrade = grade;
-    document.getElementById('section-nav').classList.remove('hidden');
     GEPT.UIRenderer.hideGradePicker();
+    document.getElementById('section-nav').classList.remove('hidden');
+    document.getElementById('stats').classList.remove('hidden');
+    document.getElementById('bottom-nav').classList.remove('hidden');
     GEPT.UIRenderer.updateGradeDisplay(grade);
     GEPT.QuizEngine.init(grade);
     GEPT.Listening.init(grade);
@@ -79,46 +82,133 @@ window.GEPT.App = (function() {
     updateStatsDisplay();
   }
 
+  function setupBottomNav() {
+    document.querySelectorAll('#bottom-nav .bn-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var section = this.dataset.bn;
+        if (!section) return;
+        if (section === 'vocab') {
+          loadSection('vocab');
+          updateBottomNavActive('vocab');
+        } else {
+          navigateTo(section);
+        }
+      });
+    });
+  }
+
+  function updateBottomNavActive(section) {
+    document.querySelectorAll('#bottom-nav .bn-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.bn === section);
+    });
+    document.querySelectorAll('.nav-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.section === section);
+    });
+  }
+
+  function setupInstallHint() {
+    var hintEl = document.getElementById('install-hint');
+    var closeBtn = document.getElementById('install-hint-close');
+    var installBtn = document.getElementById('install-hint-btn');
+    var hintText = document.getElementById('install-hint-text');
+    var deferredPrompt = null;
+
+    if (!hintEl) return;
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        hintEl.classList.add('hidden');
+        try { localStorage.setItem('gept_install_hint_closed', '1'); } catch(e) {}
+      });
+    }
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (localStorage.getItem('gept_install_hint_closed')) return;
+      hintEl.classList.remove('hidden');
+      if (installBtn) installBtn.style.display = '';
+      if (hintText) hintText.textContent = '將此 App 安裝到主畫面，隨時練習！';
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener('click', function() {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          deferredPrompt.userChoice.then(function(result) {
+            deferredPrompt = null;
+          });
+        }
+        hintEl.classList.add('hidden');
+        try { localStorage.setItem('gept_install_hint_closed', '1'); } catch(e) {}
+      });
+    }
+
+    window.addEventListener('appinstalled', function() {
+      hintEl.classList.add('hidden');
+      deferredPrompt = null;
+    });
+
+    var isIOS = /iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase());
+    var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+    if (isIOS && !isStandalone && !localStorage.getItem('gept_install_hint_closed')) {
+      hintEl.classList.remove('hidden');
+      if (hintText) hintText.textContent = '點選下方分享按鈕 →「加入主畫面」安裝此 App';
+      if (installBtn) installBtn.style.display = 'none';
+    }
+  }
+
+  function registerServiceWorker() {
+    if (!navigator.serviceWorker) return;
+    navigator.serviceWorker.register('sw.js')
+      .then(function(reg) {
+        console.log('[SW] registered scope:', reg.scope);
+      })
+      .catch(function(err) {
+        console.warn('[SW] register failed:', err);
+      });
+  }
+
+  function loadWriting() {
+    currentSection = 'writing';
+    updateBottomNavActive('writing');
+    GEPT.Writing.showSubtypeSelection();
+  }
+
+  function loadSpeaking() {
+    currentSection = 'speaking';
+    updateBottomNavActive('speaking');
+    GEPT.Speaking.showSubtypeSelection();
+  }
+
   function loadListening() {
     currentSection = 'listening';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'listening');
-    });
+    updateBottomNavActive('listening');
     GEPT.Listening.showSubtypeSelection();
   }
 
   function loadWrongBook() {
     currentSection = 'wrongbook';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'wrongbook');
-    });
+    updateBottomNavActive('wrongbook');
     GEPT.WrongBook.show();
   }
 
   function loadMockExam() {
     currentSection = 'mockexam';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'mockexam');
-    });
+    updateBottomNavActive('mockexam');
     GEPT.MockExam.start();
   }
 
   function loadProgress() {
     currentSection = 'progress';
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === 'progress');
-    });
+    updateBottomNavActive('progress');
     GEPT.Progress.show();
   }
 
   function loadSection(section) {
     currentSection = section;
+    updateBottomNavActive(section);
     GEPT.UIRenderer.resetQuestionUI();
-
-    document.querySelectorAll('.nav-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.section === section);
-    });
-
     GEPT.UIRenderer.showLoading();
 
     GEPT.QuizEngine.loadSection(section).then(function(result) {
@@ -175,13 +265,50 @@ window.GEPT.App = (function() {
     GEPT.UIRenderer.updateStats(stats.correct, stats.wrong, accuracy);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
+  function resetApp() {
+    initCalled = false;
+    currentGrade = '';
+    currentSection = '';
+    document.getElementById('section-nav').classList.add('hidden');
+    document.getElementById('stats').classList.add('hidden');
+    document.getElementById('bottom-nav').classList.add('hidden');
+    showGradePicker();
   }
 
+  // ── PWA 設定不受登入閘門影響，頁面載入即執行 ──
+  function bootPWA() {
+    try { setupInstallHint(); } catch (e) {}
+    try { registerServiceWorker(); } catch (e) {}
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bootPWA);
+  } else {
+    bootPWA();
+  }
+
+  // ── Auth gate ────────────────────────────────────────────
+
+  window.GeptAuth.onReady(function() {
+    if (window.GeptAuth.isLoggedIn()) {
+      init();
+    }
+  });
+
+  window.GeptAuth.onUserChange(function(user, isGuest) {
+    if (user || isGuest) {
+      if (!initCalled) {
+        init();
+      }
+    } else {
+      if (initCalled) {
+        resetApp();
+      }
+    }
+  });
+
   return {
+    init: init,
+    resetApp: resetApp,
     onGradeChange: onGradeChange,
     onAnswer: onAnswer,
     onNextQuestion: onNextQuestion,

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background - fills entire 512x512 for "any" purpose -->
+  <rect x="0" y="0" width="512" height="512" rx="96" ry="96" fill="#3B82F6"/>
+
+  <!-- Inner safe-area guide: center 80% (409.6x409.6, offset 51.2 from each edge) -->
+  <!-- Transparent, but "英檢" text placed within this region -->
+
+  <!-- "英" character - top half of center area -->
+  <text
+    x="256"
+    y="255"
+    font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif"
+    font-size="200"
+    font-weight="bold"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    dominant-baseline="central"
+    letter-spacing="0"
+  >英</text>
+
+  <!-- "檢" character - bottom half of center area -->
+  <text
+    x="256"
+    y="408"
+    font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif"
+    font-size="140"
+    font-weight="bold"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    dominant-baseline="central"
+    letter-spacing="0"
+  >檢</text>
+</svg>

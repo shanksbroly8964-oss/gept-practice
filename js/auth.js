@@ -1,20 +1,22 @@
 // ============================================================
-// GeptAuth — Firebase Google 登入 + Firestore 雲端同步模組
-// 自我隔離：僅操作 #auth-container，不碰任何其他 DOM 與模組
+// GeptAuth — Firebase Google 登入閘門 + Firestore 雲端同步
+// 流程：loading → onAuthStateChanged → 登入頁 或 App
+// 關鍵：setPersistence(browserLocalPersistence) 持久保持登入
 // ============================================================
 window.GeptAuth = (function() {
   'use strict';
 
+  var ALLOW_GUEST = false;
   var FB_CDN = 'https://www.gstatic.com/firebasejs/10.12.0';
   var SDK_LOADED = false;
-  var AUTH_INITIALIZED = false;
 
   var auth = null;
   var db = null;
   var currentUser = null;
-  var listeners = [];
-
-  // ── helpers ─────────────────────────────────────────────
+  var isGuestMode = false;
+  var authReady = false;
+  var readyCallbacks = [];
+  var userChangeCallbacks = [];
 
   function isPlaceholder(val) {
     return !val || /^YOUR_/.test(val);
@@ -25,22 +27,15 @@ window.GeptAuth = (function() {
       if (typeof firebaseConfig === 'undefined') return false;
       var c = firebaseConfig;
       return !isPlaceholder(c.apiKey) && !isPlaceholder(c.projectId) && !isPlaceholder(c.appId);
-    } catch (e) {
-      return false;
-    }
+    } catch (e) { return false; }
   }
 
   function escapeHtml(str) {
     if (!str) return '';
     return str
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#039;');
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
   }
-
-  // ── dynamic script loader ───────────────────────────────
 
   function loadScript(src) {
     return new Promise(function(resolve, reject) {
@@ -58,88 +53,108 @@ window.GeptAuth = (function() {
       loadScript(FB_CDN + '/firebase-app-compat.js'),
       loadScript(FB_CDN + '/firebase-auth-compat.js'),
       loadScript(FB_CDN + '/firebase-firestore-compat.js')
-    ]).then(function() {
-      SDK_LOADED = true;
-    });
+    ]).then(function() { SDK_LOADED = true; });
   }
 
-  // ── UI rendering ────────────────────────────────────────
+  // ── UI ───────────────────────────────────────────────────
 
-  function renderUI() {
+  function showLoading() {
+    var el = document.getElementById('app-loading');
+    if (el) el.classList.remove('hidden');
+    var app = document.getElementById('app');
+    if (app) app.classList.add('hidden');
+    var login = document.getElementById('login-page');
+    if (login) login.classList.add('hidden');
+  }
+
+  function hideLoading() {
+    var el = document.getElementById('app-loading');
+    if (el) el.classList.add('hidden');
+  }
+
+  function showLoginPage() {
+    hideLoading();
+    var el = document.getElementById('login-page');
+    if (el) {
+      el.classList.remove('hidden');
+      var guestBtn = document.getElementById('login-guest-btn');
+      if (guestBtn) {
+        guestBtn.classList.toggle('hidden', !ALLOW_GUEST);
+      }
+    }
+    var app = document.getElementById('app');
+    if (app) app.classList.add('hidden');
+    var loginErr = document.getElementById('login-error');
+    if (loginErr) loginErr.classList.add('hidden');
+  }
+
+  function showApp() {
+    hideLoading();
+    var el = document.getElementById('login-page');
+    if (el) el.classList.add('hidden');
+    var app = document.getElementById('app');
+    if (app) app.classList.remove('hidden');
+  }
+
+  function showLoginError(msg) {
+    var el = document.getElementById('login-error');
+    if (!el) return;
+    el.textContent = msg;
+    el.classList.remove('hidden');
+    setTimeout(function() {
+      el.classList.add('hidden');
+    }, 5000);
+  }
+
+  function renderHeaderUser(user) {
     var container = document.getElementById('auth-container');
     if (!container) return;
 
-    var user = getUser();
-    var html;
+    var avatar = user && user.photoURL ? escapeHtml(user.photoURL) : '';
+    var name = (user && user.displayName) || (user && user.email) || '使用者';
+    if (isGuestMode) name = '訪客';
 
-    if (user) {
-      var avatar = user.photoURL ? escapeHtml(user.photoURL) : '';
-      var name = user.displayName || user.email || '使用者';
-      html =
-        '<div class="gept-auth-user" style="display:flex;align-items:center;gap:8px;padding:4px 0;">' +
-          (avatar ? '<img src="' + avatar + '" alt="" style="width:28px;height:28px;border-radius:50%;">' : '') +
-          '<span class="gept-auth-name" style="font-size:14px;color:#333;">' + escapeHtml(name) + '</span>' +
-          '<button class="gept-auth-btn gept-auth-logout" onclick="window.GeptAuth.logout()" ' +
-            'style="margin-left:auto;padding:4px 12px;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:13px;">' +
-            '登出</button>' +
+    if (isGuestMode || user) {
+      container.innerHTML =
+        '<div class="auth-user" style="display:flex;align-items:center;gap:8px;">' +
+          (avatar ? '<img src="' + avatar + '" alt="" class="auth-avatar">' : '<span class="auth-avatar-placeholder">&#x1f464;</span>') +
+          '<span class="auth-name">' + escapeHtml(name) + '</span>' +
+          '<button class="auth-btn-logout" onclick="window.GeptAuth.logout()">登出</button>' +
         '</div>';
     } else {
-      html =
-        '<button class="gept-auth-btn gept-auth-login" onclick="window.GeptAuth.login()" ' +
-          'style="display:flex;align-items:center;gap:8px;padding:6px 16px;border:none;border-radius:4px;' +
-          'background:#4285f4;color:#fff;cursor:pointer;font-size:14px;font-weight:500;">' +
-          '<span style="display:inline-flex;align-items:center;justify-content:center;' +
-            'width:20px;height:20px;background:#fff;color:#4285f4;border-radius:2px;font-weight:700;font-size:12px;">G</span>' +
-          'Google 登入同步' +
-        '</button>';
-    }
-
-    container.innerHTML = html;
-  }
-
-  function showUnconfigured() {
-    var container = document.getElementById('auth-container');
-    if (!container) return;
-    container.innerHTML =
-      '<button class="gept-auth-btn gept-auth-disabled" disabled ' +
-        'style="padding:6px 16px;border:1px dashed #999;border-radius:4px;background:#f5f5f5;' +
-        'color:#999;cursor:not-allowed;font-size:13px;">' +
-        '雲端同步未設定' +
-      '</button>';
-  }
-
-  // ── auth state ──────────────────────────────────────────
-
-  function notifyListeners(user) {
-    currentUser = user;
-    for (var i = 0; i < listeners.length; i++) {
-      try { listeners[i](user); } catch (e) { /* silent */ }
+      container.innerHTML = '';
     }
   }
 
-  // ── public API ──────────────────────────────────────────
+  // ── Firebase init ────────────────────────────────────────
 
-  function init() {
-    renderUI();
-
+  function initFirebase() {
     if (!isConfigValid()) {
-      showUnconfigured();
+      authReady = true;
+      hideLoading();
+      showLoginPage();
+      fireReadyCallbacks();
       return;
     }
 
     loadFirebaseSdk().then(function() {
       if (typeof firebase === 'undefined') {
-        showUnconfigured();
+        authReady = true;
+        hideLoading();
+        showLoginPage();
+        fireReadyCallbacks();
         return;
       }
 
       try {
         firebase.initializeApp(firebaseConfig);
       } catch (e) {
-        // Already initialized — ignore duplicate-app error
         if (e.code !== 'app/duplicate-app') {
           console.warn('Firebase init error:', e);
-          showUnconfigured();
+          authReady = true;
+          hideLoading();
+          showLoginPage();
+          fireReadyCallbacks();
           return;
         }
       }
@@ -147,83 +162,255 @@ window.GeptAuth = (function() {
       auth = firebase.auth();
       db = firebase.firestore();
 
-      auth.onAuthStateChanged(function(user) {
-        notifyListeners(user);
-        renderUI();
+      auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(function() {
+        console.log('[Auth] persistence set to LOCAL');
+      }).catch(function(e) {
+        console.warn('[Auth] setPersistence failed:', e);
       });
 
-      AUTH_INITIALIZED = true;
+      auth.onAuthStateChanged(function(user) {
+        console.log('[Auth] onAuthStateChanged:', user ? user.uid : 'null');
+        currentUser = user;
+        isGuestMode = false;
+
+        if (!authReady) {
+          authReady = true;
+          hideLoading();
+          if (user) {
+            loadCloudProgressForUser(user).then(function() {
+              showApp();
+              notifyUserChange(user, false);
+            });
+          } else {
+            showLoginPage();
+            notifyUserChange(null, false);
+          }
+          fireReadyCallbacks();
+        } else {
+          if (user) {
+            loadCloudProgressForUser(user).then(function() {
+              showApp();
+              notifyUserChange(user, false);
+            });
+          } else if (!isGuestMode) {
+            clearLocalUserData();
+            showLoginPage();
+            notifyUserChange(null, false);
+          }
+        }
+        renderHeaderUser(user);
+      });
     }).catch(function(err) {
       console.warn('Firebase SDK load failed:', err);
-      showUnconfigured();
+      authReady = true;
+      hideLoading();
+      showLoginPage();
+      fireReadyCallbacks();
     });
   }
 
-  function login() {
-    if (!isConfigValid() || !auth) return;
-    var provider = new firebase.auth.GoogleAuthProvider();
-    auth.signInWithPopup(provider).catch(function(err) {
-      console.error('Google 登入失敗:', err.message || err);
+  // ── callbacks ────────────────────────────────────────────
+
+  function fireReadyCallbacks() {
+    var cbs = readyCallbacks.slice();
+    readyCallbacks = [];
+    cbs.forEach(function(cb) { try { cb(); } catch(e) { /* silent */ } });
+  }
+
+  function notifyUserChange(user, isGuest) {
+    userChangeCallbacks.forEach(function(cb) {
+      try { cb(user, isGuest); } catch(e) { /* silent */ }
     });
+  }
+
+  function loadCloudProgressForUser(user) {
+    if (!user || !db) return Promise.resolve(null);
+    return db.collection('users').doc(user.uid).get()
+      .then(function(doc) {
+        if (doc.exists) {
+          var data = doc.data();
+          if (data && data.progress) {
+            try { localStorage.setItem(getUidKey('gept_progress'), JSON.stringify(data.progress)); } catch(e) {}
+          }
+          if (data && data.stats) {
+            try { localStorage.setItem(getUidKey('gept_stats'), JSON.stringify(data.stats)); } catch(e) {}
+          }
+          if (data && data.wrong) {
+            try { localStorage.setItem(getUidKey('gept_wrong'), JSON.stringify(data.wrong)); } catch(e) {}
+          }
+          console.log('[Auth] loaded cloud progress for', user.uid);
+        }
+        return data;
+      })
+      .catch(function(err) {
+        console.error('[Auth] loadProgress error:', err);
+        return null;
+      });
+  }
+
+  function clearLocalUserData() {
+    try {
+      localStorage.removeItem('gept_progress');
+      localStorage.removeItem('gept_stats');
+      localStorage.removeItem('gept_wrong');
+      localStorage.removeItem('gept_grade');
+    } catch(e) {}
+  }
+
+  function getUidKey(key) {
+    if (isGuestMode) return key + '_guest';
+    if (!currentUser) return key;
+    return key + '_' + currentUser.uid;
+  }
+
+  // ── public API ───────────────────────────────────────────
+
+  function login() {
+    if (!auth) {
+      showLoginError('登入服務尚未就緒，請稍候再試。');
+      return;
+    }
+
+    var provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
+
+    auth.signInWithPopup(provider).catch(function(err) {
+      console.error('[Auth] login error:', err.code, err.message);
+      if (err.code === 'auth/popup-closed-by-user') {
+        showLoginError('已取消登入，請再試一次。');
+      } else if (err.code === 'auth/network-request-failed') {
+        showLoginError('網路連線異常，請檢查網路後再試。');
+      } else if (err.code === 'auth/cancelled-popup-request') {
+        // Silently ignore — user closed popup
+      } else {
+        showLoginError('登入失敗：' + (err.message || '請再試一次。'));
+      }
+    });
+  }
+
+  function loginAsGuest() {
+    if (!ALLOW_GUEST) return;
+    isGuestMode = true;
+    currentUser = null;
+    hideLoading();
+    showApp();
+    renderHeaderUser(null);
+    notifyUserChange(null, true);
   }
 
   function logout() {
-    if (!auth) return;
-    auth.signOut().catch(function(err) {
-      console.error('登出失敗:', err.message || err);
-    });
+    clearLocalUserData();
+    isGuestMode = false;
+    if (auth) {
+      auth.signOut().catch(function(err) {
+        console.error('[Auth] logout error:', err);
+      });
+    } else {
+      showLoginPage();
+      renderHeaderUser(null);
+      notifyUserChange(null, false);
+    }
   }
 
   function getUser() {
     return currentUser || null;
   }
 
-  function onUser(callback) {
+  function isGuest() {
+    return isGuestMode;
+  }
+
+  function isLoggedIn() {
+    return !!(currentUser || isGuestMode);
+  }
+
+  function onReady(callback) {
     if (typeof callback !== 'function') return;
-    listeners.push(callback);
+    if (authReady) {
+      try { callback(); } catch(e) { /* silent */ }
+    } else {
+      readyCallbacks.push(callback);
+    }
+  }
+
+  function onUserChange(callback) {
+    if (typeof callback !== 'function') return;
+    userChangeCallbacks.push(callback);
     if (currentUser !== undefined && currentUser !== null) {
-      try { callback(currentUser); } catch (e) { /* silent */ }
+      try { callback(currentUser, isGuestMode); } catch(e) { /* silent */ }
     }
   }
 
   function syncProgress(dataObj) {
+    if (isGuestMode) return;
     if (!currentUser || !db) return;
-    db.collection('users').doc(currentUser.uid).set(dataObj, { merge: true })
+    var payload = {
+      progress: null,
+      stats: null,
+      wrong: null,
+      updatedAt: new Date().toISOString()
+    };
+    try { payload.progress = JSON.parse(localStorage.getItem(getUidKey('gept_progress'))); } catch(e) {}
+    try { payload.stats = JSON.parse(localStorage.getItem(getUidKey('gept_stats'))); } catch(e) {}
+    try { payload.wrong = JSON.parse(localStorage.getItem(getUidKey('gept_wrong'))); } catch(e) {}
+    if (dataObj) Object.assign(payload, dataObj);
+
+    db.collection('users').doc(currentUser.uid).set(payload, { merge: true })
       .catch(function(err) {
-        console.error('進度同步失敗:', err.message || err);
+        console.error('[Auth] syncProgress error:', err);
       });
   }
 
   function loadProgress() {
-    return new Promise(function(resolve) {
-      if (!currentUser || !db) return resolve(null);
-      db.collection('users').doc(currentUser.uid).get()
-        .then(function(doc) {
-          resolve(doc.exists ? doc.data() : null);
-        })
-        .catch(function(err) {
-          console.error('進度載入失敗:', err.message || err);
-          resolve(null);
-        });
-    });
+    if (isGuestMode) return Promise.resolve(null);
+    if (!currentUser || !db) return Promise.resolve(null);
+    return db.collection('users').doc(currentUser.uid).get()
+      .then(function(doc) {
+        if (doc.exists) {
+          var data = doc.data();
+          if (data) {
+            if (data.progress) localStorage.setItem(getUidKey('gept_progress'), JSON.stringify(data.progress));
+            if (data.stats) localStorage.setItem(getUidKey('gept_stats'), JSON.stringify(data.stats));
+            if (data.wrong) localStorage.setItem(getUidKey('gept_wrong'), JSON.stringify(data.wrong));
+          }
+          return data;
+        }
+        return null;
+      })
+      .catch(function(err) {
+        console.error('[Auth] loadProgress error:', err);
+        return null;
+      });
   }
 
-  // ── auto-init on load ───────────────────────────────────
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
+  function getStoragePrefix() {
+    return getUidKey('');
   }
+
+  function getUidKeyFn() {
+    return getUidKey;
+  }
+
+  // ── init ─────────────────────────────────────────────────
+
+  showLoading();
+  initFirebase();
 
   return {
-    init: init,
+    ALLOW_GUEST: ALLOW_GUEST,
     login: login,
+    loginAsGuest: loginAsGuest,
     logout: logout,
     getUser: getUser,
-    onUser: onUser,
+    isGuest: isGuest,
+    isLoggedIn: isLoggedIn,
+    onReady: onReady,
+    onUserChange: onUserChange,
     syncProgress: syncProgress,
-    loadProgress: loadProgress
+    loadProgress: loadProgress,
+    getStoragePrefix: getStoragePrefix,
+    getUidKey: getUidKeyFn,
+    showLoginPage: showLoginPage,
+    showApp: showApp
   };
-
 })();

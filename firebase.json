@@ -20,15 +20,20 @@
       "E2E_REPORT.md",
       "FIREBASE_SETUP.md",
       "VERIFY_REPORT.md",
+      "PWA_LOGIN_REPORT.md",
+      "firestore.rules",
       "evidence/**"
     ],
     "headers": [
       {
-        "source": "**/*.@(html)",
+        "source": "**/@(sw.js|*.html)",
         "headers": [
           { "key": "Cache-Control", "value": "no-cache" }
         ]
       }
     ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
   }
 }

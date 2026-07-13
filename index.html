@@ -2,15 +2,60 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3B82F6">
   <title>全民英檢初級輔助學習工具</title>
-  <link rel="stylesheet" href="css/style.css?v=20260701-2">
-  <script>window.APP_VERSION='20260701-2';</script>
+
+  <link rel="manifest" href="manifest.json?v=20260702-pwa2">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="英檢初級">
+
+  <link rel="stylesheet" href="css/style.css?v=20260702-pwa2">
+  <script>window.APP_VERSION='20260702-pwa2';</script>
 </head>
 <body>
 
+  <!-- Global Loading -->
+  <div id="app-loading">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">載入中...</p>
+  </div>
+
+  <!-- Login Page -->
+  <div id="login-page" class="hidden">
+    <div class="login-card">
+      <div class="login-icon">
+        <svg viewBox="0 0 512 512" width="80" height="80"><rect x="0" y="0" width="512" height="512" rx="96" ry="96" fill="#3B82F6"/><text x="256" y="255" font-family="sans-serif" font-size="200" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">英</text><text x="256" y="408" font-family="sans-serif" font-size="140" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">檢</text></svg>
+      </div>
+      <h1 class="login-title">全民英檢初級</h1>
+      <p class="login-subtitle">輔助學習工具</p>
+      <div id="login-error" class="login-error hidden"></div>
+      <button id="login-google-btn" class="login-google-btn" onclick="window.GeptAuth.login()">
+        <span class="login-google-icon">G</span>
+        使用 Google 登入
+      </button>
+      <button id="login-guest-btn" class="login-guest-btn hidden" onclick="window.GeptAuth.loginAsGuest()">
+        先以訪客身分試用
+      </button>
+    </div>
+  </div>
+
+  <!-- Install Hint -->
+  <div id="install-hint" class="hidden">
+    <div class="install-hint-content">
+      <span class="install-hint-text" id="install-hint-text">安裝此 App 到主畫面，隨時練習！</span>
+      <div class="install-hint-actions">
+        <button id="install-hint-btn" class="btn btn-small" style="display:none;">安裝</button>
+        <button id="install-hint-close" class="btn btn-small btn-secondary">關閉</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ===== Grade Picker ===== -->
-  <section id="grade-picker" class="grade-picker">
+  <section id="grade-picker" class="grade-picker hidden">
     <p class="subtitle">GEPT Elementary</p>
     <h1>全民英檢初級<br>輔助學習工具</h1>
     <p>選擇你的年級開始練習</p>
@@ -178,19 +223,39 @@
 
   </div>
 
+  <!-- Bottom Nav (Mobile) -->
+  <nav id="bottom-nav" class="hidden">
+    <button class="bn-btn" data-bn="vocab">
+      <span class="bn-icon">📖</span>
+      <span class="bn-label">題型</span>
+    </button>
+    <button class="bn-btn" data-bn="mockexam">
+      <span class="bn-icon">⏱️</span>
+      <span class="bn-label">模擬考</span>
+    </button>
+    <button class="bn-btn" data-bn="progress">
+      <span class="bn-icon">📊</span>
+      <span class="bn-label">進度</span>
+    </button>
+    <button class="bn-btn" data-bn="wrongbook">
+      <span class="bn-icon">📝</span>
+      <span class="bn-label">錯題本</span>
+    </button>
+  </nav>
+
   <!-- Scripts -->
-  <script src="js/storage.js?v=20260701-2"></script>
-  <script src="js/data-loader.js?v=20260701-2"></script>
-  <script src="js/quiz-engine.js?v=20260701-2"></script>
-  <script src="js/ui-renderer.js?v=20260701-2"></script>
-  <script src="js/listening.js?v=20260701-2"></script>
-  <script src="js/wrongbook.js?v=20260701-2"></script>
-  <script src="js/writing.js?v=20260701-2"></script>
-  <script src="js/speaking.js?v=20260701-2"></script>
-  <script src="js/mockexam.js?v=20260701-2" defer></script>
-  <script src="js/progress.js?v=20260701-2" defer></script>
-  <script src="js/app.js?v=20260701-2"></script>
-  <script src="js/firebase-config.js?v=20260701-2" defer></script>
-  <script src="js/auth.js?v=20260701-2" defer></script>
+  <script src="js/storage.js?v=20260702-pwa2"></script>
+  <script src="js/data-loader.js?v=20260702-pwa2"></script>
+  <script src="js/quiz-engine.js?v=20260702-pwa2"></script>
+  <script src="js/ui-renderer.js?v=20260702-pwa2"></script>
+  <script src="js/listening.js?v=20260702-pwa2"></script>
+  <script src="js/wrongbook.js?v=20260702-pwa2"></script>
+  <script src="js/writing.js?v=20260702-pwa2"></script>
+  <script src="js/speaking.js?v=20260702-pwa2"></script>
+  <script src="js/mockexam.js?v=20260702-pwa2" defer></script>
+  <script src="js/progress.js?v=20260702-pwa2" defer></script>
+  <script src="js/app.js?v=20260702-pwa2"></script>
+  <script src="js/firebase-config.js?v=20260702-pwa2" defer></script>
+  <script src="js/auth.js?v=20260702-pwa2" defer></script>
 </body>
 </html>

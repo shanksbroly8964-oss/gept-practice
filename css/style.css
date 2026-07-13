@@ -1989,3 +1989,393 @@ footer {
     align-items: stretch;
   }
 }
+
+/* ========== Global Overflow Guard ========== */
+body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ========== Global Loading ========== */
+#app-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--border);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.loading-text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+/* ========== Login Page ========== */
+#login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 360px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  background: var(--card);
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+}
+
+.login-icon {
+  margin-bottom: 1.25rem;
+}
+
+.login-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.login-error {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 10px;
+  color: #991B1B;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.login-google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background: #4285F4;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+  box-shadow: 0 2px 6px rgba(66,133,244,0.3);
+}
+
+.login-google-btn:hover {
+  background: #3367D6;
+  box-shadow: 0 4px 12px rgba(66,133,244,0.4);
+}
+
+.login-google-btn:active {
+  transform: scale(0.98);
+}
+
+.login-google-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  color: #4285F4;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.login-guest-btn {
+  display: block;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.login-guest-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: #EFF6FF;
+}
+
+/* ========== Install Hint ========== */
+#install-hint {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0.75rem 1rem;
+  padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+  color: #fff;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.install-hint-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.install-hint-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex: 1;
+}
+
+.install-hint-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+#install-hint-close {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+#install-hint-close:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+#install-hint-btn {
+  background: #fff;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.install-ios-guide {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.install-ios-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  max-width: 320px;
+  color: var(--text);
+}
+
+.install-ios-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-dark);
+}
+
+.install-ios-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.install-ios-icon {
+  font-size: 1.5rem;
+  margin-right: 0.25rem;
+}
+
+/* ========== Bottom Nav (Mobile) ========== */
+#bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  background: var(--card);
+  border-top: 1px solid var(--border);
+  padding: 0.4rem 0.5rem;
+  padding-bottom: calc(0.4rem + env(safe-area-inset-bottom, 0px));
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.06);
+}
+
+@media (max-width: 768px) {
+  #bottom-nav {
+    display: flex;
+  }
+
+  .app {
+    padding-bottom: 4.5rem;
+  }
+
+  #install-hint {
+    bottom: 4.5rem;
+  }
+}
+
+.bn-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.35rem 0.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+  min-width: 56px;
+}
+
+.bn-btn.active {
+  color: var(--primary);
+}
+
+.bn-icon {
+  font-size: 1.3rem;
+}
+
+.bn-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* ========== Auth Header Components ========== */
+.auth-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.auth-avatar-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  font-size: 14px;
+}
+
+.auth-name {
+  font-size: 0.85rem;
+  color: var(--text);
+  font-weight: 500;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.auth-btn-logout {
+  margin-left: auto;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.auth-btn-logout:hover {
+  border-color: var(--error);
+  color: var(--error);
+  background: #FEF2F2;
+}
+
+/* ========== PWA Standalone Adjustments ========== */
+@media (display-mode: standalone) {
+  body {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #install-hint {
+    display: none !important;
+  }
+}
+
+/* ========== Small Phone Tweaks ========== */
+@media (max-width: 374px) {
+  .login-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .login-title {
+    font-size: 1.3rem;
+  }
+
+  .bn-btn {
+    min-width: 44px;
+  }
+
+  .bn-icon {
+    font-size: 1.1rem;
+  }
+
+  .bn-label {
+    font-size: 0.65rem;
+  }
+}
