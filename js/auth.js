@@ -61,15 +61,10 @@ window.GeptAuth = (function() {
   }
 
   function prefersRedirectLogin() {
-    try {
-      var ua = navigator.userAgent || '';
-      var isIOS = /iPad|iPhone|iPod/.test(ua);
-      var standalone = !!(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
-      var safari = /^((?!chrome|android).)*safari/i.test(ua);
-      return standalone || (isIOS && safari);
-    } catch (e) {
-      return false;
-    }
+    // 本 App 網域(gept-goku.web.app / github.io) ≠ Firebase authDomain(goku-46e66.firebaseapp.com)。
+    // 跨網域下 signInWithRedirect 會被瀏覽器儲存分區(Chrome)/ITP(Safari)擋，且需 getRedirectResult 才能完成，
+    // 在「已安裝的 PWA(standalone)」尤其不可靠。改一律優先用 popup(靠 postMessage，跨網域可用)。
+    return false;
   }
 
   function setLoginButtonsDisabled(disabled) {
@@ -212,6 +207,18 @@ window.GeptAuth = (function() {
       }).catch(function(e) {
         console.warn('[Auth] setPersistence failed:', e);
       });
+
+      // 接住任何「重新導向登入」回來的結果/錯誤（沒接的話 redirect 登入不會完成）
+      if (typeof auth.getRedirectResult === 'function') {
+        auth.getRedirectResult().then(function(result) {
+          if (result && result.user) {
+            console.log('[Auth] redirect result user:', result.user.uid);
+          }
+        }).catch(function(err) {
+          console.error('[Auth] getRedirectResult error:', err && err.code, err && err.message);
+          showLoginError('登入未完成：' + ((err && err.message) || '請改用一般瀏覽器分頁再試一次。'));
+        });
+      }
 
       auth.onAuthStateChanged(function(user) {
         console.log('[Auth] onAuthStateChanged:', user ? user.uid : 'null');
