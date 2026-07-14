@@ -26,6 +26,7 @@ window.GEPT.App = (function() {
     });
 
     setupBottomNav();
+    setupTtsSettings();
 
     GEPT.QuizEngine.onStatsUpdate(updateStatsDisplay);
 
@@ -156,6 +157,24 @@ window.GEPT.App = (function() {
       hintEl.classList.remove('hidden');
       if (hintText) hintText.textContent = '點選下方分享按鈕 →「加入主畫面」安裝此 App';
       if (installBtn) installBtn.style.display = 'none';
+    }
+  }
+
+  function setupTtsSettings() {
+    var voiceSel = document.getElementById('tts-voice-select');
+    var speedSel = document.getElementById('tts-speed-select');
+    var testBtn = document.getElementById('tts-test-btn');
+    if (!voiceSel || !speedSel || !window.GEPT || !GEPT.TTS) return;
+    function refill() { GEPT.TTS.populateVoiceSelect(voiceSel); }
+    GEPT.TTS.onReady(refill);
+    refill();
+    speedSel.value = GEPT.TTS.getSpeed();
+    voiceSel.addEventListener('change', function() { GEPT.TTS.setVoice(this.value); });
+    speedSel.addEventListener('change', function() { GEPT.TTS.setSpeed(this.value); });
+    if (testBtn) {
+      testBtn.addEventListener('click', function() {
+        GEPT.TTS.speak('This is a sample sentence to test the voice.', { grade: currentGrade });
+      });
     }
   }
 

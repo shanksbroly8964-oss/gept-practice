@@ -9,6 +9,7 @@ window.GeptAuth = (function() {
   var ALLOW_GUEST = false;
   var FB_CDN = 'https://www.gstatic.com/firebasejs/10.12.0';
   var SDK_LOADED = false;
+  var LOGIN_IN_FLIGHT = false;
 
   var auth = null;
   var db = null;
@@ -35,6 +36,47 @@ window.GeptAuth = (function() {
     return str
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  }
+
+  function resolveGuestModeFlag() {
+    try {
+      if (typeof window.__GEPT_ALLOW_GUEST__ === 'boolean') {
+        return window.__GEPT_ALLOW_GUEST__;
+      }
+      var meta = document.querySelector('meta[name="gept-allow-guest"]');
+      if (meta) {
+        var raw = String(meta.getAttribute('content') || '').trim().toLowerCase();
+        return raw === '1' || raw === 'true' || raw === 'yes' || raw === 'on';
+      }
+    } catch (e) {}
+    return false;
+  }
+
+  function canUseRedirectAuth() {
+    try {
+      return !!(window.firebase && firebase.auth && auth && typeof auth.signInWithRedirect === 'function');
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function prefersRedirectLogin() {
+    try {
+      var ua = navigator.userAgent || '';
+      var isIOS = /iPad|iPhone|iPod/.test(ua);
+      var standalone = !!(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      var safari = /^((?!chrome|android).)*safari/i.test(ua);
+      return standalone || (isIOS && safari);
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function setLoginButtonsDisabled(disabled) {
+    var googleBtn = document.getElementById('login-google-btn');
+    var guestBtn = document.getElementById('login-guest-btn');
+    if (googleBtn) googleBtn.disabled = !!disabled;
+    if (guestBtn) guestBtn.disabled = !!disabled;
   }
 
   function loadScript(src) {
@@ -74,6 +116,9 @@ window.GeptAuth = (function() {
 
   function showLoginPage() {
     hideLoading();
+    ALLOW_GUEST = resolveGuestModeFlag();
+    LOGIN_IN_FLIGHT = false;
+    setLoginButtonsDisabled(false);
     var el = document.getElementById('login-page');
     if (el) {
       el.classList.remove('hidden');
@@ -270,26 +315,51 @@ window.GeptAuth = (function() {
       showLoginError('登入服務尚未就緒，請稍候再試。');
       return;
     }
+    if (LOGIN_IN_FLIGHT) {
+      return;
+    }
 
     var provider = new firebase.auth.GoogleAuthProvider();
     provider.setCustomParameters({ prompt: 'select_account' });
+    LOGIN_IN_FLIGHT = true;
+    setLoginButtonsDisabled(true);
 
-    auth.signInWithPopup(provider).catch(function(err) {
+    function handleLoginError(err) {
+      LOGIN_IN_FLIGHT = false;
+      setLoginButtonsDisabled(false);
       console.error('[Auth] login error:', err.code, err.message);
       if (err.code === 'auth/popup-closed-by-user') {
         showLoginError('已取消登入，請再試一次。');
       } else if (err.code === 'auth/network-request-failed') {
         showLoginError('網路連線異常，請檢查網路後再試。');
       } else if (err.code === 'auth/cancelled-popup-request') {
-        // Silently ignore — user closed popup
+        // silent
+      } else if (err.code === 'auth/popup-blocked' || err.code === 'auth/operation-not-supported-in-this-environment') {
+        if (canUseRedirectAuth()) {
+          auth.signInWithRedirect(provider).catch(function(redirectErr) {
+            LOGIN_IN_FLIGHT = false;
+            setLoginButtonsDisabled(false);
+            showLoginError('重新導向登入失敗：' + (redirectErr.message || '請稍後再試。'));
+          });
+        } else {
+          showLoginError('此環境不支援彈窗登入，請改用一般瀏覽器重新開啟。');
+        }
       } else {
         showLoginError('登入失敗：' + (err.message || '請再試一次。'));
       }
-    });
+    }
+
+    if (prefersRedirectLogin() && canUseRedirectAuth()) {
+      auth.signInWithRedirect(provider).catch(handleLoginError);
+      return;
+    }
+
+    auth.signInWithPopup(provider).catch(handleLoginError);
   }
 
   function loginAsGuest() {
-    if (!ALLOW_GUEST) return;
+    ALLOW_GUEST = resolveGuestModeFlag();
+    if (!ALLOW_GUEST || LOGIN_IN_FLIGHT) return;
     isGuestMode = true;
     currentUser = null;
     hideLoading();
@@ -404,6 +474,7 @@ window.GeptAuth = (function() {
     getUser: getUser,
     isGuest: isGuest,
     isLoggedIn: isLoggedIn,
+    isGuestAllowed: resolveGuestModeFlag,
     onReady: onReady,
     onUserChange: onUserChange,
     syncProgress: syncProgress,

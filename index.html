@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#3B82F6">
+  <meta name="gept-allow-guest" content="false">
+
   <title>全民英檢初級輔助學習工具</title>
 
-  <link rel="manifest" href="manifest.json?v=20260702-pwa3">
+  <link rel="manifest" href="manifest.json?v=20260702-pwa4">
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="英檢初級">
 
-  <link rel="stylesheet" href="css/style.css?v=20260702-pwa3">
-  <script>window.APP_VERSION='20260702-pwa3';</script>
+  <link rel="stylesheet" href="css/style.css?v=20260702-pwa4">
+  <script>window.APP_VERSION='20260702-pwa4';</script>
 </head>
 <body>
 
@@ -141,6 +143,25 @@
       </button>
     </nav>
 
+    <!-- 語音設定 -->
+    <details id="tts-settings">
+      <summary>🔊 語音設定（發音品質 / 語速）</summary>
+      <div class="tts-settings-body">
+        <label>英文語音
+          <select id="tts-voice-select"></select>
+        </label>
+        <label>語速
+          <select id="tts-speed-select">
+            <option value="grade">慢速（依年級，適合初學）</option>
+            <option value="normal">適中</option>
+            <option value="fast">接近正常</option>
+          </select>
+        </label>
+        <button type="button" id="tts-test-btn" class="btn btn-small">▶ 試聽</button>
+        <p class="tts-hint">語音品質取決於你的裝置。手機請開媒體音量、勿靜音。</p>
+      </div>
+    </details>
+
     <!-- Main Content -->
     <main id="quiz-area">
 
@@ -244,18 +265,19 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/storage.js?v=20260702-pwa3"></script>
-  <script src="js/data-loader.js?v=20260702-pwa3"></script>
-  <script src="js/quiz-engine.js?v=20260702-pwa3"></script>
-  <script src="js/ui-renderer.js?v=20260702-pwa3"></script>
-  <script src="js/listening.js?v=20260702-pwa3"></script>
-  <script src="js/wrongbook.js?v=20260702-pwa3"></script>
-  <script src="js/writing.js?v=20260702-pwa3"></script>
-  <script src="js/speaking.js?v=20260702-pwa3"></script>
-  <script src="js/mockexam.js?v=20260702-pwa3" defer></script>
-  <script src="js/progress.js?v=20260702-pwa3" defer></script>
-  <script src="js/app.js?v=20260702-pwa3"></script>
-  <script src="js/firebase-config.js?v=20260702-pwa3" defer></script>
-  <script src="js/auth.js?v=20260702-pwa3" defer></script>
+  <script src="js/storage.js?v=20260702-pwa4"></script>
+  <script src="js/tts.js?v=20260702-pwa4"></script>
+  <script src="js/data-loader.js?v=20260702-pwa4"></script>
+  <script src="js/quiz-engine.js?v=20260702-pwa4"></script>
+  <script src="js/ui-renderer.js?v=20260702-pwa4"></script>
+  <script src="js/listening.js?v=20260702-pwa4"></script>
+  <script src="js/wrongbook.js?v=20260702-pwa4"></script>
+  <script src="js/writing.js?v=20260702-pwa4"></script>
+  <script src="js/speaking.js?v=20260702-pwa4"></script>
+  <script src="js/mockexam.js?v=20260702-pwa4" defer></script>
+  <script src="js/progress.js?v=20260702-pwa4" defer></script>
+  <script src="js/app.js?v=20260702-pwa4"></script>
+  <script src="js/firebase-config.js?v=20260702-pwa4" defer></script>
+  <script src="js/auth.js?v=20260702-pwa4" defer></script>
 </body>
 </html>

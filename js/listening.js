@@ -234,27 +234,17 @@ window.GEPT.Listening = (function() {
         return;
       }
 
-      var utterance = new SpeechSynthesisUtterance(lines[currentLine].trim());
-      utterance.lang = 'en-US';
-      if (currentGrade === 'G1') {
-        utterance.rate = 0.4;
-      } else if (currentGrade === 'G2') {
-        utterance.rate = 0.45;
-      } else {
-        utterance.rate = 0.5;
-      }
-
-      utterance.onend = function() {
-        currentLine++;
-        setTimeout(speakNext, 200);
-      };
-
-      utterance.onerror = function() {
-        currentLine++;
-        setTimeout(speakNext, 200);
-      };
-
-      speechSynth.speak(utterance);
+      GEPT.TTS.speak(lines[currentLine].trim(), {
+        grade: currentGrade,
+        onend: function() {
+          currentLine++;
+          setTimeout(speakNext, 200);
+        },
+        onerror: function() {
+          currentLine++;
+          setTimeout(speakNext, 200);
+        }
+      });
     }
 
     speakNext();

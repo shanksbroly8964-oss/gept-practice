@@ -334,29 +334,19 @@ window.GEPT.Speaking = (function() {
 
     isSpeaking = true;
 
-    var utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    if (currentGrade === 'G1') {
-      utterance.rate = 0.4;
-    } else if (currentGrade === 'G2') {
-      utterance.rate = 0.45;
-    } else {
-      utterance.rate = 0.5;
-    }
-
-    utterance.onend = function() {
-      isSpeaking = false;
-      if (statusEl) statusEl.textContent = '播放完成';
-      if (playBtn) playBtn.textContent = '🔊 重播';
-    };
-
-    utterance.onerror = function() {
-      isSpeaking = false;
-      if (statusEl) statusEl.textContent = '播放失敗';
-      if (playBtn) playBtn.textContent = '🔊 聽示範';
-    };
-
-    speechSynth.speak(utterance);
+    GEPT.TTS.speak(text, {
+      grade: currentGrade,
+      onend: function() {
+        isSpeaking = false;
+        if (statusEl) statusEl.textContent = '播放完成';
+        if (playBtn) playBtn.textContent = '🔊 重播';
+      },
+      onerror: function() {
+        isSpeaking = false;
+        if (statusEl) statusEl.textContent = '播放失敗';
+        if (playBtn) playBtn.textContent = '🔊 聽示範';
+      }
+    });
   }
 
   function stopSpeaking() {
