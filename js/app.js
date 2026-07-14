@@ -30,11 +30,12 @@ window.GEPT.App = (function() {
     GEPT.QuizEngine.onStatsUpdate(updateStatsDisplay);
 
     currentGrade = GEPT.Storage.getGrade();
-    if (currentGrade) {
-      startApp(currentGrade);
-    } else {
-      showGradePicker();
+    if (!currentGrade) {
+      var sel = document.getElementById('grade-select');
+      currentGrade = (sel && sel.value) || 'G1';
+      GEPT.Storage.setGrade(currentGrade);
     }
+    startApp(currentGrade);
   }
 
   function navigateTo(section) {
@@ -241,17 +242,8 @@ window.GEPT.App = (function() {
   }
 
   function onGradeChange(grade) {
-    currentGrade = grade;
-    GEPT.QuizEngine.init(grade);
-    GEPT.Listening.init(grade);
-    GEPT.Writing.init(grade);
-    GEPT.Speaking.init(grade);
-    GEPT.MockExam.init(grade);
-    GEPT.Progress.init(grade);
-    GEPT.UIRenderer.updateGradeDisplay(grade);
-    GEPT.UIRenderer.showStartMessage();
+    startApp(grade);
     GEPT.UIRenderer.resetQuestionUI();
-    updateStatsDisplay();
   }
 
   function onRestartSection() {
@@ -288,23 +280,32 @@ window.GEPT.App = (function() {
 
   // ── Auth gate ────────────────────────────────────────────
 
-  window.GeptAuth.onReady(function() {
-    if (window.GeptAuth.isLoggedIn()) {
-      init();
-    }
-  });
-
-  window.GeptAuth.onUserChange(function(user, isGuest) {
-    if (user || isGuest) {
-      if (!initCalled) {
+  // GeptAuth 由 auth.js 定義，而 auth.js 於本檔之後載入。
+  // 因此延到 DOM 載入完成(此時 auth.js 已執行)再綁定，避免載入期 window.GeptAuth 未定義而中斷。
+  function wireAuthGate() {
+    if (!window.GeptAuth) { setTimeout(wireAuthGate, 50); return; }
+    window.GeptAuth.onReady(function() {
+      if (window.GeptAuth.isLoggedIn()) {
         init();
       }
-    } else {
-      if (initCalled) {
-        resetApp();
+    });
+    window.GeptAuth.onUserChange(function(user, isGuest) {
+      if (user || isGuest) {
+        if (!initCalled) {
+          init();
+        }
+      } else {
+        if (initCalled) {
+          resetApp();
+        }
       }
-    }
-  });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', wireAuthGate);
+  } else {
+    wireAuthGate();
+  }
 
   return {
     init: init,
