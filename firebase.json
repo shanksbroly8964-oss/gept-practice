@@ -9,6 +9,7 @@
       "**/node_modules/**",
       "_prompts/**",
       "_logs/**",
+      "_ollama/**",
       "e2e/**",
       "tests/**",
       "package.json",
