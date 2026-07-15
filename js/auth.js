@@ -60,21 +60,15 @@ window.GeptAuth = (function() {
     }
   }
 
-  function authIsSameOrigin() {
-    try {
-      return typeof firebaseConfig !== 'undefined' && firebaseConfig.authDomain === location.hostname;
-    } catch (e) { return false; }
-  }
-
   function prefersRedirectLogin() {
-    // iOS(尤其已安裝的 PWA/standalone)的 popup 登入不可靠(彈窗無法把結果傳回 App)。
-    // 但只要 authDomain 與 App 同網域(見 firebase-config.js 的動態設定)，redirect 就不會被跨網域擋，
-    // 於是 iOS 改用 signInWithRedirect(+ getRedirectResult 接回)。其餘平台仍用 popup。
+    // iOS(尤其已安裝的 PWA/standalone)的 popup 無法把登入結果傳回 App。
+    // 改用 signInWithRedirect(+ getRedirectResult 接回)；authDomain 用預設 firebaseapp.com，
+    // 其 redirect_uri 已授權，不會 redirect_uri_mismatch。其餘平台維持 popup。
     try {
       var ua = navigator.userAgent || '';
       var isIOS = /iPad|iPhone|iPod/.test(ua) ||
                   (/Macintosh/.test(ua) && (navigator.maxTouchPoints || 0) > 1);
-      return isIOS && authIsSameOrigin() && canUseRedirectAuth();
+      return isIOS && canUseRedirectAuth();
     } catch (e) { return false; }
   }
 
