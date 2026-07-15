@@ -1,4 +1,4 @@
-const APP_VERSION = '20260702-pwa7';
+const APP_VERSION = '20260702-pwa8';
 const CACHE = 'gept-app-v' + APP_VERSION;
 
 const PRECACHE_URLS = [
